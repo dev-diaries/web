@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.tagline {
+  font-family: 'Julius Sans One', sans-serif;
+  color: gray;
+  margin-top: 10px; }
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  position: relative;
+  background-image: url("/assets/images/bg.jpg");
+  opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.logo {
+  background-image: url("/assets/images/logo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 10%;
+  opacity: 1; }

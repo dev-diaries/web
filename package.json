@@ -12,11 +12,14 @@
     "url": "https://github.com/khaliqgant/dev-diaries"
   },
   "scripts": {
-    "scss": "npx node-sass -w scss/app.scss -o css/"
+    "scss": "npx node-sass -w scss/app.scss -o assets/css/"
   },
   "devDependencies": {
     "mocha": "*",
     "node-sass": "^4.11.0",
     "should": "latest"
+  },
+  "dependencies": {
+    "gridlex": "^2.7.1"
   }
 }
