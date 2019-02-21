@@ -19,13 +19,13 @@ header {
     //height: 50vh;
     height: 100vh;
     position: relative;
-    background-image: url('/assets/images/bg.jpg');
+    background-image: url('assets/images/bg.jpg');
     opacity: 0.9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
-    background-image: url('/assets/images/logo.png');
+    background-image: url('assets/images/logo.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
