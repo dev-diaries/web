@@ -4,3 +4,14 @@ title: Home
 ---
 
 Dev Diaries Home
+
+{% for post in site.posts %}
+    <h2>&lt;{{ post.type }}&gt;</h2>
+    <h2 class="title"><a href="{{ post.url }}" class="js-pjax">{{ post.title }}</a></h2>
+    <p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
+    {{ post.long_description }}
+    {% for category in post.categories %}
+        <a href="/category/{{ category | slugize }}/">#{{ category }}</a>
+    {% endfor %}
+{% endfor %}
+

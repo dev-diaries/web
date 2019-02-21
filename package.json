@@ -1,0 +1,22 @@
+{
+  "name": "dev-diaries",
+  "description": "A dev tip per day to help keep the damn bugs away",
+  "homepage": "https://dev-diaries.com",
+  "author": {
+    "name": "Khaliq Gant",
+    "email": "khaliqgant@gmail.com",
+    "url": "https://github.com/khaliqgant"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaliqgant/dev-diaries"
+  },
+  "scripts": {
+    "scss": "npx node-sass -w scss/app.scss -o css/"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "node-sass": "^4.11.0",
+    "should": "latest"
+  }
+}
