@@ -1,15 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-}
-
 .tagline {
     font-family: 'Julius Sans One', sans-serif;
-    color: gray;
+    color: black;
     margin-top: 10px;
 }
 
@@ -18,16 +9,30 @@ header {
     background-position: center;
     height: 50vh;
     position: relative;
-    background-image: url('/assets/images/bg.jpg');
+    background-image: url('../images/bg.jpg');
     opacity: 0.9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.logo-container {
+    padding: 0;
+}
+
 .logo {
-    background-image: url('/assets/images/logo.png');
+    background-image: url('../images/logo.png');
     background-size: contain;
-    background-position: center;
     background-repeat: no-repeat;
-    margin-top: 10%;
     opacity: 1;
+    &--home {
+        margin-top: 10%;
+        background-position: center;
+    }
+    &--post {
+        height: 8vh;
+        background-position: left;
+    }
+}
+
+nav a {
+    padding: 0 20px;
 }

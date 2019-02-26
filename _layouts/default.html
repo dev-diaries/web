@@ -17,21 +17,14 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header class="bg-image grid">
-            <div class="col-12 grid">
-                <div class="col-12 logo"></div>
-                <p class="col-12 tagline text-center">A dev community</p>
-            </div>
-        </header>
-
         {{ content }}
-        <nav>
-            <ul>
-                <li><a href="/tips">Tips</a></li>
-                <li><a href="/getting-started">Getting Started</a></li>
-                <li><a href="/how-to-guides">How to Guides</a></li>
-            </ul>
-        </nav>
-        <script src=""></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134946352-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-134946352-1');
+        </script>
     </body>
 </html>
