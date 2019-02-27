@@ -4,7 +4,19 @@ footer {
 
     .social-media {
         color: white;
+        font-size: 2rem;
         padding: 0 10px;
+
+        &--instagram {
+            &:hover {
+                color: #8a3ab9;
+            }
+        }
+        &--twitter {
+            &:hover {
+                color: #1DA1F2;
+            }
+        }
     }
 }
 
