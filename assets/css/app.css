@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One");
+@import url("https://fonts.googleapis.com/css?family=Amiri");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 [class*=grid-], [class*=grid_], [class~=grid] {
   box-sizing: border-box;
   display: flex;
@@ -5038,6 +5040,18 @@
 .fa, .fas {
   font-weight: 900; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Amiri', serif; }
+
+a {
+  text-decoration: none; }
+
+main {
+  padding: 50px; }
+
 .tagline {
   font-family: 'Julius Sans One', sans-serif;
   color: black;
@@ -5083,17 +5097,6 @@ footer {
       color: #1DA1F2; }
     footer .social-media--facebook:hover {
       color: #3b5998; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-a {
-  text-decoration: none; }
-
-main {
-  padding: 50px; }
 
 .post-image {
   max-width: 30vw; }
@@ -5189,11 +5192,13 @@ main {
   padding-bottom: 25px; }
 
 .post .highlight {
-  padding: 20px 0;
+  padding: 20px 5px;
   margin: 10px 0;
   background-color: black;
   color: white;
   border: #707070 1px solid; }
+  .post .highlight * {
+    font-family: 'Source Code Pro', monospace; }
 
 .center {
   text-align: center; }
