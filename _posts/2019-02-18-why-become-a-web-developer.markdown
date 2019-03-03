@@ -5,7 +5,7 @@ date:   2019-02-18 11:13:12 +0800
 type: "GettingStarted"
 image: /assets/images/web-dev.jpg
 categories: [web-developer, motivation, getting-started]
-excerpt: "Being a web developer takes a number of varying skills, knowledge, and a lot of resourcefulness. Once entering the world of development it an open up a  huge rabbit hole and wealth of information that you can bite off at your own pace."
+excerpt: "Being a web developer takes a number of varying skills, knowledge, and a lot of resourcefulness. Once entering the world of development it opens up a  huge rabbit hole and wealth of information that you can bite off at your own pace."
 ---
 
 {:.center}
