@@ -5045,13 +5045,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Amiri', serif;
+  line-height: 1.9rem;
   -webkit-font-smoothing: antialiased; }
 
 a {
   text-decoration: none; }
-
-main {
-  padding: 50px; }
 
 .tagline {
   font-family: 'Julius Sans One', sans-serif;
@@ -5099,8 +5097,17 @@ footer {
     footer .social-media--facebook:hover {
       color: #3b5998; }
 
+main {
+  padding: 50px; }
+  @media (max-width: 48em) {
+    main {
+      padding: 25px; } }
+
 .post-image {
   max-width: 30vw; }
+  @media (max-width: 48em) {
+    .post-image {
+      max-width: 75vw; } }
 
 .image-container {
   overflow: hidden;
@@ -5121,14 +5128,23 @@ footer {
 
 .excerpt {
   font-size: 1.2rem; }
+  @media (max-width: 48em) {
+    .excerpt {
+      line-height: 1.6rem; } }
 
 .home .post {
   padding: 20px 0; }
+  @media (max-width: 48em) {
+    .home .post {
+      padding: 10px 0; } }
   .home .post:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
 .cats {
   padding-top: 10px; }
+  @media (max-width: 48em) {
+    .cats {
+      line-height: 1.6rem; } }
   .cats a {
     color: #AEAEAE; }
     .cats a:hover {
@@ -5166,6 +5182,10 @@ footer {
 .post .content {
   padding: 50px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+  @media (max-width: 48em) {
+    .post .content {
+      padding: 25px 0px;
+      box-shadow: none; } }
 
 .post .time {
   padding-bottom: 15px;
@@ -5197,7 +5217,8 @@ footer {
   margin: 10px 0;
   background-color: black;
   color: white;
-  border: #707070 1px solid; }
+  border: #707070 1px solid;
+  overflow: scroll; }
   .post .highlight * {
     font-family: 'Inconsolata', monospace; }
 

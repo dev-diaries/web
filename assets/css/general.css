@@ -6,10 +6,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Amiri', serif;
+  line-height: 1.9rem;
   -webkit-font-smoothing: antialiased; }
 
 a {
   text-decoration: none; }
-
-main {
-  padding: 50px; }
