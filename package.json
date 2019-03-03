@@ -12,14 +12,12 @@
     "url": "https://github.com/khaliqgant/dev-diaries"
   },
   "scripts": {
-    "scss": "npx node-sass -w scss/app.scss -o assets/css/",
-    "deploy": "npx s3-deploy ./_site/**"
+    "scss": "npx node-sass -w scss/app.scss -o assets/css/"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.7.2",
     "mocha": "*",
     "node-sass": "^4.11.0",
-    "s3-deploy": "^1.3.0",
     "should": "latest"
   },
   "dependencies": {
