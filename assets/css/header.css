@@ -6,7 +6,7 @@
 .bg-image {
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 100vh;
   position: relative;
   background-image: url("../images/bg.jpg");
   opacity: 0.9;
