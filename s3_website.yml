@@ -4,5 +4,5 @@ s3_bucket: dev-diaries
 
 s3_reduced_redundancy: true
 gzip: true
-cloudfront_distribution_id: E15VCKHVVDAOLU
+cloudfront_distribution_id: <%= ENV['CLOUDFRONT_DISTRIBUTION_ID'] %>
 cloudfront_wildcard_invalidation: true
