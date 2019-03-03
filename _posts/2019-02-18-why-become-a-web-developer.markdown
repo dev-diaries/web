@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why become a web developer"
+title:  "Why become a web developer?"
 date:   2019-02-18 11:13:12 +0800
 type: "GettingStarted"
 image: /assets/images/web-dev.jpg
