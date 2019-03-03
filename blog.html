@@ -3,8 +3,13 @@ layout: default
 title: Blog
 ---
 
-Dev Diaries Blog
+<main>
+    {% include page-header.html %}
 
-{% for post in site.posts %}
-  {{ post.title }}
-{% endfor %}
+    <div class="posts">
+        {% include blog-posts.html %}
+    </div>
+
+</main>
+
+{% include footer.html %}

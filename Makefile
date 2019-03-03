@@ -10,6 +10,6 @@ fe:
 
 .PHONY: dev
 dev:
-	$(TTAB) make app && make fe
+	$(TTAB) make fe && make app
 
 

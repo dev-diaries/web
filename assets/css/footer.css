@@ -1,0 +1,13 @@
+footer {
+  background-color: black;
+  height: 20vh; }
+  footer .social-media {
+    color: white;
+    font-size: 2rem;
+    padding: 0 10px; }
+    footer .social-media--instagram:hover {
+      color: #8a3ab9; }
+    footer .social-media--twitter:hover {
+      color: #1DA1F2; }
+    footer .social-media--facebook:hover {
+      color: #3b5998; }

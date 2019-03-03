@@ -1,0 +1,39 @@
+.post-image {
+  max-width: 30vw; }
+
+.image-container {
+  overflow: hidden;
+  text-align: center; }
+
+.title-link {
+  color: #707070;
+  font-size: 2rem;
+  padding: 5px 0;
+  display: block; }
+  .title-link:hover {
+    color: #7ABFE8; }
+
+.date {
+  color: #AEAEAE;
+  font-weight: lighter;
+  padding-bottom: 15px; }
+
+.excerpt {
+  font-size: 1.2rem; }
+
+.home .post {
+  padding: 20px 0; }
+  .home .post:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+
+.cats {
+  padding-top: 10px; }
+  .cats a {
+    color: #AEAEAE; }
+    .cats a:hover {
+      color: #7ABFE8; }
+
+.posts {
+  padding-top: 50px; }
+  .posts .post:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
