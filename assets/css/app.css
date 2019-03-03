@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Julius+Sans+One");
 @import url("https://fonts.googleapis.com/css?family=Amiri");
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 [class*=grid-], [class*=grid_], [class~=grid] {
   box-sizing: border-box;
   display: flex;
@@ -5044,7 +5044,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Amiri', serif; }
+  font-family: 'Amiri', serif;
+  -webkit-font-smoothing: antialiased; }
 
 a {
   text-decoration: none; }
@@ -5192,13 +5193,13 @@ footer {
   padding-bottom: 25px; }
 
 .post .highlight {
-  padding: 20px 5px;
+  padding: 20px;
   margin: 10px 0;
   background-color: black;
   color: white;
   border: #707070 1px solid; }
   .post .highlight * {
-    font-family: 'Source Code Pro', monospace; }
+    font-family: 'Inconsolata', monospace; }
 
 .center {
   text-align: center; }

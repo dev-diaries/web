@@ -71,13 +71,13 @@
     }
 
     .highlight {
-        padding: 20px 5px;
+        padding: 20px;
         margin: 10px 0;
         background-color: black;
         color: white;
         border: $gray 1px solid;
         * {
-            font-family: 'Source Code Pro', monospace;
+            font-family: 'Inconsolata', monospace;
         }
     }
 }

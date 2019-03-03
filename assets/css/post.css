@@ -52,10 +52,10 @@
   padding-bottom: 25px; }
 
 .post .highlight {
-  padding: 20px 5px;
+  padding: 20px;
   margin: 10px 0;
   background-color: black;
   color: white;
   border: #707070 1px solid; }
   .post .highlight * {
-    font-family: 'Source Code Pro', monospace; }
+    font-family: 'Inconsolata', monospace; }
