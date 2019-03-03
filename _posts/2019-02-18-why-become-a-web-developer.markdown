@@ -71,6 +71,8 @@ remote work and also finding freelance gigs:
 * [We work remotely](https://weworkremotely.com/)
 * [Remote jobs](https://remote.co/remote-jobs/)
 * [Remote OK](https://remoteok.io/)
+
+{:.post-content}
 A [number of companies](https://github.com/yanirs/established-remote) are remote only 
 and many more are offering up the opportunity to work from home on with regularity.
 As a web developer all you really need sometimes is a computer and a reliable
@@ -93,5 +95,5 @@ sites like [Stackoverflow](http://stackoverflow.com) you can simply post your qu
 
 {:.post-content}
 Become a web developer not because it is popular to do so right now, but rather
-because you think you'll be challenged and stimulated. It can be a very
-rewarding profession and can bring you lots of joy.
+because you think you'll be challenged and stimulated. It's a very challenging but also very
+rewarding profession, so if you decide to jump into the fray, good luck!
