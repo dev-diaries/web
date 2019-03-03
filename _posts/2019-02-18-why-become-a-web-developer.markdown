@@ -19,7 +19,7 @@ excerpt: "Being a web developer takes a number of varying skills, knowledge, and
 
 {:.intro}
 Being a web developer takes a number of varying skills, knowledge, and a lot
-of resourcefulness. Once entering the world of development it an open up a 
+of resourcefulness. Once entering the world of development it opens up a 
 huge rabbit hole and wealth of information that you can bite off at your own
 pace.
 
