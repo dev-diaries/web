@@ -4,6 +4,7 @@ type: "SocialPosts"
 title: "Terminal: Reverse Terminal Search"
 image: /assets/images/reverse-terminal-search.gif
 excerpt: "Reverse terminal search: reverse-i-search: Press the ctrl key and the r key simultaneously. A prompt will appear that will allow you to search from your history."
+categories: [advanced, terminal, efficiency, shortcuts]
 ---
 {:.center}
 # {{ page.title }}
