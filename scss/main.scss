@@ -54,6 +54,14 @@ main {
     }
 }
 
+.post-header {
+    padding: 50px;
+    color: $gray;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .cats {
     padding-top: 10px;
 
@@ -71,7 +79,10 @@ main {
 
 .posts {
     padding-top: 50px;
-    .post:hover {
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    .post {
+        padding: 20px 0;
+        &:hover {
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        }
     }
 }
