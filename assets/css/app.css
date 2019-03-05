@@ -5083,6 +5083,18 @@ a {
 nav a {
   padding: 0 20px; }
 
+.instagram {
+  border: 1px solid #8a3ab9;
+  width: 100vw;
+  overflow: scroll; }
+  .instagram article {
+    display: inline; }
+    .instagram article figure {
+      display: inline; }
+    .instagram article img {
+      display: inline;
+      width: 25%; }
+
 footer {
   background-color: black;
   height: 20vh; }

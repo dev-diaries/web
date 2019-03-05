@@ -21,6 +21,7 @@
     "should": "latest"
   },
   "dependencies": {
-    "gridlex": "^2.7.1"
+    "gridlex": "^2.7.1",
+    "instafetch.js": "^1.5.0"
   }
 }
