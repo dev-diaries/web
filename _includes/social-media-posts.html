@@ -1,4 +1,5 @@
-{% for post in site.social-posts limit:5 %}
+{% assign sorted = site.social-posts | reverse | limit:5 %}
+{% for post in sorted %}
     <div class="post col-12 grid">
         <div class="col-6_sm-12-middle image-container">
             <a href="{{ post.url }}"><img class="post-image" src="{{post.image}}"></a>
