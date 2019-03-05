@@ -3,7 +3,8 @@ layout: social-post
 type: "SocialPosts"
 title: "Text Navigation: Jumping between words"
 image: /assets/images/navigation.gif
-excerpt: "Reverse terminal search: reverse-i-search: Press the ctrl key and the r key simultaneously. A prompt will appear that will allow you to search from your history."
+excerpt: "Text navigation: jump to the beginning of the word: hold [option] + the left 
+arrow key. Just to the end of the word: hold [option] + the right arrow key."
 date: 2019-03-05
 categories: [beginner, text-editing, efficiency, shortcuts]
 ---
