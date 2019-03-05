@@ -20,3 +20,7 @@ Read more [here](http://osxdaily.com/2012/02/23/keyboard-shortcuts-to-navigate-s
 
 {:.image .center}
 ![terminal shot]({{page.image}})
+
+{:.center}
+<a href="https://www.instagram.com/p/BuoEjTKnYEn/" target="_blank">Instagram Post</a>
+
