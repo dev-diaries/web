@@ -34,4 +34,10 @@ docker system prune -af
 `-f` to avoid any interaction and -a to remove all images, to fix this issue and
 not worry about a jenkins build randomly failing 😅.
 
+{:.post-content}
+Not sure what docker is and want to get started? Check out our 
+[getting started with docker post](/blog/getting-started-with-docker/)
+
+{:.center}
+<a href="https://www.instagram.com/p/BussEsfAi4X/" target="_blank">Instagram Post</a>
 

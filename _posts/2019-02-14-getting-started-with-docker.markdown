@@ -120,3 +120,6 @@ In short, we're telling the application to run on our computer at port 8080.
 Now if we go to our browser and go to the address: `http://localhost:8080` we should
 see our application!
 
+{:.post-content}
+Hungry for more docker content? Check out <a href="https://awesome-docker.netlify.com/" target="_blank">Awesome docker</a>
+for all of the docker resources you could ever dream of!
