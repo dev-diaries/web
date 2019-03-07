@@ -86,3 +86,17 @@ main {
         }
     }
 }
+
+.pagination {
+    list-style-type: none;
+    padding: 10px;
+    a {
+        color: $gray;
+        &:hover {
+            color: $dd-blue;
+        }
+    }
+    .next {
+        float: right;
+    }
+}
