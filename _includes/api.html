@@ -1,0 +1,29 @@
+{
+    "blog": [
+        {% for post in site.posts %}
+        {
+            "title": "{{ post.title }}",
+            "date": "{{ post.date | date: "%B %d, %Y" }}",
+            "url": "{{ post.url }}",
+            "image": "{{ post.image }}",
+            "excerpt": "{{ post.excerpt}}",
+            "categories": [{% for category in post.categories %} "{{ category }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
+        }
+        {% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ],
+    "social": [
+        {% for post in site.social-posts %}
+        {
+            "title": "{{ post.title }}",
+            "date": "{{ post.date | date: "%B %d, %Y" }}",
+            "url": "{{ post.url }}",
+            "image": "{{ post.image }}",
+            "coverImage": "{{ post.cover-image }}",
+            "excerpt": "{{ post.excerpt}}",
+            "categories": [{% for category in post.categories %} "{{ category }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
+        }
+        {% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]
+}

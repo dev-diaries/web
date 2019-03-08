@@ -24,5 +24,11 @@
           gtag('js', new Date());
           gtag('config', 'UA-134946352-1');
         </script>
+
+        {% if page.show-json %}
+            <script>
+                var data = {% include api.html %};
+            </script>
+        {% endif %}
     </body>
 </html>
