@@ -6,6 +6,7 @@ image: /assets/images/docker-prune.png
 excerpt: "Running out of disk space when running docker? You can clean up all images, containers, networks, and volumes not used on your drive."
 date: 2019-03-07
 categories: [advanced, containerization, jenkins]
+instagram-id: BussEsfAi4X
 ---
 {:.center}
 # {{ page.title }}
@@ -39,5 +40,5 @@ Not sure what docker is and want to get started? Check out our
 [getting started with docker post](/blog/getting-started-with-docker/)
 
 {:.center}
-<a href="https://www.instagram.com/p/BussEsfAi4X/" target="_blank">Instagram Post</a>
+<a href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
 

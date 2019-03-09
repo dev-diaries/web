@@ -7,6 +7,7 @@ image: /assets/images/terminal-history-call-me.gif
 excerpt: "Need to run the previous command you just ran with sudo?"
 date: 2019-03-08
 categories: [advanced, terminal, efficiency, shortcuts, terminal-history]
+instagram-id: BuvfDLVnjZe 
 ---
 {:.center}
 # {{ page.title }}
@@ -24,5 +25,4 @@ previous command.
 <a href="http://ftp.gnu.org/old-gnu/Manuals/bash/html_chapter/bashref_9.html#SEC115" target="_blank">RTFM</a>
 
 {:.center}
-<a href="https://www.instagram.com/p/BuvfDLVnjZe/" target="_blank">Instagram Post</a>
-
+<a href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
