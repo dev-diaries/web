@@ -1,8 +1,14 @@
-{% assign sorted = site.social-posts | reverse | limit:5 %}
-{% for post in sorted %}
+{% assign sorted = paginator.posts %}
+{% for post in sorted limit:5 %}
     <div class="post col-12 grid">
         <div class="col-6_sm-12-middle image-container">
-            <a href="{{ post.url }}"><img class="post-image" src="{{post.image}}"></a>
+            <a href="{{ post.url }}">
+                {% if post.cover-image %}
+                    <img class="post-image" src="{{post.cover-image}}">
+                {% else %}
+                    <img class="post-image" src="{{post.image}}">
+                {% endif %}
+            </a>
         </div>
         <div class="side col-6_sm-12">
             <h2><a href="{{ post.url }}" class="title-link">{{ post.title }}</a></h2>
@@ -18,3 +24,18 @@
     </div>
 {% endfor %}
 
+
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+    {% if paginator.previous_page %}
+    <li>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&lt; Previous Page</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li>
+        <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&gt; Next Page</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

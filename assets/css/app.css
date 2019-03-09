@@ -5176,8 +5176,21 @@ main {
     .posts .post:hover {
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
+.pagination {
+  list-style-type: none;
+  padding: 10px; }
+  .pagination a {
+    color: #707070; }
+    .pagination a:hover {
+      color: #7ABFE8; }
+  .pagination .next {
+    float: right; }
+
 .post h1 {
   color: #707070; }
+
+.post a:hover {
+  color: #7ABFE8; }
 
 .post h2 {
   color: #AEAEAE;
