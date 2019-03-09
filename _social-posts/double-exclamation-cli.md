@@ -25,4 +25,4 @@ previous command.
 <a href="http://ftp.gnu.org/old-gnu/Manuals/bash/html_chapter/bashref_9.html#SEC115" target="_blank">RTFM</a>
 
 {:.center}
-<a href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>

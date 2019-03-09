@@ -23,5 +23,5 @@ Read more [here](http://osxdaily.com/2012/02/23/keyboard-shortcuts-to-navigate-s
 ![terminal shot]({{page.image}})
 
 {:.center}
-<a href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
 

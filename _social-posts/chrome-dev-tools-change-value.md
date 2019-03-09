@@ -22,4 +22,4 @@ instagram-id: Bux_51WHRsy
 Read more about <a href="https://developers.google.com/web/tools/chrome-devtools/shortcuts" target="_blank">Chrome DevTools Keyboard Shortcuts</a>
 
 {:.center}
-<a href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>

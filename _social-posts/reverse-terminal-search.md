@@ -22,4 +22,4 @@ search term. Read more about it [here](https://codeburst.io/use-reverse-i-search
 ![terminal shot]({{page.image}})
 
 {:.center}
-<a href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>

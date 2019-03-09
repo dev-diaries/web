@@ -40,5 +40,5 @@ Not sure what docker is and want to get started? Check out our
 [getting started with docker post](/blog/getting-started-with-docker/)
 
 {:.center}
-<a href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
 
