@@ -54,6 +54,29 @@ main {
     }
 }
 
+main.home {
+    .site-navigation {
+        text-align: center;
+        padding-bottom: 15px;
+        i {
+            font-size: 2rem;
+            display: block;
+        }
+        .blog {
+            color: $twitter;
+            &:hover {
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            }
+        }
+        .social-posts {
+            color: $fb;
+            &:hover {
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
+
 .post-header {
     padding: 50px;
     color: $gray;

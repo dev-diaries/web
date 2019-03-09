@@ -5157,6 +5157,21 @@ main {
   .home .post:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
+main.home .site-navigation {
+  text-align: center;
+  padding-bottom: 15px; }
+  main.home .site-navigation i {
+    font-size: 2rem;
+    display: block; }
+  main.home .site-navigation .blog {
+    color: #1DA1F2; }
+    main.home .site-navigation .blog:hover {
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+  main.home .site-navigation .social-posts {
+    color: #3b5998; }
+    main.home .site-navigation .social-posts:hover {
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+
 .post-header {
   padding: 50px;
   color: #707070;
