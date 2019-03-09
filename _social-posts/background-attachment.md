@@ -6,6 +6,7 @@ image: /assets/images/background-attachment.png
 excerpt: "A CSS property of background-attachment: fixed allows you create a cool effect of a scrolling window over content"
 date: 2019-03-04
 categories: [beginner, css, html, frontend-development]
+instagram-id: Buk6AuBHRRN 
 ---
 {:.center}
 # {{ page.title }}
@@ -22,4 +23,4 @@ to see it in action.
 ![css image]({{page.image}})
 
 {:.center}
-<a href="https://www.instagram.com/p/Buk6AuBHRRN/" target="_blank">Instagram Post</a>
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>

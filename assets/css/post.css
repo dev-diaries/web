@@ -1,6 +1,9 @@
 .post h1 {
   color: #707070; }
 
+.post a.insta-link {
+  color: #8a3ab9; }
+
 .post a:hover {
   color: #7ABFE8; }
 

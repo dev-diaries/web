@@ -1,3 +1,16 @@
+.instagram {
+  background-color: black;
+  overflow: scroll;
+  white-space: nowrap; }
+  .instagram article {
+    display: inline; }
+    .instagram article figure {
+      display: inline; }
+    .instagram article img {
+      display: inline;
+      width: 25%;
+      vertical-align: middle; }
+
 footer {
   background-color: black;
   height: 20vh; }

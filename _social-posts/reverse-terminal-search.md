@@ -6,6 +6,7 @@ image: /assets/images/reverse-terminal-search.gif
 excerpt: "Reverse terminal search: reverse-i-search: Press the ctrl key and the r key simultaneously. A prompt will appear that will allow you to search from your history."
 date: 2019-03-04
 categories: [advanced, terminal, efficiency, shortcuts]
+instagram-id: BumEjZ_Hvy3
 ---
 {:.center}
 # {{ page.title }}
@@ -21,4 +22,4 @@ search term. Read more about it [here](https://codeburst.io/use-reverse-i-search
 ![terminal shot]({{page.image}})
 
 {:.center}
-<a href="https://www.instagram.com/p/BumEjZ_Hvy3/" target="_blank">Instagram Post</a>
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>

@@ -5083,6 +5083,23 @@ a {
 nav a {
   padding: 0 20px; }
 
+.instagram {
+  background-color: black;
+  overflow: scroll;
+  white-space: nowrap;
+  width: 100vw; }
+  .instagram article {
+    display: inline; }
+    .instagram article figure {
+      display: inline; }
+    .instagram article img {
+      display: inline;
+      width: 25%;
+      vertical-align: middle; }
+      @media (max-width: 48em) {
+        .instagram article img {
+          width: 50%; } }
+
 footer {
   background-color: black;
   height: 20vh; }
@@ -5176,6 +5193,9 @@ main {
 
 .post h1 {
   color: #707070; }
+
+.post a.insta-link {
+  color: #8a3ab9; }
 
 .post a:hover {
   color: #7ABFE8; }
