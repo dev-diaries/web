@@ -6,7 +6,7 @@ cover-image: /assets/images/change-value-shift-cover.png
 image: /assets/images/change-value-shift.gif
 excerpt: "#ChromeDevTools: Increase a property by one decimal point by holding the option key..."
 date: 2019-03-09
-categories: [chrome-dev-tools, shortcuts, html, css]
+categories: [intermediate, chrome-dev-tools, shortcuts, html, css]
 instagram-id: Bux_51WHRsy
 ---
 {:.center}
