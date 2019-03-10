@@ -8,6 +8,17 @@ limit: 100
 {% include header.html %}
 
 <main class="grid home">
+    <div class="site-navigation col-12 grid">
+        <span class="col-4_sm-2"></span>
+        <a href="/blog" class="blog col-2_sm-4">
+            <span class="nav-text">Blog Posts</span>
+            <i class="fas fa-pen-nib"></i>
+        </a>
+        <a href="/social" class="social-posts col-2_md-3_sm-5">
+            <span class="nav-text">Social Media Posts</span>
+            <i class="fab fa-slideshare"></i>
+        </a>
+    </div>
     {% include blog-posts.html %}
 </main>
 

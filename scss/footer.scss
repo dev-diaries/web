@@ -1,5 +1,26 @@
 @import "./settings";
 
+.instagram {
+    background-color: black;
+    overflow: scroll;
+    white-space: nowrap;
+    width: 100vw;
+    article {
+        display: inline;
+        figure {
+            display: inline;
+        }
+        img {
+            display: inline;
+            width: 25%;
+            vertical-align: middle;
+            @media (max-width: $mobile) {
+                width: 50%;
+            }
+        }
+    }
+}
+
 footer {
     background-color: black;
     height: 20vh;
@@ -11,17 +32,17 @@ footer {
 
         &--instagram {
             &:hover {
-                color: #8a3ab9;
+                color: $instagram;
             }
         }
         &--twitter {
             &:hover {
-                color: #1DA1F2;
+                color: $twitter;
             }
         }
         &--facebook {
             &:hover {
-                color: #3b5998;
+                color: $fb;
             }
         }
     }

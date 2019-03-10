@@ -5083,6 +5083,23 @@ a {
 nav a {
   padding: 0 20px; }
 
+.instagram {
+  background-color: black;
+  overflow: scroll;
+  white-space: nowrap;
+  width: 100vw; }
+  .instagram article {
+    display: inline; }
+    .instagram article figure {
+      display: inline; }
+    .instagram article img {
+      display: inline;
+      width: 25%;
+      vertical-align: middle; }
+      @media (max-width: 48em) {
+        .instagram article img {
+          width: 50%; } }
+
 footer {
   background-color: black;
   height: 20vh; }
@@ -5140,6 +5157,21 @@ main {
   .home .post:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
+main.home .site-navigation {
+  text-align: center;
+  padding-bottom: 15px; }
+  main.home .site-navigation i {
+    font-size: 2rem;
+    display: block; }
+  main.home .site-navigation .blog {
+    color: #1DA1F2; }
+    main.home .site-navigation .blog:hover {
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+  main.home .site-navigation .social-posts {
+    color: #3b5998; }
+    main.home .site-navigation .social-posts:hover {
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
+
 .post-header {
   padding: 50px;
   color: #707070;
@@ -5176,6 +5208,9 @@ main {
 
 .post h1 {
   color: #707070; }
+
+.post a.insta-link {
+  color: #8a3ab9; }
 
 .post a:hover {
   color: #7ABFE8; }

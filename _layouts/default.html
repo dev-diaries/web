@@ -30,5 +30,19 @@
                 var data = {% include api.html %};
             </script>
         {% endif %}
+
+        <script>
+            var instagrams = [
+                {% for post in site.social-posts %}
+                {
+                    "id": "{{ post.instagram-id }}",
+                    "url": "{{ post.url }}"
+                }
+                {% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            ];
+        </script>
+        <script type="text/javascript" src="/assets/js/instafetch.min.js"></script>
+        <script type="text/javascript" src="/assets/js/insta.js"></script>
     </body>
 </html>
