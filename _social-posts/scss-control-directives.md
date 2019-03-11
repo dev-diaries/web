@@ -25,7 +25,7 @@ Read more <a href="{{page.docs}}" target="_blank">here</a>
 
 {:.post-content}
 Want to learn more about SCSS and get started with SCSS in under 3 minutes??
-Check out our post [SCSS in three minutes](blog/scss-in-three-minutes/)
+Check out our post [SCSS in three minutes](/blog/scss-in-three-minutes/)
 
 
 {:.center}
