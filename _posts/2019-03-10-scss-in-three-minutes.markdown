@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SCSS in three minutes"
-date:   2019-03-06 13:13:12 +0800
+date:   2019-03-10 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/scss.svg
 demo: /assets/images/scss-in-three.gif
