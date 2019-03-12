@@ -7,7 +7,7 @@ cover-image: /assets/images/doc-video.png
 excerpt: "Did you know there is a shortcut to open up a google doc or google sheet?"
 date: 2019-03-13
 categories: [biz-dev, documentation]
-instagram-id: 
+instagram-id: Bu5jxpNHh00
 docs: https://twitter.com/googledocs/status/1055490445088903168
 ---
 {:.center}
