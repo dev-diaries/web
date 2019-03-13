@@ -1,2 +1,8 @@
 .center {
   text-align: center; }
+
+.capped {
+  text-transform: uppercase; }
+
+.block {
+  display: block; }

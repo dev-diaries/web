@@ -5084,10 +5084,10 @@ nav a {
   padding: 0 20px; }
 
 .instagram {
-  background-color: black;
   overflow: scroll;
   white-space: nowrap;
-  width: 100vw; }
+  width: 100vw;
+  border-bottom: 0.5px solid #707070; }
   .instagram article {
     display: inline; }
     .instagram article figure {
@@ -5095,24 +5095,44 @@ nav a {
     .instagram article img {
       display: inline;
       width: 25%;
-      vertical-align: middle; }
+      vertical-align: bottom; }
       @media (max-width: 48em) {
         .instagram article img {
           width: 50%; } }
 
 footer {
-  background-color: black;
-  height: 20vh; }
+  color: white;
+  background-color: #282E33;
+  padding: 50px; }
   footer .social-media {
-    color: white;
     font-size: 2rem;
-    padding: 0 10px; }
+    padding: 0 10px;
+    color: white; }
     footer .social-media--instagram:hover {
       color: #8a3ab9; }
     footer .social-media--twitter:hover {
       color: #1DA1F2; }
     footer .social-media--facebook:hover {
       color: #3b5998; }
+  footer .form-container {
+    padding-top: 10px; }
+    footer .form-container h1 {
+      padding-bottom: 10px; }
+  footer .tip-submit {
+    color: white; }
+    footer .tip-submit .spaced {
+      margin-right: 5px; }
+    footer .tip-submit input, footer .tip-submit textarea {
+      font-size: 0.9rem;
+      background-color: #1F2328;
+      color: white;
+      border: none;
+      border: 1px solid transparent;
+      padding: 5px;
+      margin-bottom: 10px; }
+      footer .tip-submit input:focus, footer .tip-submit textarea:focus {
+        outline: none !important;
+        border: 1px solid #AEAEAE; }
 
 main {
   padding: 50px; }
@@ -5281,3 +5301,9 @@ main.home .site-navigation {
 
 .center {
   text-align: center; }
+
+.capped {
+  text-transform: uppercase; }
+
+.block {
+  display: block; }
