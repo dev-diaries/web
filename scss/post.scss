@@ -6,7 +6,13 @@
     }
 
     a.insta-link {
+        padding-top: 15px;
+        display: block;
         color: $instagram;
+    }
+
+    .top-pad {
+        padding-top: 25px;
     }
 
     a:hover {

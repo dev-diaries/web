@@ -2,7 +2,12 @@
   color: #707070; }
 
 .post a.insta-link {
+  padding-top: 15px;
+  display: block;
   color: #8a3ab9; }
+
+.post .top-pad {
+  padding-top: 25px; }
 
 .post a:hover {
   color: #7ABFE8; }
