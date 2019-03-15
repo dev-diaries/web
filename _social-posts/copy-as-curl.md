@@ -7,7 +7,7 @@ cover-image: /assets/images/copy-as-curl.png
 excerpt: "You can copy any network request as a cURL request."
 date: 2019-03-15
 categories: [intermediate, chrome-dev-tools, shortcuts, curl, debugging]
-instagram-id: Bu-5dzvHsbl
+instagram-id: BvBhF76HlS1
 docs: https://developers.google.com/web/updates/2015/05/replay-a-network-request-in-curl
 ---
 {:.center}
