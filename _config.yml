@@ -24,9 +24,11 @@ github_username: dev-diaries
 
 future: true
 
+# https://github.com/sverrirs/jekyll-paginate-v2/tree/master/examples
 pagination:
     enabled: true
     per_page: 5
+    permalink: '/page/:num/'
 
 # Build settings
 markdown: kramdown

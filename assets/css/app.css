@@ -5205,6 +5205,8 @@ main.home .site-navigation {
       color: #7ABFE8; }
   .pagination .next {
     float: right; }
+  .pagination .prev {
+    float: left; }
 
 .post h1 {
   color: #707070; }
