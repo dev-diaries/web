@@ -77,6 +77,9 @@ main.home .site-navigation {
   padding-top: 50px; }
   .posts .post {
     padding: 20px 0; }
+    @media (max-width: 48em) {
+      .posts .post:not(:last-of-type) {
+        border-bottom: 1px solid #cccccc; } }
     .posts .post:hover {
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
