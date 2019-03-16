@@ -19,7 +19,7 @@ Array.includes for a boolean return. The other way pre-ES7 is to convert the
 return into a boolean using a bitwise NOT operator which casts the result into 
 a boolean. Finally, you can just use the more verbose conditional check for the array test.
 Read the docs for Array.includes <a href="{{page.docs}}" target="_blank">here</a>.
-Want to read even more? Check out the <a href-"https://github.com/tc39/Array.prototype.includes" target="_blank">Array.prototype.includes proposal.</a>
+Want to read even more? Check out the <a href="https://github.com/tc39/Array.prototype.includes" target="_blank">Array.prototype.includes proposal.</a>
 
 {:.image .center}
 ![array-check]({{page.image}})
