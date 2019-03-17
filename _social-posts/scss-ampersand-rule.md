@@ -7,7 +7,7 @@ cover-image: /assets/images/ampersand-cover.png
 excerpt: "Using the & after a declaration you can set a css rule to apply given that the selector that has the & after actually applies when it is the parent of the element it is nested under 🤔..."
 date: 2019-03-17
 categories: [intermediate, scss, css, frontend]
-instagram-id: 
+instagram-id: BvGkv6DgDr4
 docs: https://sass-lang.com/documentation/file.SASS_REFERENCE.html#parent-script
 ---
 {:.center}
@@ -29,6 +29,17 @@ of your usage!
 
 {:.image .center}
 ![&-example]({{page.image}})
+
+{:.post-content}
+Some other useful ampersand usage:
+
+{:.image .center}
+![&-more-examples](/assets/images/ampersand-more-examples.png)
+
+{:.post-content}
+Here you can see the convenience and power of the ampersand. If you're using something
+like <a href="http://getbem.com/introduction/" target="_blank">BEM</a> it makes it
+very easy and quick too add in custom elements and modifier classes.
 
 {% if page.instagram-id %}
 {:.center}
