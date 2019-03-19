@@ -14,11 +14,14 @@ docs:
 
 {:.post-content}
 BizDev: web browser tips: there are some shortcuts that work in all browsers. 
-Are you a big tab user? Navigate to the last tab by pressing Control + 9. Go to 
-the specified tab counting from the left with Control + [number of the tab]. 
-Reopen the last closed tab with Control + Shift + T. Command (mac)/Control + 
-clicking on a link opens the link in a background tab. Command (mac)/Control + 
-L to bring the nav bar into focus so you can type in an address.
+Are you a big tab user? 
+
+{:.post-content}
+* Navigate to the last tab by pressing Control + 9. 
+* Go to the specified tab counting from the left with Control + [number of the tab]. 
+* Reopen the last closed tab with Control + Shift + T. 
+* Command (mac)/Control + clicking on a link opens the link in a background tab. 
+* Command (mac)/Control + L to bring the nav bar into focus so you can type in an address.
 
 {:.post-content}
 * <a href="https://support.google.com/chrome/answer/157179?hl=en" target="_blank">Chrome Shortcuts</a>
