@@ -12,3 +12,6 @@ layout: default
 {% include footer.html %}
 
 <script src="/assets/js/reading-time.js"></script>
+{% if page.script %}
+    <script src="{{page.script}}"></script>
+{% endif %}
