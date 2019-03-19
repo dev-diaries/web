@@ -6,7 +6,7 @@ image: /assets/images/browser-shortcuts.png
 excerpt: "BizDev: web browser tips: there are some shortcuts that work in all browsers"
 date: 2019-03-19
 categories: [biz-dev, browser]
-instagram-id: 
+instagram-id: BvM3G5zALAC
 docs: 
 ---
 {:.center}
