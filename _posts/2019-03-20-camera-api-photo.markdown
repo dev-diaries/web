@@ -144,7 +144,10 @@ button.addEventListener('click', function(e) {
 {% endhighlight %}
 
 <div id="js-no-access" class="camera-api--error-parent center">
-    <span class="camera-api--error">Sorry, this won't work on your device. Trying going to a newer desktop computer!</span>
+    <span class="camera-api--error">
+    Sorry, this won't work on your device. Trying going to a newer desktop computer!
+    If you're on an iPhone try opening this page up in native Safari outside of any app (Instagram, Twitter).
+    </span>
 </div>
 
 <div id="js-denied" class="camera-api--denied-parent center">
