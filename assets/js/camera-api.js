@@ -9,10 +9,17 @@ let context = canvas.getContext('2d');
 let demo = document.getElementById('demo');
 let showDemo = document.getElementById('js-show-demo');
 let cantShowDemo = document.getElementById('js-no-access');
+let deniedMessage = document.getElementById('js-denied');
+
+let DENIED = false;
 
 showDemo.addEventListener('click', function(e) {
     e.preventDefault();
     if (canAccessUserMedia) {
+        if (DENIED) {
+            deniedMessage.style.display = 'block';
+            return;
+        }
         demo.style.display = 'block';
         code.style.display = 'block';
     } else {
@@ -28,6 +35,9 @@ if (canAccessUserMedia) {
     navigator.mediaDevices.getUserMedia(params).then(function(stream) {
         video.srcObject = stream;
         video.play();
+    }, function(err) {
+        console.log(err);
+        DENIED = true;
     });
 }
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "User Media (Camera API) + Snapshot + Facial Recognition?"
+title: "Use the camera from your webpage, take a snapshot and use for facial recognition. Whatt?"
 date:   2019-03-20 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/snapshot.jpg
@@ -20,7 +20,8 @@ excerpt: "Using the User Media HTML5 (Camera) API you can take a picture using t
 .
 
 {:.intro}
-Using the #HTML5 getUserMedia (#CameraAPI) method you can take a picture using the user’s camera and use that on your webpage.
+Using the #HTML5 getUserMedia method from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices" target="_blank">MediaDevices API</a> 
+you can take a picture using the user’s camera and use that on your webpage.
 Let's see some code!
 
 <div class="resources-container" markdown="1">
@@ -145,5 +146,14 @@ button.addEventListener('click', function(e) {
 <div id="js-no-access" class="camera-api--error-parent center">
     <span class="camera-api--error">Sorry, this won't work on your device. Trying going to a newer desktop computer!</span>
 </div>
+
+<div id="js-denied" class="camera-api--denied-parent center">
+    <span class="camera-api--error">
+    Uh oh, looks like you denied us camera access. If you go to the address bar and click
+    on the camera icon and change the settings to allow this site to access your 
+    camera, you can view the demo after you refresh the page!
+    </span>
+</div>
+
 
 

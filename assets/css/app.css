@@ -5306,7 +5306,7 @@ main.home .site-navigation {
   margin-top: 5px;
   max-width: 50vw; }
 
-.post .camera-api--error-parent, .post .camera-api--code, .post .camera-api--hide {
+.post .camera-api--error-parent, .post .camera-api--code, .post .camera-api--hide, .post .camera-api--denied-parent {
   display: none; }
 
 .post .camera-api--error {
