@@ -55,7 +55,7 @@ function convertCanvasToImage(canvas) {
 
 function checkImage() {
     if (base64) {
-        console.log('YES');
+        // implement facial recognition as part of the demo?
     }
 }
 
