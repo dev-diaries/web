@@ -46,7 +46,7 @@ take a snapshot of the user!
 First, we set our html:
 
 {% highlight hmtl %}
-<video id="video" class="video" autoplay></video>
+<video id="video" class="video" autoplay playsinline></video>
 <div id="button" class="button">Take Photo</div>
 <canvas id="canvas" width="640" height="480"></canvas>
 {% endhighlight %}
@@ -103,10 +103,10 @@ You could then convert that snapshot to a PNG data URI and even pass that along
 to the server for some facial recognition if you wish! Intrigued? Read on for more!
 
 {:.post-content}
-Want to see it in action?! <a href="#" id="js-show-demo">Click Me</a>
+Want to see it in action?! <a href="#" id="js-show-demo">Click Mes</a>
 
 <div class="center camera-api--hide" id="demo">
-    <video id="video" class="video camera-api--video" autoplay></video>
+    <video id="video" class="video camera-api--video" playsinline autoplay></video>
     <div id="button" class="camera-api--button">Take Photo</div>
     <canvas id="canvas" width="640" height="480" class="camera-api--snapshot"></canvas>
     <div>
@@ -118,7 +118,7 @@ Want to see it in action?! <a href="#" id="js-show-demo">Click Me</a>
 {:.post-content.camera-api--code}
 {% highlight html %}
 <!-- Dev Diaries: Here is all the the code so you can copy and paste it and get started right away! -->
-<video id="video" class="video" autoplay></video>
+<video id="video" class="video" autoplay playsinline></video>
 <div id="button" class="button">Take Photo</div>
 <canvas id="canvas" width="640" height="480"></canvas>
 
