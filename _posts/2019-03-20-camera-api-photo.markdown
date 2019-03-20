@@ -158,5 +158,7 @@ button.addEventListener('click', function(e) {
     </span>
 </div>
 
+{:.center}
+<a class="insta-link" href="https://www.instagram.com/p/BvPQUqpnP93" target="_blank">Instagram Post</a>
 
 
