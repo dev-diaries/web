@@ -105,10 +105,6 @@
             max-width: 50vw;
             border-radius: 25px;
         }
-
-        &--hide {
-            display: none;
-        }
         &--button {
             border: 1px solid $dd-blue;
             padding: 10px;
@@ -122,6 +118,12 @@
             margin-top: 5px;
             max-width: 50vw;
         }
+        &--error-parent, &--code, &--hide {
+            display: none;
+        }
+        &--error {
+            color: red;
+        }
         &--frame {
             background-color:#ddc;
             border:solid 5vmin #eee;
@@ -132,8 +134,8 @@
             border-top-color:#ddd;
             box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
             box-sizing:border-box;
-            display:inline-block;
-            margin:10vh 10vw;
+            display: block;
+            margin: 10px auto;
             padding:8vmin;
             position:relative;
             text-align:center;

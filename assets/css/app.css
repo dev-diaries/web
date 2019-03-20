@@ -5293,9 +5293,6 @@ main.home .site-navigation {
   max-width: 50vw;
   border-radius: 25px; }
 
-.post .camera-api--hide {
-  display: none; }
-
 .post .camera-api--button {
   border: 1px solid #7ABFE8;
   padding: 10px;
@@ -5309,6 +5306,12 @@ main.home .site-navigation {
   margin-top: 5px;
   max-width: 50vw; }
 
+.post .camera-api--error-parent, .post .camera-api--code, .post .camera-api--hide {
+  display: none; }
+
+.post .camera-api--error {
+  color: red; }
+
 .post .camera-api--frame {
   background-color: #ddc;
   border: solid 5vmin #eee;
@@ -5319,8 +5322,8 @@ main.home .site-navigation {
   border-top-color: #ddd;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25) inset, 0 5px 10px 5px rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
-  display: inline-block;
-  margin: 10vh 10vw;
+  display: block;
+  margin: 10px auto;
   padding: 8vmin;
   position: relative;
   text-align: center; }
