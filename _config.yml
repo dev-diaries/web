@@ -24,6 +24,8 @@ github_username: dev-diaries
 
 future: true
 
+highlighter: rouge
+
 # https://github.com/sverrirs/jekyll-paginate-v2/tree/master/examples
 pagination:
     enabled: true
@@ -36,6 +38,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - rouge
 
 permalink: /blog/:title/
 

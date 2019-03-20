@@ -5286,6 +5286,8 @@ main.home .site-navigation {
   color: white;
   border: #707070 1px solid;
   overflow: scroll; }
+  .post .highlight pre {
+    background-color: inherit; }
   .post .highlight * {
     font-family: 'Inconsolata', monospace; }
 

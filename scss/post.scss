@@ -95,6 +95,9 @@
         color: white;
         border: $gray 1px solid;
         overflow: scroll;
+        pre {
+            background-color: inherit;
+        }
         * {
             font-family: 'Inconsolata', monospace;
         }
