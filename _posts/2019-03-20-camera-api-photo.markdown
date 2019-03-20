@@ -103,7 +103,7 @@ You could then convert that snapshot to a PNG data URI and even pass that along
 to the server for some facial recognition if you wish! Intrigued? Read on for more!
 
 {:.post-content}
-Want to see it in action?! <a href="#" id="js-show-demo">Click Mes</a>
+Want to see it in action?! <a href="#" id="js-show-demo">Click Me</a>
 
 <div class="center camera-api--hide" id="demo">
     <video id="video" class="video camera-api--video" playsinline autoplay></video>
