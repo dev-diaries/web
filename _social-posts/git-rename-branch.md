@@ -6,7 +6,7 @@ image: /assets/images/git-branch-rename.png
 excerpt: "Named your git branch incorrectly? You can quickly rename a branch by using the -m flag"
 date: 2019-03-21
 categories: [intermediate, git]
-instagram-id: 
+instagram-id: BvRsM1MDuzG
 docs: https://git-scm.com/docs/git-branch
 ---
 {:.center}
