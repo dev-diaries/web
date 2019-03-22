@@ -7,7 +7,7 @@ cover-image: /assets/images/shallow-clone-cover.png
 excerpt: "Cloning in javascript can mean either a deep clone or a shallow clone of an object."
 date: 2019-03-22
 categories: [advanced, javascript]
-instagram-id: 
+instagram-id: BvUaA8tnJOG
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 ---
 {:.center}
