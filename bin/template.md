@@ -1,0 +1,26 @@
+---
+layout: social-post
+type: "SocialPosts"
+title: ""
+cover-image: /assets/images/.png
+image: /assets/images/.gif
+excerpt: ""
+date: 2019--
+categories: [intermediate, ]
+instagram-id: 
+docs: 
+---
+{:.center}
+# {{ page.title }}
+
+{:.post-content}
+
+{:.image .center}
+![]({{page.image}})
+
+{:.post-content}
+Read nore about it <a href="{{page.docs}}" target="_blank">here</a>
+
+{:.center}
+<a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
+
