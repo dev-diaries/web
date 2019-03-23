@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Someone from business development asking you to dump a query as a csv from the database?"
 date: 2019-03-23
 categories: [intermediate, database, mysql, postgresql]
-instagram-id: 
+instagram-id: BvWIsobnHya
 docs: https://dev.mysql.com/doc/refman/8.0/en/mysql.html
 ---
 {:.center}
