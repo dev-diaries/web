@@ -19,8 +19,9 @@ docs:
 ![]({{page.image}})
 
 {:.post-content}
-Read nore about it <a href="{{page.docs}}" target="_blank">here</a>
+Read more about it <a href="{{page.docs}}" target="_blank">here</a>
 
+{% if page.instagram-id %}
 {:.center}
 <a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
-
+{% endif %}
