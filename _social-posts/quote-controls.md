@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "You can use the &lt;q&gt; HTML5 element to automatically wrap some content in quotes."
 date: 2019-03-24
 categories: [intermediate, css, htmll]
-instagram-id: 
+instagram-id: BvZafa2hZpR
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
 ---
 {:.center}
@@ -16,9 +16,9 @@ docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
 {:.post-content}
 You can use the &lt;q&gt; HTML5 element to automatically wrap some content in quotes. 
 Most modern browsers implement it by surrounding the text in quote marks. Also 
-use the before and after CSS element to also show the element in quotes. If 
+use the before and after CSS pseudo element to also show any element in quotes. If 
 you want to use curly quotes for all or some particular content or use 
-Guillemets << >> as they in the French language you can set how quotes show using the quotes 
+Guillemets << >> as they in the French language you can set how quotes display using the quotes 
 CSS property. 
 {% highlight css %}
 /*
