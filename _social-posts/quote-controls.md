@@ -6,7 +6,7 @@ cover-image: /assets/images/quote-html-cover.png
 image: /assets/images/.gif
 excerpt: "You can use the &lt;q&gt; HTML5 element to automatically wrap some content in quotes."
 date: 2019-03-24
-categories: [intermediate, css, htmll]
+categories: [intermediate, css, html]
 instagram-id: BvZafa2hZpR
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q
 ---
