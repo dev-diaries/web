@@ -7,7 +7,7 @@ image: /assets/images/gmail-search-cover.gif
 excerpt: "Want to search your Gmail like a boss?"
 date: 2019-03-26
 categories: [intermediate, browser-tips, gmail]
-instagram-id: 
+instagram-id: BvdnFmLjXsC
 docs: https://support.google.com/mail/answer/7190?hl=en&visit_id=636891790195104675-2176755800&rd=1
 ---
 {:.center}
