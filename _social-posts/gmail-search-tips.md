@@ -39,7 +39,7 @@ subject:lunch meeting
 Search any email with the title "lunch meeting"
 
 {% highlight html %}
-from:chris OR from:michele
+from:chris OR from:michelle
 {% endhighlight %}
 
 {:.post-content}
