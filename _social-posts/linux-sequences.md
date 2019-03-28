@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Linux has some powerful sequence controls that you can use to run processes in different orders, sequentially, in parallel or conditionally."
 date: 2019-03-28
 categories: [advanced, linux, commands]
-instagram-id: 
+instagram-id: BvkDduHhrdT
 docs: https://linux.die.net/man/1/bash
 ---
 {:.center}
@@ -54,7 +54,7 @@ for the command to finish and returns immediately successfully with an exit code
 of 0. It returns with an exit code of 0 even if the command itself fails.
 
 {:.image .center}
-![;-gif](/assets/images/&-example.gif)
+![amp-gif](/assets/images/amp-example.gif)
 
 ## Sequence: "|"
 {% highlight linux %}
@@ -91,7 +91,7 @@ Is shorthand for 2>&1 | which means the standard output and standard error of
 the command are sent to via the pipe to the following command.
 
 {:.image .center}
-![amp-gif](/assets/images/amp-example.gif)
+![amp-gif](/assets/images/redirect-example.gif)
 
 
 {:.post-content}
