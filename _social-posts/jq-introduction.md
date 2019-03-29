@@ -1,7 +1,7 @@
 ---
 layout: social-post
 type: "SocialPosts"
-title: "JQ: introduction & simple examples"
+title: "JQ: Introduction & Simple Examples"
 cover-image: /assets/images/jq-examples-cover.png
 image: /assets/images/.gif
 excerpt: "JQ is a powerful and lightweight command line JSON processor. It is a tool no web developer should be without."
