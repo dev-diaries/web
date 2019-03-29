@@ -67,7 +67,7 @@ this example we're using <a href="http://www.linfo.org/cat.html" target="_blank"
 to output the standard input which is the echo'ed statement.
 
 {:.image .center}
-![;-gif](/assets/images/pipe-example.gif)
+![piepe-gif](/assets/images/pipe-example.gif)
 
 ## Sequence: "||"
 {% highlight linux %}
@@ -75,11 +75,11 @@ this will fail || echo "but this will run bc the first command failed"
 {% endhighlight %}
 
 {:.post-content}
-The command after the || is executed only if the command before the || returns 
+The command after the &#124;&#124; is executed only if the command before the &#124;&#124; returns 
 a non-zero status aka it errors. It is akin to an OR operator.
 
 {:.image .center}
-![;-gif](/assets/images/double-pipe.gif)
+![double-pipe-gif](/assets/images/double-pipe.gif)
 
 ## Sequence: "|&"
 {% highlight linux %}
@@ -87,7 +87,7 @@ echo "similar to | but also shows the error" |& cat
 {% endhighlight %}
 
 {:.post-content}
-Is shorthand for 2>&1 | which means the standard output and standard error of 
+Is shorthand for 2>&1 &#124; which means the standard output and standard error of 
 the command are sent to via the pipe to the following command.
 
 {:.image .center}
