@@ -100,6 +100,8 @@ c.fillText(text, 250-metrics.width/2, 400);
 </script>
 {% endhighlight %}
 
+{:.post-content}
+Will show this:
 <canvas id="pie-canvas" width="500" height="500"></canvas>
 
 {:.post-content}
