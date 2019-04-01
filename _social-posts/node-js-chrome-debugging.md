@@ -33,6 +33,7 @@ Debugger attached.
 Now navigation to about:inspect in Chrome and that will redirect you to chrome://inspect
 and you'll see a list of devices and a remote target.
 
+{:.image .center}
 ![node]({{page.image}})
 
 {:.post-content}
