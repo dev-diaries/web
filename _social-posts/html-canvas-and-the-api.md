@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "The canvas API allows you to draw graphics using Javascript & the HTML &lt;canvas&gt; element. It can do a ton and can be used for animation, game graphics, data visualization, photo manipulation, and real time video processing."
 date: 2019-03-31
 categories: [intermediate, html5, canvas, api]
-instagram-id: 
+instagram-id: BvqhCktB5Pl
 docs: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 script: /assets/js/canvas-api.js
 ---
