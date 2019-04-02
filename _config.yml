@@ -51,6 +51,7 @@ autopages:
     categories:
       enabled: true
       permalink: '/tags/:cat'
+      title: "All :cat posts"
       layouts: 
         - 'cat-page.html'
     collections:
