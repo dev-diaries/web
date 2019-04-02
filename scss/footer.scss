@@ -55,6 +55,7 @@ footer {
     }
     .tip-submit {
         color: white;
+        padding-top: 10px;
         .spaced {
             margin-right: 5px;
         }
@@ -62,13 +63,19 @@ footer {
             font-size: 0.9rem;
             background-color: $black;
             color: white;
-            border: none;
-            border: 1px solid transparent;
+            border: 2px solid transparent;
             padding: 5px;
             margin-bottom: 10px;
             &:focus {
                 outline: none !important;
-                border: 1px solid $lt-gray;
+                border: 2px solid $dd-blue;
+            }
+        }
+        .submit {
+            width: 50%;
+            &:hover {
+                background-color: $dd-blue;
+                cursor: pointer;
             }
         }
 

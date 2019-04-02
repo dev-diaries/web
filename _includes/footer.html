@@ -3,12 +3,18 @@
     <div class="col-10">
         <div class="form-container">
             <h1 class="grid capped">Submit A Tip</h1>
-            <form class="tip-submit grid" action="https://formspree.io/your@email.com" method="POST">
-                <input type="text" class="spaced col-3" name="name" placeholder="First Name" autofocus>
-                <input type="text" class="col-3" name="instagram" placeholder="Instagram handle">
-                <input type="email" class="col-6"  name="email" placeholder="E-mail Address">
-                <textarea class="col-6 block" placeholder="Your tip"></textarea>
-                <input class="col-3" type="submit" value="Send">
+            <h2 class="grid">Have a great tip and want to be featured on our feed? <br/>Add your tip
+                and your Instagram handle!</h2>
+            <form class="tip-submit grid" action="https://formspree.io/md@dev-diaries.com" method="POST">
+                <input type="text" class="spaced col-5_sm-10" name="name" placeholder="First Name">
+                <div class="col-5 hide-mobile"></div>
+                <input type="text" class="col-5_sm-10" name="instagram" placeholder="Instagram handle">
+                <div class="col-5 hide-mobile"></div>
+                <input type="email" class="col-7_sm-10" name="email" placeholder="E-mail Address">
+                <textarea class="col-7_sm-10" name="tip" placeholder="Your tip"></textarea>
+                <div class="col-7_sm-10 center">
+                    <input class="submit" type="submit" value="Send">
+                </div>
             </form>
         </div>
     </div>
