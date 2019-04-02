@@ -6,7 +6,13 @@
     }
 
     a.insta-link {
+        padding-top: 15px;
+        display: block;
         color: $instagram;
+    }
+
+    .top-pad {
+        padding-top: 25px;
     }
 
     a:hover {
@@ -30,6 +36,31 @@
         }
     }
 
+    .video {
+        width: 560px;
+        height: 315px;
+        @media (max-width: $mobile) {
+            width: 75%;
+        }
+    }
+
+    .author-image-container {
+        margin: 0 auto;
+        padding-top: 15px;
+        img {
+            width: 75px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+        }
+    }
+
+    .author-intro {
+        font-style: italic;
+        padding-bottom: 20px;
+        font-size: 1.1rem;
+        color: $gray;
+    }
+
     .links {
         font-size: 1.2rem;
         li {
@@ -44,6 +75,7 @@
 
     .content {
         padding: 50px;
+        overflow: hidden;
         @media (max-width: $mobile) {
             padding: 25px 0px;
             box-shadow: none;
@@ -89,8 +121,77 @@
         color: white;
         border: $gray 1px solid;
         overflow: scroll;
+        pre {
+            background-color: inherit;
+        }
         * {
             font-family: 'Inconsolata', monospace;
         }
+    }
+
+    .camera-api {
+        &--video {
+            max-width: 50vw;
+            border-radius: 25px;
+        }
+        &--button {
+            border: 1px solid $dd-blue;
+            padding: 10px;
+            color: white;
+            max-width: 50vw;
+            background-color: $dd-blue;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        &--snapshot {
+            margin-top: 5px;
+            max-width: 50vw;
+        }
+        &--error-parent, &--code, &--hide, &--denied-parent {
+            display: none;
+        }
+        &--error {
+            color: red;
+        }
+        &--frame {
+            background-color:#ddc;
+            border:solid 5vmin #eee;
+            border-bottom-color:#fff;
+            border-left-color:#eee;
+            border-radius:2px;
+            border-right-color:#eee;
+            border-top-color:#ddd;
+            box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+            box-sizing:border-box;
+            display: block;
+            margin: 10px auto;
+            padding:8vmin;
+            position:relative;
+            text-align:center;
+            &:before {
+                border-radius:2px;
+                bottom:-2vmin;
+                box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+                content:"";
+                left:-2vmin;
+                position:absolute;
+                right:-2vmin;
+                top:-2vmin;
+            }
+            &:after {
+                border-radius:2px;
+                bottom:-2.5vmin;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+                content:"";
+                left:-2.5vmin;
+                position:absolute;
+                right:-2.5vmin;
+                top:-2.5vmin;
+                }
+        }
+    }
+    #pie-canvas {
+        left: -85px;
+        position: relative;
     }
 }

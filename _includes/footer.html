@@ -1,5 +1,23 @@
 <div class="instagram" id="instafetch"></div>
 <footer class="grid">
+    <div class="col-10">
+        <div class="form-container">
+            <h1 class="grid capped">Submit A Tip</h1>
+            <h2 class="grid">Have a great tip and want to be featured on our feed? <br/>Add your tip
+                and your Instagram handle!</h2>
+            <form class="tip-submit grid" action="https://formspree.io/md@dev-diaries.com" method="POST">
+                <input type="text" class="spaced col-5_sm-10" name="name" placeholder="First Name">
+                <div class="col-5 hide-mobile"></div>
+                <input type="text" class="col-5_sm-10" name="instagram" placeholder="Instagram handle">
+                <div class="col-5 hide-mobile"></div>
+                <input type="email" class="col-7_sm-10" name="email" placeholder="E-mail Address">
+                <textarea class="col-7_sm-10" name="tip" placeholder="Your tip"></textarea>
+                <div class="col-7_sm-10 center">
+                    <input class="submit" type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
     <div class="col-12-middle center">
     <a href="https://instagram.com/thedevdiaries" class="social-media social-media--instagram" target="_blnk"><i class="fab fa-instagram"></i></a>
     <a href="https://twitter.com/the_dev_diaries" class="social-media social-media--twitter" target="_blnk"><i class="fab fa-twitter"></i></a>

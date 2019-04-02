@@ -2,7 +2,7 @@
 {% for post in sorted limit:5 %}
     <div class="post col-12 grid">
         <div class="col-6_sm-12-middle image-container">
-            <a href="{{ post.url }}">
+            <a href="{% if post.redirect-link %}{{post.redirect-link}}{% else %}{{ post.url }}{% endif %}">
                 {% if post.cover-image %}
                     <img class="post-image" src="{{post.cover-image}}">
                 {% else %}
@@ -11,7 +11,7 @@
             </a>
         </div>
         <div class="side col-6_sm-12">
-            <h2><a href="{{ post.url }}" class="title-link">{{ post.title }}</a></h2>
+            <h2><a href="{% if post.redirect-link %}{{post.redirect-link}}{% else %}{{ post.url }}{% endif %}" class="title-link">{{ post.title }}</a></h2>
             <p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
             <p class="excerpt">{{ post.excerpt }}</p>
             <div class="cats">
@@ -29,7 +29,7 @@
 <ul class="pagination">
     {% if paginator.previous_page %}
     <li>
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&lt; Previous Page</a>
+        <a class="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&lt; Previous Page</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
