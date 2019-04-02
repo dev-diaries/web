@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<main>
+    {% include page-header.html %}
+
+    <h1 class="post-header">#{{page.autopage.display_name}}</h1>
+
+    <div class="posts">
+        {% for post in paginator.posts %}
+            {% if post.type == 'SocialPosts' %}
+              {% include social-media-post.html %}
+            {% else %}
+              {% assign blog = post %}
+              {% include blog-post.html %}
+            {% endif %}
+
+            {% if post.type == 'SocialPosts' %}
+              {% assign blog = post %}
+            {% endif %}
+        {% endfor %}
+
+        {% include pagination.html %}
+    </div>
+</main>
+
+{% include footer.html %}

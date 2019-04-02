@@ -6,7 +6,7 @@ cover-image: /assets/images/node-inspect.png
 image: /assets/images/node-debugging.png
 excerpt: "In node.js and Google Chrome you can debug applications directly from the dev tools."
 date: 2019-04-01
-categories: [intermediate, node.js, javascript, debugging, chrome]
+categories: [intermediate, nodejs, javascript, debugging, chrome, chrome-dev-tools]
 instagram-id: BvuTg6XBIiY
 docs: https://nodejs.org/en/docs/guides/debugging-getting-started/
 ---

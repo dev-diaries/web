@@ -1,0 +1,21 @@
+<div class="post col-12 grid">
+    <div class="col-6_sm-12-middle image-container">
+        <a href="{% if post.redirect-link %}{{post.redirect-link}}{% else %}{{ post.url }}{% endif %}">
+            {% if post.cover-image %}
+                <img class="post-image" src="{{post.cover-image}}">
+            {% else %}
+                <img class="post-image" src="{{post.image}}">
+            {% endif %}
+        </a>
+    </div>
+    <div class="side col-6_sm-12">
+        <h2><a href="{% if post.redirect-link %}{{post.redirect-link}}{% else %}{{ post.url }}{% endif %}" class="title-link">{{ post.title }}</a></h2>
+        <p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
+        <p class="excerpt">{{ post.excerpt }}</p>
+        <div class="cats">
+            {% for category in post.categories %}
+                <a href="/tags/{{ category | slugize }}/">#{{ category }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
