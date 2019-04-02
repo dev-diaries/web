@@ -1,3 +1,19 @@
+@import "./settings";
+
 .center {
     text-align: center;
+}
+
+.capped {
+    text-transform: uppercase;
+}
+
+.block {
+    display: block;
+}
+
+.hide-mobile {
+    @media (max-width: $mobile) {
+        display: none;
+    }
 }

@@ -1,2 +1,12 @@
 .center {
   text-align: center; }
+
+.capped {
+  text-transform: uppercase; }
+
+.block {
+  display: block; }
+
+@media (max-width: 48em) {
+  .hide-mobile {
+    display: none; } }

@@ -71,6 +71,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-paginate-v2
   minima (~> 2.0)
+  rouge
   tzinfo-data
 
 BUNDLED WITH
