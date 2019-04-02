@@ -5248,6 +5248,7 @@ main.home .site-navigation {
 
 .post .content {
   padding: 50px;
+  overflow: hidden;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
   @media (max-width: 48em) {
     .post .content {

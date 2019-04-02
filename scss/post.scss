@@ -50,6 +50,7 @@
 
     .content {
         padding: 50px;
+        overflow: hidden;
         @media (max-width: $mobile) {
             padding: 25px 0px;
             box-shadow: none;
