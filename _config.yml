@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: the_dev_diaries
 github_username: dev-diaries
 
-future: false
+future: true
 
 highlighter: rouge
 
