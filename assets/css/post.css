@@ -24,6 +24,27 @@
   max-width: 75vw;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
+.post .video {
+  width: 560px;
+  height: 315px; }
+  @media (max-width: 48em) {
+    .post .video {
+      width: 75%; } }
+
+.post .author-image-container {
+  margin: 0 auto;
+  padding-top: 15px; }
+  .post .author-image-container img {
+    width: 75px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50%; }
+
+.post .author-intro {
+  font-style: italic;
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+  color: #707070; }
+
 .post .links {
   font-size: 1.2rem;
   padding-bottom: 20px; }

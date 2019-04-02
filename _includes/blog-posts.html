@@ -5,6 +5,9 @@
         </div>
         <div class="side col-6_sm-12">
             <h2><a href="{{ post.url }}" class="title-link">{{ post.title }}</a></h2>
+            {% if post.author-image %}
+                <img src="{{post.author-image}}" class="author-image">
+            {% endif %}
             <p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
             <p class="excerpt">{{ post.excerpt }}</p>
             <div class="cats">
