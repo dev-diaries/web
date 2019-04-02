@@ -134,3 +134,7 @@
     position: absolute;
     right: -2.5vmin;
     top: -2.5vmin; }
+
+.post #pie-canvas {
+  left: -85px;
+  position: relative; }
