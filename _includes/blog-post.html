@@ -1,0 +1,18 @@
+<div class="post col-12 grid">
+    <div class="col-6_sm-12-middle image-container">
+        <a href="{{ blog.url }}"><img class="post-image" src="{{blog.image}}"></a>
+    </div>
+    <div class="side col-6_sm-12">
+        <h2><a href="{{ post.url }}" class="title-link">{{ blog.title }}</a></h2>
+        {% if blog.author-image %}
+        <img src="{{blog.author-image}}" class="author-image">
+        {% endif %}
+        <p class="date">{{ blog.date | date: "%b %d, %Y" }}</p>
+        <p class="excerpt">{{ blog.excerpt }}</p>
+        <div class="cats">
+            {% for category in blog.categories %}
+            <a href="/tags/{{ category | slugize }}/">#{{ category }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

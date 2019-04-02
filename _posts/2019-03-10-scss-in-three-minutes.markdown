@@ -5,7 +5,7 @@ date:   2019-03-10 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/scss.svg
 demo: /assets/images/scss-in-three.gif
-categories: [css, scss, how-to]
+categories: [css, scss, how-to, getting-started]
 excerpt: "SCSS is a superset of CSS3's syntax. It provides a powerful abstraction with the ability to use variables, mixins, and functions. Intrigued? Let's get it setup in 3 minutes or less!"
 ---
 

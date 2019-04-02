@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: the_dev_diaries
 github_username: dev-diaries
 
-future: true
+future: false
 
 highlighter: rouge
 
@@ -45,6 +45,18 @@ permalink: /blog/:title/
 collections:
   social-posts:
     output: true
+
+autopages:
+    enabled: true
+    categories:
+      enabled: true
+      permalink: '/tags/:cat'
+      layouts: 
+        - 'cat-page.html'
+    collections:
+      enabled: false
+    tags:
+      enabled: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

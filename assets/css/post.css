@@ -4,7 +4,8 @@
 .post a.insta-link {
   padding-top: 15px;
   display: block;
-  color: #8a3ab9; }
+  color: #8a3ab9;
+  font-size: 1.2rem; }
 
 .post .top-pad {
   padding-top: 25px; }

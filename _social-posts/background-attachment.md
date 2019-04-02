@@ -5,7 +5,7 @@ title: "CSS: Background Attachment"
 image: /assets/images/background-attachment.png
 excerpt: "A CSS property of background-attachment: fixed allows you create a cool effect of a scrolling window over content"
 date: 2019-03-04
-categories: [beginner, css, html, frontend-development]
+categories: [beginner, css, html, frontend]
 instagram-id: Buk6AuBHRRN 
 ---
 {:.center}
