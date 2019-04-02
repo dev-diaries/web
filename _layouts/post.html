@@ -6,6 +6,12 @@ layout: default
 
     <div class="content js-content">
         {{content}}
+
+        <div class="cats">
+            {% for category in page.categories %}
+                <a href="/tags/{{ category | slugize }}/">#{{ category }}</a>
+            {% endfor %}
+        </div>
     </div>
 </main>
 

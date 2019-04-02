@@ -14,7 +14,6 @@ pagination:
             {% if post.type == 'SocialPosts' %}
               {% include social-media-post.html %}
             {% else %}
-              {% assign blog = post %}
               {% include blog-post.html %}
             {% endif %}
 
