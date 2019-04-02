@@ -9,4 +9,8 @@ layout: default
     </div>
 </main>
 
+{% if page.script %}
+    <script src="{{page.script}}"></script>
+{% endif %}
+
 {% include footer.html %}

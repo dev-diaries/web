@@ -104,6 +104,11 @@ main.home {
     padding-top: 50px;
     .post {
         padding: 20px 0;
+        &:not(:last-of-type) {
+            @media (max-width: $mobile) {
+                border-bottom: 1px solid #cccccc;
+            }
+        }
         &:hover {
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
         }
@@ -121,5 +126,8 @@ main.home {
     }
     .next {
         float: right;
+    }
+    .prev {
+        float: left;
     }
 }
