@@ -7,7 +7,7 @@
         {% if post.author-image %}
         <img src="{{post.author-image}}" class="author-image">
         {% endif %}
-        <p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
+        <p class="date"><i class="fas fa-pen-nib"></i> {{ post.date | date: "%b %d, %Y" }}</p>
         <p class="excerpt">{{ post.excerpt }}</p>
         <div class="cats">
             {% for category in post.categories %}

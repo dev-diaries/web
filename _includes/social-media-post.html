@@ -10,7 +10,7 @@
     </div>
     <div class="side col-6_sm-12">
         <h2><a href="{% if post.redirect-link %}{{post.redirect-link}}{% else %}{{ post.url }}{% endif %}" class="title-link">{{ post.title }}</a></h2>
-        <p class="date">{{ post.date | date: "%b %d, %Y" }}</p>
+        <p class="date"><i class="fab fa-slideshare"></i> {{ post.date | date: "%b %d, %Y" }}</p>
         <p class="excerpt">{{ post.excerpt }}</p>
         <div class="cats">
             {% for category in post.categories %}
