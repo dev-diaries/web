@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "CSS Shorthand Properties: you can use shorthand properties to make writing CSS a bit quicker, more organized and save space in your stylesheets."
 date: 2019-04-04
 categories: [intermediate, css, shortcuts, frontend]
-instagram-id: 
+instagram-id: Bv19XWpBh2O
 docs: https://drafts.csswg.org/css2/about.html#x1
 ---
 {:.center}
@@ -20,19 +20,23 @@ properties are a nice CSS hack that is helpful to be familiar with. One commonly
 not known shorthand property is the all property. 
 
 {:.image .center}
-![](/assets/images/background-code.png)
+![background-code](/assets/images/background-code.png)
 
 {:.image .center}
-![](/assets/images/border-code.png)
+![border-code](/assets/images/border-code.png)
 
 {:.image .center}
-![](/assets/images/font-code.png)
+![font-code](/assets/images/font-code.png)
 
 {:.image .center}
-![](/assets/images/margin-padding-code.png)
+![margin-padding-code](/assets/images/margin-padding-code.png)
 
 {:.image .center}
-![](/assets/images/all-code.png)
+![all-code](/assets/images/all-code.png)
+
+{:.post-content}
+Note that the all property isn't supported in IE 11. Check <a href="https://caniuse.com/#feat=css-all" target="_blank">caniuse</a>
+for more information.
 
 {:.post-content}
 Read more about it in the CSS Spec <a href="{{page.docs}}" target="_blank">here</a>
