@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "gridlex": "^2.7.1",
-    "instafetch.js": "https://github.com/dev-diaries/instafetch.js.git"
+    "instafetch.js": "https://github.com/dev-diaries/instafetch.js.git",
+    "lunr": "^2.3.6"
   }
 }
