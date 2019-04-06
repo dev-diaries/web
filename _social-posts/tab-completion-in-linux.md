@@ -7,7 +7,7 @@ image: /assets/images/tab-completion.gif
 excerpt: "Use tab completion in your linux shell to move faster around your terminal."
 date: 2019-04-06
 categories: [beginner, terminal, efficiency, shortcuts]
-instagram-id: 
+instagram-id: Bv6H-04B0YC
 docs: http://www.linux-magazine.com/Online/Features/Bash-Tips-Autocompletion
 ---
 {:.center}
