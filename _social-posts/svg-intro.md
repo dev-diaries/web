@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "SVG or Scalable Vector Graphics is an XML based markup language and is a powerful way to display images."
 date: 2019-04-07
 categories: [intermediate, intro, graphics, html5]
-instagram-id: 
+instagram-id: Bv9cy8ZhXnx
 docs: https://developer.mozilla.org/en-US/docs/Web/SVG
 ---
 {:.center}
