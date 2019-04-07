@@ -3,7 +3,7 @@ layout: post
 title:  "Deploying Docker Containers on AWS ECS With Jenkins"
 date:   2019-04-05 13:13:12 +0800
 type: "HowToGuides"
-image: /assets/images/jenkins-docker-ecs-cover.png
+image: /assets/images/jenkins-docker-ecs-no-outline-cover.png
 demo: /assets/images/scss-in-three.gif
 categories: [advanced, containerization, how-to, docker, jenkins, ecs, aws]
 excerpt: ""
