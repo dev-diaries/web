@@ -36,7 +36,7 @@ of a much deeper rabbit hole of a topic.
 Check our <a href="https://codepen.io/the_dev_diaries/pen/XQjXmB" target="_blank">Codepen</a>
 
 {:.post-content}
-<h2>Ellpise:</h2>
+<h2>Ellipse:</h2>
 <svg height="150" width="500">
   <ellipse cx="240" cy="100" rx="220" ry="30" style="fill:blue" />
   <ellipse cx="220" cy="70" rx="190" ry="20" style="fill:orange" />
