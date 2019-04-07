@@ -16,7 +16,7 @@ docs: https://developer.mozilla.org/en-US/docs/Web/SVG
 {:.post-content}
 SVG or Scalable Vector Graphics is an XML based markup language and is a powerful way to display images. 
 It is widely supported amongst browsers, can infinitely scale because it is built 
-upon XML markup, and are more flexible than JPG or PNG’s we can use CSS and Javascript to 
+upon XML markup, and is more flexible than JPG or PNG’s we can use CSS and Javascript to 
 interact with them. SVG’s are also easy to animate which is another rabbit 
 hole of a topic. 
 
