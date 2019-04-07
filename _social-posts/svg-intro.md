@@ -26,7 +26,7 @@ Star:
   <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:lightblue;stroke:white;stroke-width:5;fill-rule:nonzero;"/>
 </svg>
 
-Check our <a href="https://codepen.io/the_dev_diaries/pen/JVRGEV" target="_blank">Codepen</a>
+Check our <a href="https://codepen.io/the_dev_diaries/pen/XQjXmB" target="_blank">Codepen</a>
 
 {:.post-content}
 Ellpise:
