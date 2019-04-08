@@ -13,7 +13,8 @@
   },
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "scss": "npx node-sass -w scss/app.scss -o assets/css/"
+    "scss": "npx node-sass -w scss/app.scss -o assets/css/",
+    "ts": "npx webpack -w --config webpack.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
