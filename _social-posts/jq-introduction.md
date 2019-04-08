@@ -6,7 +6,7 @@ cover-image: /assets/images/jq-examples-cover.png
 image: /assets/images/.gif
 excerpt: "JQ is a powerful and lightweight command line JSON processor. It is a tool no web developer should be without."
 date: 2019-03-30
-categories: [advanced, javascript, tools, json, terminal, jq]
+categories: [advanced, javascript, tools, json, terminal, jq, intro]
 instagram-id: Bvo_K4Gh-I0
 docs: https://stedolan.github.io/jq/manual/
 ---
