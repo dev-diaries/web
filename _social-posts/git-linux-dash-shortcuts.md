@@ -7,7 +7,7 @@ image: /assets/images/dash-shortcuts.gif
 excerpt: "Using the - in linux and git can speed up your workflow and allow you to type less."
 date: 2019-04-09
 categories: [intermediate, git, linux, shortcuts, efficiency]
-instagram-id: 
+instagram-id: BwCyLslBKBM
 docs: https://helpmanual.io/builtin/cd/
 ---
 {:.center}
