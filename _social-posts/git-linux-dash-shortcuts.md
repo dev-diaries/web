@@ -17,8 +17,8 @@ docs: https://helpmanual.io/builtin/cd/
 Using the - in linux and git can speed up your workflow and allow you to type 
 less. In later versions of git, using the - character resolves to the last branch. 
 So if you were just on a feature branch, then switch to master, you can merge 
-in that feature branch by typing “git merge -”. In #linux the - resolves to 
-$OLDPWD so if you’re navigating and want to go back to the last directory, you can just type “cd -”.
+in that feature branch by typing "git merge -". In linux the - resolves to 
+$OLDPWD so if you’re navigating and want to go back to the last directory, you can just type "cd -".
 
 {% highlight bash %}
 (feature-123) $ git checkout master
