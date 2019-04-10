@@ -7,7 +7,7 @@ image: /assets/images/browser-shortcuts-2-cover.gif
 excerpt: "BizDev: web browser tips: there are some shortcuts that work in all browsers, part 2"
 date: 2019-04-10
 categories: [biz-dev, browser, shortcuts, efficiency, chrome, firefox]
-instagram-id: 
+instagram-id: BwFOCTFB2Yn
 docs: https://support.google.com/chrome/answer/157179?hl=en
 ---
 {:.center}
