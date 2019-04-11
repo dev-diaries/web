@@ -18,6 +18,9 @@ CSS has some selector symbols that can allow you to target elements in a general
 Familiarity with these selector symbols can reduce bloat in your CSS and allow 
 you to move quicker when making styles for your website. 
 
+{:.image .center}
+![css-cover-1](/assets/images/css-symbols-cover.png)
+
 ## * Selector
 
 {:.post-content}
@@ -151,6 +154,10 @@ div.greater > ul {
 <ul>not a direct child</ul>
 
 <br>
+
+{:.image .center}
+![css-cover-1](/assets/images/css-symbols-cover-2.png)
+
 ## + Selector
 
 {:.post-content}
@@ -225,6 +232,10 @@ a.secure[href^="https"] {
 <a class="secure" href="http://dev-diaries.com" target="_blank">http://dev-diaries.com</a>
 
 <br>
+
+{:.image .center}
+![css-cover-3](/assets/images/css-cymbols-cover-3.png)
+
 ## a[href$=".pdf"] Selector
 This selects every &lt;a&gt; element whose href attribute ends with .pdf
 {% highlight css %}
