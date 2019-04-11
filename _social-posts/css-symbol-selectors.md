@@ -58,7 +58,7 @@ Will give us this:
 ## ~ Selector
 
 {:.post-content}
-The ~ symbol selects all elements that is preceded by the former selector. This also means
+The ~ symbol selects all elements that are preceded by the former selector. This also means
 that the element doesn't have to come directly after, it can be one after or three after, etc, 
 but it won't affect children of the former selector.
 
@@ -237,7 +237,10 @@ a.secure[href^="https"] {
 ![css-cover-3](/assets/images/css-cymbols-cover-3.png)
 
 ## a[href$=".pdf"] Selector
+
+{:.post-content}
 This selects every &lt;a&gt; element whose href attribute ends with .pdf
+
 {% highlight css %}
 a[href$=".pdf"] {
     border: 1px solid orange;
@@ -258,8 +261,11 @@ a[href$=".pdf"] {
 
 <br>
 ## a[href&lowast;="post"] Selector
+
+{:.post-content}
 This selects every &lt;a&gt; element whose href attribute contains the 
 substring post. It needs to contain at least one occurence of "post"
+
 {% highlight css %}
 a[href*="post"] {
     border: 1px solid green;
