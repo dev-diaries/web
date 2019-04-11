@@ -161,7 +161,7 @@ div.greater > ul {
 ## + Selector
 
 {:.post-content}
-The + symbol specifies that the element after the plus sign must come immediately after the first.
+The + symbol specifies that the element after the plus sign must come immediately after the element before the plus sign.
 {% highlight css %}
 div.add + span {
     border: 1px solid green;
