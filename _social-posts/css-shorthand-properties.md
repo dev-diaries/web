@@ -48,6 +48,9 @@ Also check the mozilla docs for each property mentioned above
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" target="_blank">Margin</a>
 * <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/all" target="_blank">All</a>
 
+{:.post-content}
+This <a href="https://shrthnd.volume7.io/" target="_blank">website</a> is useful as it creates CSS shorthand for you from a declaration you provide
+
 {% if page.instagram-id %}
 {:.center}
 <a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
