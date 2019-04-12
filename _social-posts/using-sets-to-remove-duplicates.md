@@ -26,7 +26,7 @@ duplicates from an array. Sets can be useful in general if you need a unique col
 {:.post-content}
 This is a guide <a href="https://medium.com/front-end-weekly/es6-set-vs-array-what-and-when-efc055655e1a" target="_blank">article</a> 
 about sets and this <a href="https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array" target="_blank">Stack Overflow</a>
-answer has some good info as well. 
+answer has some good info as well. Check our <a href="https://codepen.io/the_dev_diaries/pen/oOwqab" target="_blank">codepen</a> to experiment.
 
 {:.post-content}
 Read more about Sets on <a href="{{page.docs}}" target="_blank">Mozilla</a>
