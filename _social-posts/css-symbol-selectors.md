@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "CSS has some selector symbols that can allow you to target elements in a generalized way."
 date: 2019-04-11
 categories: [intermediate, css, symbols]
-instagram-id: 
+instagram-id: BwH-PR3hIPk
 docs: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors
 ---
 {:.center}
