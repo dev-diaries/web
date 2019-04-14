@@ -71,7 +71,10 @@ audioEl.addEventListener('ended', (event) => {
 <span class="js-status">Audio is not playing</span>
 
 {:.post-content}
-Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events" target="_blank">media events</a>
+Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events" target="_blank">media events</a>.
+This <a href="https://stackoverflow.com/questions/9752983/setvolume-for-html5-audio-doesnt-work-on-mobile-android-or-safari-any-workaro" target="_blank">Stack Overflow</a>
+answer might be useful in case you have issues with the setVolume event on mobile
+android or Safari.
 
 {:.post-content}
 Read more about the <a href="{{page.docs}}" target="_blank">audio element</a>
