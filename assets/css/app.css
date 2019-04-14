@@ -5054,7 +5054,9 @@ a {
 .tagline {
   font-family: 'Julius Sans One', sans-serif;
   color: black;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 1em; }
 
 .bg-image {
   background-size: cover;
@@ -5072,7 +5074,8 @@ a {
   background-image: url("../images/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 1; }
+  opacity: 1;
+  text-indent: -9999px; }
   .logo--home {
     margin-top: 10%;
     background-position: center; }
@@ -5262,6 +5265,9 @@ main.home .site-navigation {
 
 .post ul {
   margin-left: 30px; }
+
+.post .no-style ul {
+  list-style: none; }
 
 .post .image img {
   max-width: 75vw;

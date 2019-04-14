@@ -21,6 +21,9 @@
 .post ul {
   margin-left: 30px; }
 
+.post .no-style ul {
+  list-style: none; }
+
 .post .image img {
   max-width: 75vw;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
