@@ -4,7 +4,7 @@ title:  "Terminal History Auto Suggestions As You Type With Oh My Zsh"
 date:   2019-04-14 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/autocomplete-as-you-type-cover.png
-categories: [terminal, cli, shortcuts, efficiency, how-to, advanced, oh-my-zsh, zsh]
+categories: [terminal, cli, shortcuts, efficiency, how-to, advanced, oh-my-zsh, zsh, homebrew, sqlite]
 excerpt: "Oh-My-Zsh is a framework for Zsh, the Z shell. It is an efficiency boom for anyone that works in the terminal. There are a few auto suggest libraries that when combined can give you a fantastic suggestion to what you want to type to save you time and increase your efficiency 10-fold."
 ---
 
