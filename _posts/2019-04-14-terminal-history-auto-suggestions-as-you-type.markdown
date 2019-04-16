@@ -64,8 +64,8 @@ based on the string we're looking for.
 This leverages a few excellent libraries which are very useful just by themselves.
 <a href="https://github.com/zsh-users/zsh-autosuggestions" target="_blank">zsh-autosuggestions</a>
 provide us with "Fish like autosuggestions for zsh" based on the command history.
-It provides a <a href="https://github.com/zsh-users/zsh-autosuggestions#suggestion-strategy" target="_blank">
-suggestion strategy</a> that you can provide to guide it how to exactly suggest
+It accepts a <a href="https://github.com/zsh-users/zsh-autosuggestions#suggestion-strategy" target="_blank">
+suggestion strategy</a> that you can specify to guide it how to exactly suggest
 what to autocomplete with. What we're doing is overriding the strategy
 and providing our own custom strategy.
 

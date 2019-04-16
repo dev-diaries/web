@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Have a large git repo that you need to clone, but only need to clone one branch?"
 date: 2019-04-16
 categories: [advanced, git, branching]
-instagram-id: 
+instagram-id: BwU82p8B2Q6
 docs: https://git-scm.com/docs/git-clone
 ---
 {:.center}
