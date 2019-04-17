@@ -7,7 +7,7 @@ image: /assets/images/gmail-shortcuts-cover-2.png
 excerpt: "In Gmail there are some handy shortcuts that can speed up your path to Inbox Zero"
 date: 2019-04-17
 categories: [beginner, shortcuts, efficiency, gmail]
-instagram-id: 
+instagram-id: BwXPs_XBBz4
 docs: https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en
 ---
 {:.center}
