@@ -28,7 +28,6 @@
 
     .content {
         ul.post-content {
-            margin-left: 30px;
             > li {
                 @media (max-width: $mobile) {
                     margin-left: 25px;

@@ -5263,11 +5263,9 @@ main.home .site-navigation {
   font-weight: lighter;
   padding: 10px 0; }
 
-.post .content ul.post-content {
-  margin-left: 30px; }
-  @media (max-width: 48em) {
-    .post .content ul.post-content > li {
-      margin-left: 25px; } }
+@media (max-width: 48em) {
+  .post .content ul.post-content > li {
+    margin-left: 25px; } }
 
 .post .no-style ul {
   list-style: none; }
