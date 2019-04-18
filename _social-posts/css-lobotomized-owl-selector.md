@@ -17,7 +17,7 @@ docs:
 {:.post-content}
 The lobotomized owl selector (* + *) can come in handy to make your CSS stylesheet 
 a bit less verbose and is a handy relative selector for styling. If you remember 
-earlier from our [selector post] the lobotomized owl selects any element that has 
+earlier from our [selector post](/social-posts/css-symbol-selectors/) the lobotomized owl selects any element that has 
 another element before it. There are more verbose ways to achieve the styling 
 that the lobotomized owl gives us, but this is elegant and clean. 
 

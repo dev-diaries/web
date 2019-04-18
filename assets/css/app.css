@@ -5265,6 +5265,9 @@ main.home .site-navigation {
 
 .post ul {
   margin-left: 30px; }
+  @media (max-width: 48em) {
+    .post ul li {
+      margin-left: 25px; } }
 
 .post .no-style ul {
   list-style: none; }
@@ -5313,14 +5316,7 @@ main.home .site-navigation {
     .post .content {
       padding: 25px 0px;
       box-shadow: none; } }
-  .post .content p.post-content,
-  .post .content ul.post-content,
-  .post .content p.intro,
-  .post .content p.author-intro,
-  .post .content .resources-container,
-  .post .content h2,
-  .post .content figure,
-  .post .content .cats {
+  .post .content *, .post .content figure, .post .content :not(.image) {
     margin-right: auto;
     margin-left: auto;
     max-width: 700px; }
