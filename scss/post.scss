@@ -26,11 +26,13 @@
         padding: 10px 0;
     }
 
-    ul {
-        margin-left: 30px;
-        li {
-            @media (max-width: $mobile) {
-                margin-left: 25px;
+    .content {
+        ul.post-content {
+            margin-left: 30px;
+            > li {
+                @media (max-width: $mobile) {
+                    margin-left: 25px;
+                }
             }
         }
     }
