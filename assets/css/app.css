@@ -5314,10 +5314,14 @@ main.home .site-navigation {
     .post .content {
       padding: 25px 0px;
       box-shadow: none; } }
-  .post .content *, .post .content figure, .post .content :not(.image) {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 700px; }
+  @media (min-width: 48em) {
+    .post .content *, .post .content figure, .post .content :not(.image) {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 700px; }
+    .post .content .image, .post .content img {
+      margin: auto;
+      max-width: initial; } }
 
 .post .time {
   padding-bottom: 15px;
