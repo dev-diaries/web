@@ -7,7 +7,7 @@ image: /assets/images/dollar-sign-debugging.gif
 excerpt: "The dollar sign in the devtools can come in handy as a debugging tool."
 date: 2019-04-08
 categories: [intermediate, debugging, chrome-dev-tools]
-instagram-id: 
+instagram-id: BwAZenqBF92
 docs: https://developers.google.com/web/tools/chrome-devtools/console/utilities
 ---
 {:.center}
@@ -15,6 +15,9 @@ docs: https://developers.google.com/web/tools/chrome-devtools/console/utilities
 
 {:.post-content}
 These handy shortcuts can save you some time
+
+{:.post-content}
+
 * &#36;&#95; returns the most recently evaluated expression
 * &#36;0 - &#36;4 return the most recently stored DOM element inspect in the Elements panel. &#36;0 returns the most recent, &#36;1 returns the second most recent, etc.
 

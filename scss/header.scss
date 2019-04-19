@@ -2,6 +2,8 @@
     font-family: 'Julius Sans One', sans-serif;
     color: black;
     margin-top: 10px;
+    font-weight: normal;
+    font-size: 1em;
 }
 
 .bg-image {
@@ -23,6 +25,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 1;
+    text-indent: -9999px;
     &--home {
         margin-top: 10%;
         background-position: center;

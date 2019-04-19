@@ -1,11 +1,11 @@
 ---
 layout: social-post
 type: "SocialPosts"
-title: "Browser shortcuts"
+title: "Browser shortcuts: Part 1"
 image: /assets/images/browser-shortcuts.png
 excerpt: "BizDev: web browser tips: there are some shortcuts that work in all browsers"
 date: 2019-03-19
-categories: [biz-dev, browser]
+categories: [biz-dev, browser, shortcuts, efficiency, chrome, firefox]
 instagram-id: BvM3G5zALAC
 docs: 
 ---
@@ -30,6 +30,9 @@ Are you a big tab user?
 
 {:.image .center}
 ![screen-usage]({{page.image}})
+
+{:.post-content}
+Interested in more browser tips? Check out our [part 2 of browser tips](/social-posts/browser-shortcuts-2/)
 
 {% if page.instagram-id %}
 {:.center}

@@ -1,7 +1,9 @@
 .tagline {
   font-family: 'Julius Sans One', sans-serif;
   color: black;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 1em; }
 
 .bg-image {
   background-size: cover;
@@ -19,7 +21,8 @@
   background-image: url("../images/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 1; }
+  opacity: 1;
+  text-indent: -9999px; }
   .logo--home {
     margin-top: 10%;
     background-position: center; }

@@ -18,8 +18,12 @@
   font-weight: lighter;
   padding: 10px 0; }
 
-.post ul {
-  margin-left: 30px; }
+@media (max-width: 48em) {
+  .post .content ul.post-content > li {
+    margin-left: 25px; } }
+
+.post .no-style ul {
+  list-style: none; }
 
 .post .image img {
   max-width: 75vw;
@@ -58,11 +62,21 @@
 .post .content {
   padding: 50px;
   overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
   @media (max-width: 48em) {
     .post .content {
       padding: 25px 0px;
       box-shadow: none; } }
+  @media (min-width: 48em) {
+    .post .content *, .post .content figure, .post .content :not(.image) {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 700px; }
+    .post .content .image, .post .content img {
+      margin: auto;
+      max-width: initial; } }
 
 .post .time {
   padding-bottom: 15px;
