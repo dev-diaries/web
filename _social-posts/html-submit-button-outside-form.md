@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "For a HTML form element you can put your submit button outside of the form element as long as you have reference the form’s id property with the button’s form property."
 date: 2019-04-20
 categories: [intermediate, html, forms]
-instagram-id: 
+instagram-id: BweV55RhIyg
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button
 ---
 {:.center}
