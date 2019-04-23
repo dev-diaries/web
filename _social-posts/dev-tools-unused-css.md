@@ -1,13 +1,13 @@
 ---
 layout: social-post
 type: "SocialPosts"
-title: ""
+title: "Unused CSS In Chrome Dev Tools"
 cover-image: /assets/images/unused-css-cover.png
 image: /assets/images/unused-css.gif
 excerpt: "Using the Chrome Dev tools you can see what CSS isn't used for that page."
 date: 2019-04-23
 categories: [advanced, css, chrome-dev-tools, optimizations]
-instagram-id: 
+instagram-id: Bwm8n2hB4k-
 docs: https://developers.google.com/web/tools/chrome-devtools/css/reference#coverage
 ---
 {:.center}
