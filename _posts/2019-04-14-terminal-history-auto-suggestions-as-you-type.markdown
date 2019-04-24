@@ -25,6 +25,8 @@ There are a few auto suggest libraries that when combined can give you a
 fantastic suggestion to what you want to type to save you time and increase your efficiency tenfold.
 In our <a href="https://www.instagram.com/p/BwCyLslBKBM/" target="_blank">instagram post</a>
 we had some questions about how to get autocomplete like we show in the screencast:
+
+{:.image .center}
 ![insta-questions](/assets/images/auto-suggest-question.png)
 
 {:.intro}
