@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Did you know that the Youtube website has shortcuts that can be make your video watching a bit more seamless?"
 date: 2019-04-25
 categories: [beginner, youtube, videos, internetting]
-instagram-id: 
+instagram-id: BwsBTo0gOWK
 docs: https://support.google.com/youtube/answer/7631406?hl=en
 ---
 {:.center}
