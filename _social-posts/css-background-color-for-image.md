@@ -7,7 +7,7 @@ image: /assets/images/image-loading.gif
 excerpt: "Using CSS you can protect against slow loading background images especially if you have text on top of the image."
 date: 2019-04-26
 categories: [intermediate, css, usability]
-instagram-id: 
+instagram-id: BwuDshoh3VI
 docs: https://css-tricks.com/css-basics-using-fallback-colors/
 ---
 {:.center}
@@ -17,7 +17,7 @@ docs: https://css-tricks.com/css-basics-using-fallback-colors/
 Using CSS you can protect against slow loading background images especially if 
 you have text on top of the image. If the image hasn’t load and you have white 
 text over it for instance the user wouldn’t be able to read the text until it loads. 
-Using a background image fallback the text will always be visible.
+Using a background color fallback the text will always be visible.
 
 {% highlight html %}
 <section>
