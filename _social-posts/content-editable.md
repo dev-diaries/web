@@ -43,6 +43,15 @@ There is quite a bit written about content editable on the web and it's inconsis
 so be sure to read up about it before using it for a rich text editor for example.
 
 {:.post-content}
+Here are some articles that discuss content editable and some of it's shortcomings:
+
+{:.post-content}
+* <a href="https://florian.rivoal.net/blog/2016/12/content-editable-is-a-scary-place/" target="_blank">Content Editable is a Scary Place (2016)</a>
+* <a href="https://medium.com/content-uneditable/fixing-contenteditable-1a9a5073c35d" target="_blank">Fixing Content Editable (2015)</a>
+* <a href="https://medium.com/content-uneditable/contenteditable-the-good-the-bad-and-the-ugly-261a38555e9c" target="_blank">ContentEditable — The Good, the Bad and the Ugly (2015)</a>
+
+
+{:.post-content}
 Looking for a list of full blown content editors? Check some of these out:
 
 {:.post-content}
