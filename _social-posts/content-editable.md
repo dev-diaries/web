@@ -19,10 +19,10 @@ Using a content editable div gives you more flexibility than just using an
 input or textarea as you can put other elements in a contenteditable div. 
 
 {% highlight html %}
-<div contentEditable="true">Change me! This content can be changed</div>
+<div contentEditable="true">Click or tap on me to change my content. You can then type in anything you want.</div>
 {% endhighlight %}
 
-<div contentEditable="true">Change me! This content can be changed</div>
+<div contentEditable="true">Click or tap on me to change my content. You can then type in anything you want.</div>
 
 {:.post-content}
 Using Javascript you can add an event onto the content editable element
@@ -41,6 +41,26 @@ Read more about it <a href="{{page.docs}}" target="_blank">here</a>.
 {:.post-content}
 There is quite a bit written about content editable on the web and it's inconsistencies
 so be sure to read up about it before using it for a rich text editor for example.
+
+{:.post-content}
+Looking for a list of full blown content editors? Check some of these out:
+
+{:.post-content}
+* <a href="https://github.com/basecamp/trix" target="_blank">Trix</a>. <a href="http://trix-editor.org/" target="_blank">demo</a>
+* <a href="https://github.com/neilj/Squire" target="_blank">Squire</a>
+* <a href="http://prosemirror.net/" target="_blank">ProseMirror</a>
+* <a href="https://github.com/guardian/scribe" target="_blank">Scribe</a>
+* <a href="http://ckeditor.com/" target="_blank">CKEditor</a>
+* <a href="http://quilljs.com/" target="_blank">Quill</a>
+* <a href="http://summernote.org/" target="_blank">Summernote</a>
+* <a href="http://wysihtml.com/" target="_blank">wysihtml</a>
+* <a href="http://etherpad.org/" target="_blank">Etherpad</a>
+* <a href="http://www.tinymce.com/" target="_blank">TinyMCE</a>
+* <a href="https://textbox.io/" target="_blank">Textbox.IO</a>
+* <a href="https://www.froala.com/wysiwyg-editor" target="_blank">Froala</a>
+* <a href="http://imperavi.com/redactor/" target="_blank">Redactor</a>
+* <a href="http://jakiestfu.github.io/Medium.js/docs/" target="_blank">Medium.js</a>
+
 
 {% if page.instagram-id %}
 {:.center}
