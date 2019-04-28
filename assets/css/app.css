@@ -5359,6 +5359,8 @@ main.home .site-navigation {
     background-color: inherit; }
   .post .highlight * {
     font-family: 'Inconsolata', monospace; }
+  .post .highlight .c1 {
+    color: lightgray; }
 
 .post .camera-api--video {
   max-width: 50vw;
