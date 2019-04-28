@@ -13,14 +13,17 @@
 .post a:hover {
   color: #7ABFE8; }
 
-.post h2 {
+.post h2, .post h3 {
   color: #AEAEAE;
-  font-weight: lighter;
   padding: 10px 0; }
 
 @media (max-width: 48em) {
   .post .content ul.post-content > li {
     margin-left: 25px; } }
+
+.post .content li > ul {
+  left: 3em;
+  position: relative; }
 
 .post .no-style ul {
   list-style: none; }
