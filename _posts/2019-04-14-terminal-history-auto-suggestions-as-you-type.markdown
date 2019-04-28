@@ -120,6 +120,21 @@ And finally, let's install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 {% endhighlight %}
 
+{:.post-content}
+If you get an error that says:
+
+{% highlight bash %}
+invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+{% endhighlight %}
+
+{:.post-content}
+You need to install xcode's devleoper tools before you can install oh-my-zsh. Run this
+in your terminal:
+
+{% highlight bash %}
+xcode-select --install
+{% endhighlight %}
+
 ## Installing Autosuggestions & histdb
 
 {:.post-content}
