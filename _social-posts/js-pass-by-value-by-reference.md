@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Is Javascript pass by reference or pass by value? In fact, it’s a little bit of both."
 date: 2019-04-28
 categories: [advanced, javascript, objects]
-instagram-id: 
+instagram-id: Bwy9SbBBwHG
 docs: 
 ---
 {:.center}
