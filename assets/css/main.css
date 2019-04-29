@@ -60,8 +60,15 @@ main.home .site-navigation {
     main.home .site-navigation .social-posts:hover {
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
-header.cat-header {
+.post-header {
   padding: 50px;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 10px; }
+
+header.cat-header {
+  padding: 40px;
   color: #707070;
   text-align: center; }
   header.cat-header .post-header {
@@ -84,11 +91,11 @@ header.cat-header {
 
 .posts {
   padding-top: 50px; }
+  @media (max-width: 48em) {
+    .posts > * + .post {
+      border-top: 1px solid #cccccc; } }
   .posts .post {
     padding: 20px 0; }
-    @media (max-width: 48em) {
-      .posts .post:not(:last-of-type) {
-        border-bottom: 1px solid #cccccc; } }
     .posts .post:hover {
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 

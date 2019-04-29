@@ -157,6 +157,10 @@
         }
     }
 
+    code {
+        font-family: 'Inconsolata', monospace;
+    }
+
     .camera-api {
         &--video {
             max-width: 50vw;

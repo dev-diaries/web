@@ -117,6 +117,9 @@
   .post .highlight .c1 {
     color: lightgray; }
 
+.post code {
+  font-family: 'Inconsolata', monospace; }
+
 .post .camera-api--video {
   max-width: 50vw;
   border-radius: 25px; }

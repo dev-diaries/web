@@ -79,7 +79,8 @@ them down into valid css files. So we'll add in a npm script to handle that:
 
 {:.post-content}
 Curious what npx is? <a href="https://blog.npmjs.org/post/162869356040/introducing-npx-an-npm-package-runner" target="_blank">Read about it here</a>
-Basically it allows us a quickly call a node package and in this case call a local package.
+Basically it allows us a quickly call a node package and in this case call a local package. 
+We don't even have to write npx at the beginning since we're calling it via a npm script so could also just write `node-sass -w scss/app.scss -o assets/css/`.
 We then tell node-sass to watch our scss file app.scss and output the result
 into our assets directory inside the css directory. Let's make some scss files
 
