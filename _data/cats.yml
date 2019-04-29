@@ -7,3 +7,7 @@ guest-post:
 css:
     description: All posts about CSS so you can be 💯 in your CSS skills!
     pinterest: https://www.pinterest.com/devdiaries/css-html-tips/
+
+linux:
+    description: All linux and command line posts. Get more efficient in the terminal!
+    pinterest: https://www.pinterest.com/devdiaries/command-line-tips/
