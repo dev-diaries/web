@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "A SymLink in Linux is a special kind of file that points to an actual file or directory."
 date: 2019-04-29
 categories: [intermediate, linux, file-system]
-instagram-id: 
+instagram-id: Bw2eNhIBAiv
 docs: http://man7.org/linux/man-pages/man1/ln.1.html
 ---
 {:.center}

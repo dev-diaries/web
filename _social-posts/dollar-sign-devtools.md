@@ -6,7 +6,7 @@ cover-image: /assets/images/dollar-sign-devtools-cover.png
 image: /assets/images/dollar-sign-debugging.gif
 excerpt: "The dollar sign in the devtools can come in handy as a debugging tool."
 date: 2019-04-08
-categories: [intermediate, debugging, chrome-dev-tools]
+categories: [intermediate, debugging, chrome-dev-tools, dev-tools]
 instagram-id: BwAZenqBF92
 docs: https://developers.google.com/web/tools/chrome-devtools/console/utilities
 ---
