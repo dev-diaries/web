@@ -15,3 +15,19 @@ linux:
 internetting:
     description: Become better at the internet with these internetting tips.
     pinterest: https://www.pinterest.com/devdiaries/internetting-tips/
+
+git:
+    description: Don't stop git it, git it with these Git tips.
+    pinterest: https://www.pinterest.com/devdiaries/git-tips/
+
+dev-tools:
+    description: Learn the ins and outs of the browser dev tools with these tips.
+    pinterest: https://www.pinterest.com/devdiaries/browser-dev-tool-tips/
+
+chrome-dev-tools:
+    description: Learn the ins and outs of the Google Chrome dev tools with these tips.
+    pinterest: https://www.pinterest.com/devdiaries/browser-dev-tool-tips/
+
+javascript:
+    description: Level up with your javascript skills with these tips and tidbits.
+    pinterest: https://www.pinterest.com/devdiaries/javascript-tips/
