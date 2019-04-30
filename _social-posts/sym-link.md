@@ -1,7 +1,7 @@
 ---
 layout: social-post
 type: "SocialPosts"
-title: "SymLink in Linux"
+title: "Creating SymLinks in Linux"
 cover-image: /assets/images/symlinks-cover.png
 image: /assets/images/.gif
 excerpt: "A SymLink in Linux is a special kind of file that points to an actual file or directory."
