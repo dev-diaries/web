@@ -31,3 +31,13 @@ chrome-dev-tools:
 javascript:
     description: Level up with your javascript skills with these tips and tidbits.
     pinterest: https://www.pinterest.com/devdiaries/javascript-tips/
+
+beginner:
+    description: All the topics that we've covered for a beginner
+    pinterest: https://www.pinterest.com/devdiaries/learn-to-program/
+
+intermediate:
+    description: All the topics that we've covered at an intermediate level
+
+advanced:
+    description: Oh, you fancy huh? All the tips for an advanced developer.
