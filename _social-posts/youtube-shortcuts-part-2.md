@@ -5,7 +5,7 @@ title: "Youtube Website Shortcuts Part 2"
 cover-image: /assets/images/youtube-part2-cover-1.png
 excerpt: "Learn even more Youtube website shortcuts to make your video watching 🔥"
 date: 2019-05-02
-categories: [beginner, youtube, videos, internetting]
+categories: [beginner, youtube, videos, internetting, keyboard-shortcuts, shortcuts]
 instagram-id: 
 docs: https://support.google.com/youtube/answer/7631406?hl=en
 ---

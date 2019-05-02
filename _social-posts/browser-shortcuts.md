@@ -5,7 +5,7 @@ title: "Browser shortcuts: Part 1"
 image: /assets/images/browser-shortcuts.png
 excerpt: "BizDev: web browser tips: there are some shortcuts that work in all browsers"
 date: 2019-03-19
-categories: [biz-dev, browser, shortcuts, efficiency, chrome, firefox, internetting]
+categories: [biz-dev, browser, shortcuts, efficiency, chrome, firefox, internetting, keyboard-shortcuts]
 instagram-id: BvM3G5zALAC
 docs: 
 ---
