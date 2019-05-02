@@ -22,6 +22,7 @@ Become more efficient while binge watching videos with these #shortcuts!
 
 {:.post-content}
 Read more about it <a href="{{page.docs}}" target="_blank">here</a>
+Want even more shortcuts? Check out our [part two of youtube shortcuts](/social-posts/youtube-shortcuts-part-2/)
 
 {% if page.instagram-id %}
 {:.center}
