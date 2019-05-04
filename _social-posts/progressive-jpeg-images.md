@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "If you have high quality images that might be slow to load, you might want to use a progressive jpeg which can decrease load time for your website and improve the userexperience"
 date: 2019-05-04
 categories: [advanced, images, usability, website-speed]
-instagram-id: 
+instagram-id: BxDQ7AOBmZP
 docs: https://www.thewebmaster.com/dev/2016/feb/10/how-progressive-jpegs-can-speed-up-your-website/
 ---
 {:.center}
