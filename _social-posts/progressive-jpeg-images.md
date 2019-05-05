@@ -4,7 +4,7 @@ type: "SocialPosts"
 title: "Use Progressive JPEGS To Improve Your Website Load Time"
 cover-image: /assets/images/progressive-image-cover.png
 image: /assets/images/.gif
-excerpt: "If you have high quality images that might be slow to load, you might want to use a progressive jpeg which can decrease load time for your website and improve the userexperience"
+excerpt: "If you have high quality images that might be slow to load, you might want to use a progressive jpeg which can decrease load time for your website and improve the user experience"
 date: 2019-05-04
 categories: [advanced, images, usability, website-speed]
 instagram-id: BxDQ7AOBmZP

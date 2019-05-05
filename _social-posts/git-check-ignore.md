@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "You can use the git check-ignore command to verify if your file is gitnored."
 date: 2019-05-01
 categories: [advanced, git]
-instagram-id: 
+instagram-id: Bw7tSuahEKP
 docs: https://git-scm.com/docs/git-check-ignore
 ---
 {:.center}
