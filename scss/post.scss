@@ -84,6 +84,10 @@
         padding-top: 15px;
     }
 
+    audio, canvas {
+        display: block;
+    }
+
     .content {
         padding: 50px;
         overflow: hidden;

@@ -59,6 +59,9 @@
 .post .post-date {
   padding-top: 15px; }
 
+.post audio, .post canvas {
+  display: block; }
+
 .post .content {
   padding: 50px;
   overflow: hidden;
