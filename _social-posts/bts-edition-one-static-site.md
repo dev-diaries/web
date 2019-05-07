@@ -61,6 +61,8 @@ Cloudfront invalidation as well. We then run a script to build the site, we push
 
 {:.post-content}
 Read more about Travis CI <a href="https://docs.travis-ci.com/" target="_blank">here</a>
+Our site is open source, so check out the <a href="http://github.com/dev-diaries/web" target="_blank">repo</a>
+if you want to see the code!
 
 {% if page.instagram-id %}
 {:.center}
