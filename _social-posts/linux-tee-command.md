@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Ever wanted to copy a file to multiple sources in the command line all in one command? You can use the linux tee command."
 date: 2019-05-06
 categories: [advanced, linux, file-system]
-instagram-id: 
+instagram-id: BxHFkJVBmog
 docs: http://man7.org/linux/man-pages/man1/tee.1.html
 ---
 {:.center}
