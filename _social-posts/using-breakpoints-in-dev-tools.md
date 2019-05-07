@@ -4,7 +4,7 @@ type: "SocialPosts"
 title: "Using Breakpoints In Dev Tools"
 cover-image: /assets/images/breakpoints-cover.png
 image: /assets/images/.gif
-excerpt: "Using breakpoints in the GoogleChrome or Firefox devtools is one of the best ways to debug applications in javascript."
+excerpt: "Using breakpoints in the Google Chrome or Firefox devtools is one of the best ways to debug applications in javascript."
 date: 2019-05-07
 categories: [advanced, javascript, dev-tools, chrome-dev-tools, firefox-dev-tools, debugging]
 instagram-id: 
@@ -14,10 +14,10 @@ docs:
 # {{ page.title }}
 
 {:.post-content}
-Using breakpoints in the GoogleChrome or Firefox devtools is one of the best ways to debug applications in javascript.
+Using breakpoints in the Google Chrome or Firefox devtools is one of the best ways to debug applications in javascript.
 A breakpoint is a point of code where the debugger will automatically pause the JavaScript execution. 
-Breakpoints can give you deeper insight into objects, and allow you to have deeper insight into a 
-bug because you can examine current variables, execute commands in the console and whatever 
+Breakpoints can give you deeper insight into objects, and let you debug easier 
+because you can examine current variables, execute commands in the console and do whatever 
 else you want to do to debug your application. How do we set breakpoints in dev tools?
 
 {:.post-content}
