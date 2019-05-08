@@ -1,7 +1,7 @@
 ---
 layout: social-post
 type: "SocialPosts"
-title: "Behind The Scenes: Edition 1 - Static Sites"
+title: "Behind The Scenes: Edition 1 - Deploying Static Sites"
 cover-image: /assets/images/behind-the-scenes-cover-1.png
 image: /assets/images/bts-1-example.gif
 excerpt: "Today we’re switching it up a bit and going #bts for the dev-diaries.com website."
@@ -14,10 +14,10 @@ docs:
 # {{ page.title }}
 
 {:.post-content}
-Today we’re switching it up a bit and going #bts for the our website.
+Today we’re switching it up a bit and going #bts for our website.
 This site is created using a static site generator called jekyll. 
-Static sites are great because it is just served using static html, javascript, 
-and css and are extremely fast as a result and easy to scale. In fact the 
+Static sites are great because the site is served using static html, javascript, 
+and css and are extremely fast as a result and easy to scale. In fact 
 this site is just served from AWS S3 and uses a CDN (Content Delivery Network), 
 Cloudfront to serve it. Every time we make a new post, a new file is created 
 with some tags and some content and it is then pushed to Github. From Github, 
@@ -62,7 +62,8 @@ Cloudfront invalidation as well. We then run a script to build the site, we push
 {:.post-content}
 Read more about Travis CI <a href="https://docs.travis-ci.com/" target="_blank">here</a>
 Our site is open source, so check out the <a href="http://github.com/dev-diaries/web" target="_blank">repo</a>
-if you want to see the code!
+if you want to see the code! This <a href="https://medium.com/@michal.frystacky/static-site-github-to-s3-770953a90f67" target="_blank">Medium</a>
+article is a good guide if you want get setup yourself.
 
 {% if page.instagram-id %}
 {:.center}
