@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Speed up your Google Docs workflow by becoming familiar with these keyboard shortcuts 🔥."
 date: 2019-05-10
 categories: [intermediate, keyboard-shortcuts, internetting, google-docs, documentation, biz-dev]
-instagram-id: 
+instagram-id: BxSH5yKBct9
 docs: https://support.google.com/docs/answer/179738?hl=en
 ---
 {:.center}
