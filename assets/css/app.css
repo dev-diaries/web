@@ -5063,7 +5063,7 @@ a {
   background-position: center;
   height: 50vh;
   position: relative;
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg-progressive.jpg");
   opacity: 0.9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
@@ -5206,10 +5206,22 @@ main.home .site-navigation {
 
 .post-header {
   padding: 50px;
-  color: #707070;
+  text-align: center;
   font-weight: 500;
   text-transform: uppercase;
+  padding-bottom: 10px; }
+
+header.cat-header {
+  padding: 40px;
+  color: #707070;
   text-align: center; }
+  header.cat-header .post-header {
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 10px; }
+  header.cat-header .cat-subheader {
+    font-weight: 400;
+    font-size: 1.1em; }
 
 .cats {
   padding-top: 10px; }
@@ -5223,11 +5235,11 @@ main.home .site-navigation {
 
 .posts {
   padding-top: 50px; }
+  @media (max-width: 48em) {
+    .posts > * + .post {
+      border-top: 1px solid #cccccc; } }
   .posts .post {
     padding: 20px 0; }
-    @media (max-width: 48em) {
-      .posts .post:not(:last-of-type) {
-        border-bottom: 1px solid #cccccc; } }
     .posts .post:hover {
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); }
 
@@ -5307,6 +5319,9 @@ main.home .site-navigation {
 .post .post-date {
   padding-top: 15px; }
 
+.post audio, .post canvas {
+  display: block; }
+
 .post .content {
   padding: 50px;
   overflow: hidden;
@@ -5364,6 +5379,9 @@ main.home .site-navigation {
     font-family: 'Inconsolata', monospace; }
   .post .highlight .c1 {
     color: lightgray; }
+
+.post code {
+  font-family: 'Inconsolata', monospace; }
 
 .post .camera-api--video {
   max-width: 50vw;

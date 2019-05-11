@@ -18,7 +18,8 @@
     "@fortawesome/fontawesome-free": "^5.7.2",
     "mocha": "*",
     "node-sass": "^4.11.0",
-    "should": "latest"
+    "should": "latest",
+    "tar": "^4.4.2"
   },
   "dependencies": {
     "gridlex": "^2.7.1",

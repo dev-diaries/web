@@ -89,6 +89,10 @@
         padding-top: 15px;
     }
 
+    audio, canvas {
+        display: block;
+    }
+
     .content {
         padding: 50px;
         overflow: hidden;
@@ -160,6 +164,10 @@
         .c1 {
             color: lightgray;
         }
+    }
+
+    code {
+        font-family: 'Inconsolata', monospace;
     }
 
     .camera-api {

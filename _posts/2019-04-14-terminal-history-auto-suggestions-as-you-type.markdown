@@ -120,6 +120,28 @@ And finally, let's install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 {% endhighlight %}
 
+{:.post-content}
+If you get an error that says:
+
+{% highlight bash %}
+invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+{% endhighlight %}
+
+{:.post-content}
+You need to install xcode's devleoper tools before you can install oh-my-zsh. Run this
+in your terminal:
+
+{% highlight bash %}
+xcode-select --install
+{% endhighlight %}
+
+{:.post-content}
+Let's make sure zsh is our default shell:
+
+{% highlight bash %}
+chsh -s $(which zsh)
+{% endhighlight %}
+
 ## Installing Autosuggestions & histdb
 
 {:.post-content}
@@ -138,7 +160,9 @@ nano ~/.zshrc
 
 {:.post-content}
 Let's add it as a plugin by adding or editing this line. If you have more than one plugin 
-they need to be separated by a space.
+they need to be separated by a space. Be sure to check your `.zshrc` file as there
+might already be a plugins line there. If so, just add `zsh-autosuggestions` to the plugins
+with a space separating any other ones there already.
 
 {% highlight bash %}
 plugins=(zsh-autosuggestions)

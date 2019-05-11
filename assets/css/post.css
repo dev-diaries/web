@@ -62,6 +62,9 @@
 .post .post-date {
   padding-top: 15px; }
 
+.post audio, .post canvas {
+  display: block; }
+
 .post .content {
   padding: 50px;
   overflow: hidden;
@@ -119,6 +122,9 @@
     font-family: 'Inconsolata', monospace; }
   .post .highlight .c1 {
     color: lightgray; }
+
+.post code {
+  font-family: 'Inconsolata', monospace; }
 
 .post .camera-api--video {
   max-width: 50vw;

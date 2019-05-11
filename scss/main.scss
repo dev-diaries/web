@@ -84,10 +84,27 @@ main.home {
 
 .post-header {
     padding: 50px;
-    color: $gray;
+    text-align: center;
     font-weight: 500;
     text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+header.cat-header {
+    padding: 40px;
+    color: $gray;
     text-align: center;
+
+    .post-header {
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+
+    .cat-subheader {
+        font-weight: 400;
+        font-size: 1.1em;
+    }
 }
 
 .cats {
@@ -107,13 +124,13 @@ main.home {
 
 .posts {
     padding-top: 50px;
+    > * + .post {
+        @media (max-width: $mobile) {
+            border-top: 1px solid #cccccc;
+        }
+    }
     .post {
         padding: 20px 0;
-        &:not(:last-of-type) {
-            @media (max-width: $mobile) {
-                border-bottom: 1px solid #cccccc;
-            }
-        }
         &:hover {
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
         }

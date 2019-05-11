@@ -5,7 +5,7 @@ date:   2019-03-20 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/snapshot.jpg
 demo: /assets/images/scss-in-three.gif
-categories: [html5, javascript, how-to, facial-recognition]
+categories: [html, javascript, how-to, facial-recognition]
 script: /assets/js/camera-api.js
 excerpt: "Using the User Media HTML5 (Camera) API you can take a picture using the user’s camera and use that on your webpage"
 ---
