@@ -5278,12 +5278,19 @@ header.cat-header {
   .post .content ul.post-content > li {
     margin-left: 25px; } }
 
-.post .content li > ul {
+.post .content li {
   left: 3em;
   position: relative; }
+  @media (max-width: 48em) {
+    .post .content li {
+      left: 1em;
+      max-width: 80%; } }
 
 .post .no-style ul {
   list-style: none; }
+
+.post .top-space {
+  padding-top: 30px; }
 
 .post .image img {
   max-width: 75vw;
@@ -5337,6 +5344,16 @@ header.cat-header {
       margin-right: auto;
       margin-left: auto;
       max-width: 700px; }
+      .post .content * li, .post .content figure li, .post .content :not(.image) li {
+        left: 3em;
+        position: relative; }
+        .post .content * li > ul > li, .post .content figure li > ul > li, .post .content :not(.image) li > ul > li {
+          margin-left: 0;
+          max-width: 80%; } }
+    @media (min-width: 48em) and (max-width: 48em) {
+      .post .content * li, .post .content figure li, .post .content :not(.image) li {
+        left: 1em; } }
+  @media (min-width: 48em) {
     .post .content .image, .post .content img {
       margin: auto;
       max-width: initial; } }

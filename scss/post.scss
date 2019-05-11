@@ -34,15 +34,21 @@
             }
         }
         li {
-            > ul {
-                left: 3em;
-                position: relative;
+            left: 3em;
+            position: relative;
+            @media (max-width: $mobile) {
+                left: 1em;
+                max-width: 80%;
             }
         }
     }
 
     .no-style ul {
         list-style: none;
+    }
+
+    .top-space {
+        padding-top: 30px;
     }
 
     .image {
@@ -109,6 +115,17 @@
                 margin-right: auto;
                 margin-left: auto;
                 max-width: 700px;
+                li {
+                    left: 3em;
+                    position: relative;
+                    > ul > li {
+                        margin-left: 0;
+                        max-width: 80%;
+                    }
+                    @media (max-width: $mobile) {
+                        left: 1em;
+                    }
+                }
             }
             .image, img {
                 margin: auto;
