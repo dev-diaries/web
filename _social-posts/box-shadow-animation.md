@@ -94,9 +94,9 @@ and 2px blur-radius, with a color of gray or rgba(0,0,0,0.15).
 Next we create a pseudo element that is invisible at the beginning but when 
 animated will receive the change. We animate the opacity because that causes
 the browser to do the least amount of repaints. A repaint is performed by the browser 
-occurs when changes are made to an elements skin that changes visibility, but do not affect its layout. 
-You can see which css elements cause the least amount of browser adjustments <a href="https://csstriggers.com/" target="_blank">here</a>
-In the pseduo element we increase the box shadow and make it invisible by
+and occurs when changes are made to an elements skin that changes visibility, but do not affect its layout. 
+You can see which css elements cause the least amount of browser adjustments <a href="https://csstriggers.com/" target="_blank">here.</a>
+In the pseudo element we increase the box shadow and make it invisible by
 giving it an opacity of 0.
 
 {% highlight css %}
