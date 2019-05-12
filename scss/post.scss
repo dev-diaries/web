@@ -20,9 +20,8 @@
         color: $dd-blue;
     }
 
-    h2 {
+    h2, h3 {
         color: $lt-gray;
-        font-weight: lighter;
         padding: 10px 0;
     }
 
@@ -34,10 +33,22 @@
                 }
             }
         }
+        li {
+            left: 3em;
+            position: relative;
+            @media (max-width: $mobile) {
+                left: 1em;
+                max-width: 80%;
+            }
+        }
     }
 
     .no-style ul {
         list-style: none;
+    }
+
+    .top-space {
+        padding-top: 30px;
     }
 
     .image {
@@ -84,6 +95,10 @@
         padding-top: 15px;
     }
 
+    audio, canvas {
+        display: block;
+    }
+
     .content {
         padding: 50px;
         overflow: hidden;
@@ -100,6 +115,17 @@
                 margin-right: auto;
                 margin-left: auto;
                 max-width: 700px;
+                li {
+                    left: 3em;
+                    position: relative;
+                    > ul > li {
+                        margin-left: 0;
+                        max-width: 80%;
+                    }
+                    @media (max-width: $mobile) {
+                        left: 1em;
+                    }
+                }
             }
             .image, img {
                 margin: auto;
@@ -152,6 +178,13 @@
         * {
             font-family: 'Inconsolata', monospace;
         }
+        .c1 {
+            color: lightgray;
+        }
+    }
+
+    code {
+        font-family: 'Inconsolata', monospace;
     }
 
     .camera-api {

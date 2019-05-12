@@ -6,7 +6,7 @@ cover-image: /assets/images/copy-from-dev-tools-cover.png
 image: /assets/images/copy-dev-tools.gif
 excerpt: "A very handy debugging tool is to use the 'copy' function in dev tools."
 date: 2019-04-15
-categories: [advanced, chrome-dev-tools, shortcuts, debugging]
+categories: [advanced, chrome-dev-tools, shortcuts, debugging, firefox-dev-tools, dev-tools]
 instagram-id: BwSa8xvBlDh
 docs: https://developers.google.com/web/tools/chrome-devtools/console/utilities
 ---

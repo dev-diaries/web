@@ -13,17 +13,27 @@
 .post a:hover {
   color: #7ABFE8; }
 
-.post h2 {
+.post h2, .post h3 {
   color: #AEAEAE;
-  font-weight: lighter;
   padding: 10px 0; }
 
 @media (max-width: 48em) {
   .post .content ul.post-content > li {
     margin-left: 25px; } }
 
+.post .content li {
+  left: 3em;
+  position: relative; }
+  @media (max-width: 48em) {
+    .post .content li {
+      left: 1em;
+      max-width: 80%; } }
+
 .post .no-style ul {
   list-style: none; }
+
+.post .top-space {
+  padding-top: 30px; }
 
 .post .image img {
   max-width: 75vw;
@@ -59,6 +69,9 @@
 .post .post-date {
   padding-top: 15px; }
 
+.post audio, .post canvas {
+  display: block; }
+
 .post .content {
   padding: 50px;
   overflow: hidden;
@@ -74,6 +87,16 @@
       margin-right: auto;
       margin-left: auto;
       max-width: 700px; }
+      .post .content * li, .post .content figure li, .post .content :not(.image) li {
+        left: 3em;
+        position: relative; }
+        .post .content * li > ul > li, .post .content figure li > ul > li, .post .content :not(.image) li > ul > li {
+          margin-left: 0;
+          max-width: 80%; } }
+    @media (min-width: 48em) and (max-width: 48em) {
+      .post .content * li, .post .content figure li, .post .content :not(.image) li {
+        left: 1em; } }
+  @media (min-width: 48em) {
     .post .content .image, .post .content img {
       margin: auto;
       max-width: initial; } }
@@ -114,6 +137,11 @@
     background-color: inherit; }
   .post .highlight * {
     font-family: 'Inconsolata', monospace; }
+  .post .highlight .c1 {
+    color: lightgray; }
+
+.post code {
+  font-family: 'Inconsolata', monospace; }
 
 .post .camera-api--video {
   max-width: 50vw;

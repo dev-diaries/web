@@ -58,7 +58,9 @@
     "typescript-plugin-styled-components": "0.0.7",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "webpack-shell-plugin": "^0.5.0"
+    "webpack-shell-plugin": "^0.5.0",
+    "should": "latest",
+    "tar": "^4.4.2"
   },
   "dependencies": {
     "gridlex": "^2.7.1",
