@@ -5219,12 +5219,18 @@ main.home .site-navigation {
       transition: width 1s ease-in-out;
       outline: none;
       border: 2px solid #AEAEAE;
-      width: 20%;
+      width: 25%;
       padding: 5px;
       font-size: 1em; }
+      @media (max-width: 48em) {
+        main.home .site-navigation .search form input {
+          width: 50%; } }
       main.home .site-navigation .search form input:focus {
         border: 2px solid #7ABFE8;
-        width: 40%; }
+        width: 50%; }
+        @media (max-width: 48em) {
+          main.home .site-navigation .search form input:focus {
+            width: 90%; } }
 
 .post-header {
   padding: 50px;
