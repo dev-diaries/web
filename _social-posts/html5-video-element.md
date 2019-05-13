@@ -5,7 +5,7 @@ title: "HTML5 Video Element"
 cover-image: /assets/images/video-element-cover.png
 image: /assets/images/videos-of-videos
 excerpt: "The HTML5 video element is an easy and well supported way to play video on your website."
-date: 2019-05-12 19:13:12 +0800
+date: 2019-05-13
 categories: [intermediate, html, video, javascript, terminal]
 instagram-id: 
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
@@ -107,6 +107,8 @@ ffmpeg -i input.mp4 -c:v libvpx-vp9 -crf 30 -b:v 0 -b:a 128k -c:a libopus output
 
 {:.post-content}
 Read more about the video element <a href="{{page.docs}}" target="_blank">here</a>.
+Check this <a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/" target="_blank">article</a>
+with recommendations on how to replace GIF's with video.
 
 {% if page.instagram-id %}
 {:.center}
