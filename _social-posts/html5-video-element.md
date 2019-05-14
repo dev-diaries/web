@@ -7,7 +7,7 @@ image: /assets/images/videos-of-videos
 excerpt: "The HTML5 video element is an easy and well supported way to play video on your website."
 date: 2019-05-13
 categories: [intermediate, html, video, javascript, terminal]
-instagram-id: 
+instagram-id: BxZHBTGA8pg
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 script: /assets/js/video-element.js
 ---
