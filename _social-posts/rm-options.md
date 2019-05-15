@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Using the “rm” linux command allows you to delete a file or a directory"
 date: 2019-05-15
 categories: [intermediate, linux, removal, file-system, system-management]
-instagram-id: 
+instagram-id: BxeQk43CRHU
 docs: http://man7.org/linux/man-pages/man1/rm.1.html
 ---
 {:.center}
