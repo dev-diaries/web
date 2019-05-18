@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "As a web developer searching Stackoverflow is a common occurrence. Take advantage of their search and advanced search rules to make your queries more efficient"
 date: 2019-05-18
 categories: [intermediate, stackoverflow, search]
-instagram-id: 
+instagram-id: BxmXhgXCoYt
 docs: https://stackoverflow.com/help/searching
 ---
 {:.center}
