@@ -7,7 +7,7 @@ image: /assets/images/logargs-cover.png
 excerpt: "Javascript template literals were a welcome addition in ES6, and tagged template literals are a powerful feature that came along with it."
 date: 2019-05-21
 categories: [javascript, interpolation]
-instagram-id: 
+instagram-id: BxvB3_jieLZ
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates
 ---
 {:.center}
