@@ -14,7 +14,7 @@ docs: https://imagemagick.org/script/command-line-options.php
 # {{ page.title }}
 
 {:.post-content}
-We’ve mentioned it before when we talked about [progressive jpegs](social-posts/progressive-jpeg-images/). Knowing some 
+We’ve mentioned it before when we talked about [progressive jpegs](/social-posts/progressive-jpeg-images/). Knowing some 
 basic commands can save you time and allow you to stay in the terminal.
 
 {:.post-content}
