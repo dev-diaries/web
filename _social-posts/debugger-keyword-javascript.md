@@ -7,7 +7,7 @@ image: /assets/images/debugger-screenshot.png
 excerpt: "The debugger keyword is an accepted automatic breakpoint setter in almost all browsers."
 date: 2019-05-23
 categories: [advanced, debugging, javascript, dev-tools]
-instagram-id: 
+instagram-id: Bxy3fbqiCpI
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger
 ---
 {:.center}
