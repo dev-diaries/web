@@ -6,7 +6,7 @@ image: /assets/images/spotify.png
 excerpt: "Did you know the Spotify App has keyboard shortcuts?"
 date: 2019-05-25
 categories: [beginner, internetting, spotify, music]
-instagram-id: 
+instagram-id: Bx5Lmryi_p3
 docs: https://support.spotify.com/no/article/Keyboard-shortcuts/
 ---
 {:.center}
