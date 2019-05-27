@@ -19,10 +19,29 @@ Rem bases its size upon the root html element. This is advantageous for ends use
 ![overview]({{page.image}})
 
 {:.post-content}
-Check out our <a href="https://codepen.io/the_dev_diaries/pen/BMOWoM" target="_blank">codepen</a>.
+Curious why em's are preferred to pixels? If a user changes their browser's
+default font size pixels won't be reactive to this change and this could throw
+off the webpages widths.
+
+{:.post-content}
+Here is a quick video showing the result when using em vs pixel based media
+queries to determine the size of an element:
+
+{:.image .center}
+![video](/assets/images/browser-width.gif)
+
+{:.post-content}
+If the user changes their browser font-size the media query should change along with
+it to maintain perspective. Pixels do not make this adjustment.
+
+{:.post-content}
+Check out this <a href="https://codepen.io/nwalton3/pen/xvnHy/" target="_blank">codepen</a>
+to see the code behind it.
 
 {:.post-content}
 Read more about the reasoning behind it <a href="{{page.docs}}" target="_blank">here</a>
+This <a href="https://stackoverflow.com/questions/22228568/switching-to-em-based-media-queries" target="_blank">Stackoverflow</a>
+answer has some nice info as well.
 
 {% if page.instagram-id %}
 {:.center}
