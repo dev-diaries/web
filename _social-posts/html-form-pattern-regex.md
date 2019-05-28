@@ -7,7 +7,7 @@ image: /assets/images/form-validation.gif
 excerpt: "Using some quick regex you can create a validation check for your form's input."
 date: 2019-05-27
 categories: [advanced, html, forms, input]
-instagram-id: 
+instagram-id: Bx-kI01nSSZ 
 docs: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation#Validating_against_a_regular_expression
 ---
 {:.center}
