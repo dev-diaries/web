@@ -1,20 +1,20 @@
 ---
 layout: social-post
 type: "SocialPosts"
-title: "Object Deconstructing In Javascript"
+title: "Object Destructuring In Javascript"
 cover-image: /assets/images/object-deconstructing-cover.png
 image: /assets/images/.gif
 excerpt: "Object deconstructing is a convenient way to extract multiple values from objects and arrays."
 date: 2019-05-28
 categories: [advanced, objects, arrays, javascript]
-instagram-id: 
+instagram-id: ByBTKFWiKeE
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 ---
 {:.center}
 # {{ page.title }}
 
 {:.post-content}
-Object deconstructing is a convenient way to extract multiple values from objects
+Object destructuring is a convenient way to extract multiple values from objects
 and arrays. There are some handy ways to deconstruct an object:
 
 {:.post-content}
