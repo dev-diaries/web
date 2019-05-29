@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Need to copy some value from the command line or want to paste?"
 date: 2019-05-29
 categories: [intermediate, cli, terminal, shortcuts]
-instagram-id: 
+instagram-id: ByDv6Ksi-yJ
 docs: http://osxdaily.com/2007/03/05/manipulating-the-clipboard-from-the-command-line/
 ---
 {:.center}
