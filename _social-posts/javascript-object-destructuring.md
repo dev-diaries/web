@@ -2,9 +2,9 @@
 layout: social-post
 type: "SocialPosts"
 title: "Object Destructuring In Javascript"
-cover-image: /assets/images/object-deconstructing-cover.png
+cover-image: /assets/images/object-destructuring-cover.png
 image: /assets/images/.gif
-excerpt: "Object deconstructing is a convenient way to extract multiple values from objects and arrays."
+excerpt: "Object destructuring is a convenient way to extract multiple values from objects and arrays."
 date: 2019-05-28
 categories: [advanced, objects, arrays, javascript]
 instagram-id: ByBTKFWiKeE
