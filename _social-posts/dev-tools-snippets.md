@@ -7,7 +7,7 @@ image: /assets/images/adding-snippet.gif
 excerpt: "Using Chrome Dev Tools you can save and use snippets that can make your live a bit easier as a developer."
 date: 2019-05-30
 categories: [advanced, chrome-dev-tools, dev-tools]
-instagram-id: 
+instagram-id: ByGKamPi_eK
 docs: https://developers.google.com/web/tools/chrome-devtools/javascript/snippets
 ---
 {:.center}
