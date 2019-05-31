@@ -4,7 +4,7 @@ type: "SocialPosts"
 title: "Back To The Basics: Git Init & Git Branches"
 cover-image: /assets/images/git-init-cover.png
 image: /assets/images/.gif
-excerpt: "Git is one of the best tools out there to manage a codebase. Knowing how to initialize a new repo and being to work under different branches is essential to working in git."
+excerpt: "Git is one of the best tools out there to manage a codebase. Knowing how to initialize a new repo and being able to work under different branches is essential to working in git."
 date: 2019-05-31
 categories: [beginner, back-to-the-basics, git]
 instagram-id: 
@@ -95,7 +95,7 @@ any similarities once it has been branched off.
 
 {:.post-content}
 This is a very powerful and important concept and feature of git: being able
-to have two totally separate versions of your repository that are independent
+to have two (or more) totally separate versions of your repository that are independent
 and can be tracked with different files and states.
 
 {:.post-content}
