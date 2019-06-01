@@ -5,6 +5,7 @@ interface SearchProps {
 
 interface SearchState {
   active: boolean;
+  searchQuery: string;
 }
 
 class Search extends React.Component<SearchProps, SearchState> {
@@ -15,16 +16,13 @@ class Search extends React.Component<SearchProps, SearchState> {
   constructor(props: SearchProps) {
     super(props);
 
-    this.searchInput = null;
-
-    this.setTextInputRef = ((el: any) => {
-      this.searchInput = el;
-    });
+    this.searchInput = React.createRef();
 
     this.onDocumentKeyDown = this.onDocumentKeyDown.bind(this);
 
     this.state = {
-      active: false
+      active: false,
+      searchQuery: '',
     };
   }
 
@@ -32,46 +30,77 @@ class Search extends React.Component<SearchProps, SearchState> {
     document.addEventListener('keydown', this.onDocumentKeyDown);
   }
 
-  onFocus(e: any) {
+  onFocus(event: any) {
+    this.searchInput.current.value = '';
+
     this.setState({
       active: true
     });
   }
 
+  onBlur(event: any) {
+    this.setState({
+      active: false
+    });
+  }
+
+
+  /**
+   * On Document Key Down
+   * @desc catch a 191 (/) key press and if we're not in the search input
+   * prevent that from registering in the search input
+   *
+   */
   onDocumentKeyDown(e: any) {
+    const { active } = this.state;
+
     switch (e.keyCode) {
       case 191:
         this.focusSearch();
+        if (!active) {
+          e.preventDefault();
+        }
     }
   }
 
   onKeyDown(e: any) {
     switch (e.keyCode) {
       case 13:
-        this.submitSearch();
+        this.submitSearch(e);
     }
   }
 
   focusSearch() {
-    this.searchInput.focus();
-    console.log(this.searchInput)
-    // if doing this, the slash goes into the text input
+    this.searchInput.current.focus();
   }
 
-  submitSearch() {
+  submitSearch(e: any) {
     console.log('submit')
+    e.preventDefault();
+  }
+
+  inputChange(event: any) {
+    const target = event.target;
+
+    this.setState({
+      searchQuery: target.value,
+    });
   }
 
   render() {
+    const { searchQuery } = this.state;
+
     return (
       <span>
       <input
         type="text"
         name="search"
         placeholder="Search"
-        ref={this.setTextInputRef}
-        onFocus={(e) => this.onFocus(e)}
-        onKeyDown={(e) => this.onKeyDown(e)}
+        ref={this.searchInput}
+        onKeyDown={e => this.onKeyDown(e)}
+        onChange={e => this.inputChange(e)}
+        onFocus={e => this.onFocus(e)}
+        onBlur={e => this.onBlur(e)}
       />
       <i className="fa fa-search"></i>
       </span>
