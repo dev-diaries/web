@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Speed up your Google Sheets workflow by becoming familiar with these keyboard shortcuts"
 date: 2019-06-01
 categories: [intermediate, keyboard-shortcuts, internetting, google-sheets, biz-dev]
-instagram-id: 
+instagram-id: ByKTfcNCg8j
 docs: https://support.google.com/docs/answer/181110?hl=en&ref_topic=9055399
 ---
 {:.center}
