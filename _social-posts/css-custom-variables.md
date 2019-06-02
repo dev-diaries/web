@@ -102,6 +102,7 @@ width: var(--custom-width, 33%);
 
 {:.post-content}
 Read more about it <a href="{{page.docs}}" target="_blank">here</a>.
+Check the <a href="https://www.caniuse.com/#feat=css-variables" target="_blank">Can I Use report</a> to see details on browser support.
 
 {% if page.instagram-id %}
 {:.center}
