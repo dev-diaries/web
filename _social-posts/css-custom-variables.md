@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "CSS variables also known as custom properties recently received broader browser support to a point where they can be used without much thought (except in IE 11 👎)"
 date: 2019-06-02
 categories: [advanced, css, variables]
-instagram-id: 
+instagram-id: ByN2-jVCutl
 docs: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 ---
 {:.center}
