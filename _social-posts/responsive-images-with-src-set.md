@@ -2,9 +2,9 @@
 layout: social-post
 type: "SocialPosts"
 title: "Responsive Images With src set"
-cover-image: /assets/images/.png
+cover-image: /assets/images/srcset-cover.png
 image: /assets/images/.gif
-excerpt: ""
+excerpt: "Using srcset we can tell the browser which image to load to make our website faster and look better."
 date: 2019-06-03
 categories: [intermediate, html, images, responsiveness]
 instagram-id: 
