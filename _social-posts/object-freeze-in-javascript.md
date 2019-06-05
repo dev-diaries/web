@@ -6,7 +6,7 @@ image: /assets/images/object-freeze-cover.png
 excerpt: "Object.freeze() is useful to prevent an object from changing, so no new properties can be added to it, no existing properties can be removed, the enumerability can not be changed, and existing values of properties can not be changed."
 date: 2019-06-04
 categories: [advanced, javascript, objects]
-instagram-id: 
+instagram-id: ByTSBdyiXp5
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
 ---
 {:.center}
