@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "When you're dealing with Git, eventually you'll want to push your code to a remote repository. There are a few useful commands to be aware of."
 date: 2019-06-07
 categories: [intermediate, git, remote]
-instagram-id: 
+instagram-id: Bycao_UCmHC
 docs: https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 ---
 {:.center}
