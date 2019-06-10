@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "As a web developer, navigating the terminal should be second nature."
 date: 2019-06-09
 categories: [beginner, terminal, cli, back-to-the-basics]
-instagram-id: 
+instagram-id: ByfDyf1Anwt
 docs: 
 ---
 {:.center}
