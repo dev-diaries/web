@@ -15,7 +15,7 @@ docs: https://www.markdownguide.org/
 
 {:.post-content}
 Markdown is one of the most popular markup languages and is ubiquitous with web development.
-Once embraced, it is a powerful and easy to use language to write text. It's syntax
+Once embraced, it is a powerful and easy to use language to write text. Its syntax
 is relatively straight forward and a markdown document is fairly easy to convert
 to any other format. Let's get familiar with the syntax:
 
