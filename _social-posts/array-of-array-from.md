@@ -30,7 +30,7 @@ const argObj = Array.of({foo: 'bar'}, { bar: 'foo' }, [0]);
 {% endhighlight %}
 
 {:.post-content}
-Array.from let's you create an array from array like objects, which means objects with 
+Array.from lets you create an array from array like objects, which means objects with 
 a length property and indexed elements, or iterable objects (Map, Set).
 Array.from accepts as a second argument a map function that can operate over
 every item in the array and it also takes a third argument which can be used
