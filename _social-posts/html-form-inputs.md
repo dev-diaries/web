@@ -97,15 +97,15 @@ A  control for entering a number.
 <input type="number">
 
 {:.post-content}
-{% highlight html %}
 A single-line text field whose value is obscured. Use the maxlength and minlength attributes to specify the maximum length of the value that can be entered.
+{% highlight html %}
 <input type="password">
 {% endhighlight %}
 <input type="password">
 
 {:.post-content}
-{% highlight html %}
 A radio button, allowing a single value to be selected out of multiple choices.
+{% highlight html %}
 <input type="radio" name="pref" value="savory"> Savory
 <input type="radio" name="pref" value="sweet"> Sweet
 {% endhighlight %}
@@ -113,15 +113,15 @@ A radio button, allowing a single value to be selected out of multiple choices.
 <input type="radio" name="pref" value="sweet"> Sweet
 
 {:.post-content}
-{% highlight html %}
 A control for entering a number whose exact value is not important.
+{% highlight html %}
 <input type="range">
 {% endhighlight %}
 <input type="range">
 
 {:.post-content}
-{% highlight html %}
 A button that resets the contents of the form to default values.
+{% highlight html %}
 <form>
 Input 1<input type="text" name="input-1">
 Input 2<input type="text" name="input-2">
@@ -135,50 +135,50 @@ Input 2<input type="text" name="input-2">
 </form>
 
 {:.post-content}
-{% highlight html %}
 A single-line text field for entering search strings. Line-breaks are automatically removed from the input value.
+{% highlight html %}
 <input type="search">
 {% endhighlight %}
 <input type="search">
 
 {:.post-content}
-{% highlight html %}
 A button that submits the form.
+{% highlight html %}
 <input type="submit">
 {% endhighlight %}
 <input type="submit">
 
 {:.post-content}
-{% highlight html %}
 A control for entering a telephone number
+{% highlight html %}
 <input type="tel">
 {% endhighlight %}
 <input type="tel">
 
 {:.post-content}
-{% highlight html %}
 A single-line text field. Line-breaks are automatically removed from the input value.
+{% highlight html %}
 <input type="text">
 {% endhighlight %}
 <input type="text">
 
 {:.post-content}
-{% highlight html %}
 A control for entering a time value with no time zone
+{% highlight html %}
 <input type="time">
 {% endhighlight %}
 <input type="time">
 
 {:.post-content}
-{% highlight html %}
 A field for entering a URL.
+{% highlight html %}
 <input type="url">
 {% endhighlight %}
 <input type="url">
 
 {:.post-content}
-{% highlight html %}
 A control for entering a date consisting of a week-year number and a week number with no time zone.
+{% highlight html %}
 <input type="week">
 {% endhighlight %}
 <input type="week">
