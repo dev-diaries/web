@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "ES6 added a few static array methods which can come in handy."
 date: 2019-06-13
 categories: [intermediate, javascript, array]
-instagram-id: 
+instagram-id: ByqVXPOCDpj
 docs: 
 ---
 {:.center}
