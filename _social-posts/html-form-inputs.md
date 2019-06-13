@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "HTML5 has a number of different input types for specific purposes."
 date: 2019-06-12
 categories: [intermediate, html5, form]
-instagram-id: 
+instagram-id: ByntkBPC8KP
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 ---
 {:.center}
@@ -81,6 +81,107 @@ You can use the height and width attributes to define the size of the image in p
 <input type="image" src="/assets/images/send-image.png" width="50px">
 {% endhighlight %}
 <input type="image" src="/assets/images/send-image.png" width="50px">
+
+{:.post-content}
+A control for entering a month and year, with no time zone.
+{% highlight html %}
+<input type="month">
+{% endhighlight %}
+<input type="month">
+
+{:.post-content}
+A  control for entering a number.
+{% highlight html %}
+<input type="number">
+{% endhighlight %}
+<input type="number">
+
+{:.post-content}
+{% highlight html %}
+A single-line text field whose value is obscured. Use the maxlength and minlength attributes to specify the maximum length of the value that can be entered.
+<input type="password">
+{% endhighlight %}
+<input type="password">
+
+{:.post-content}
+{% highlight html %}
+A radio button, allowing a single value to be selected out of multiple choices.
+<input type="radio" name="pref" value="savory"> Savory
+<input type="radio" name="pref" value="sweet"> Sweet
+{% endhighlight %}
+<input type="radio" name="pref" value="savory"> Savory
+<input type="radio" name="pref" value="sweet"> Sweet
+
+{:.post-content}
+{% highlight html %}
+A control for entering a number whose exact value is not important.
+<input type="range">
+{% endhighlight %}
+<input type="range">
+
+{:.post-content}
+{% highlight html %}
+A button that resets the contents of the form to default values.
+<form>
+Input 1<input type="text" name="input-1">
+Input 2<input type="text" name="input-2">
+<input type="reset">
+</form>
+{% endhighlight %}
+<form>
+Input 1<input type="text" name="input-1">
+Input 2<input type="text" name="input-2">
+<input type="reset">
+</form>
+
+{:.post-content}
+{% highlight html %}
+A single-line text field for entering search strings. Line-breaks are automatically removed from the input value.
+<input type="search">
+{% endhighlight %}
+<input type="search">
+
+{:.post-content}
+{% highlight html %}
+A button that submits the form.
+<input type="submit">
+{% endhighlight %}
+<input type="submit">
+
+{:.post-content}
+{% highlight html %}
+A control for entering a telephone number
+<input type="tel">
+{% endhighlight %}
+<input type="tel">
+
+{:.post-content}
+{% highlight html %}
+A single-line text field. Line-breaks are automatically removed from the input value.
+<input type="text">
+{% endhighlight %}
+<input type="text">
+
+{:.post-content}
+{% highlight html %}
+A control for entering a time value with no time zone
+<input type="time">
+{% endhighlight %}
+<input type="time">
+
+{:.post-content}
+{% highlight html %}
+A field for entering a URL.
+<input type="url">
+{% endhighlight %}
+<input type="url">
+
+{:.post-content}
+{% highlight html %}
+A control for entering a date consisting of a week-year number and a week number with no time zone.
+<input type="week">
+{% endhighlight %}
+<input type="week">
 
 {:.post-content}
 Read more about it <a href="{{page.docs}}" target="_blank">here</a>
