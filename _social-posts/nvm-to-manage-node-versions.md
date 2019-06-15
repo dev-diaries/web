@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Node version manager or nvm is an excellent way to manage multiple node.js versions."
 date: 2019-06-15
 categories: [advanced, nodejs, linux]
-instagram-id: 
+instagram-id: ByusVirCYi5 
 docs: https://github.com/nvm-sh/nvm
 ---
 {:.center}
