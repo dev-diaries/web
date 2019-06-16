@@ -3,7 +3,7 @@ layout: post
 title: "I'm Not Really A Good Web Developer, I'm Just Good At Googling Things"
 date: 2019-06-15 13:13:12 +0800
 type: "Reflections"
-image: http://www.reactiongifs.com/r/ktpng.gif
+image: /assets/images/kermit-typing.gif
 author-image: /assets/images/khaliq-gant.jpg
 categories: [internetting, google, search, web-developer, reflections]
 excerpt: "Being a good web developer comes down to a lot of things, but one of the major skills is being able to Google and find the right answer on Stackoverflow..."
