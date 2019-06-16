@@ -30,7 +30,7 @@ and currently resides in Paris where he enjoys a baguette at least once every th
 {:.intro}
 Being a web developer means having a good grasp on a wide array of topics: navigating the terminal,
 html, css, javascript, cloud infrastructure, deployment strategies, databases,
-HTTP protocols and that's just the beginning. There have been attempts to <a href="https://github.com/mtdvio/every-programmer-should-know" target="_blank">
+HTTP protocols and that's just the beginning. There have been attempts to document <a href="https://github.com/mtdvio/every-programmer-should-know" target="_blank">
 everything a web developer should know</a>, and the list is quite long. Being able to
 memorize and know everything extremely well is both daunting and nearly impossible. 
 Therefore, at a certain point there is an advantage to not even trying to know
