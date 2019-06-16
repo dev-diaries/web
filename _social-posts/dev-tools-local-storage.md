@@ -16,7 +16,7 @@ docs: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 {:.post-content}
 Local storage is a client side storage mechanism with at least 5MB (varies from browser to browser)
 of storage and doesn't expire unless explicitly cleared. It is protocol (http vs. https)
-specific and is localized to a domain. Unlike session storage, it doesn't clear
+specific and is localized to a domain. Unlike session storage, it isn't cleared
 when the browser is closed so it sticks around even after a user has quit their browser
 and comes back. Luckily for us dev tools makes it easy for us to view and edit 
 our local storage:
