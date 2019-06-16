@@ -7,7 +7,7 @@ image: /assets/images/chrome-local-storage.gif
 excerpt: "Using dev tools you can view and edit local storage quickly and easily."
 date: 2019-06-16
 categories: [intermediate, dev-tools, localstorage, javascript, html5]
-instagram-id: 
+instagram-id: Byw5my6C8jr
 docs: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 ---
 {:.center}
