@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Need a quick and easy server on your local computer? Look no further than Python’s SimpleHTTPServer."
 date: 2019-06-19
 categories: [intermediate, python, web-server]
-instagram-id: 
+instagram-id: By51Miei9Vp
 docs: https://docs.python.org/2/library/simplehttpserver.html
 ---
 {:.center}
