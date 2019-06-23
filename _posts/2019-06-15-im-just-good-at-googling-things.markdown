@@ -35,7 +35,7 @@ everything a web developer should know</a>, and the list is quite long. Being ab
 memorize and know everything extremely well is both daunting and nearly impossible. 
 Therefore, at a certain point there is an advantage to not even trying to know
 everything but rather just become really efficient at finding the answer to what you 
-need. Being able to search [stackoverflow](/social-posts/searching-stackoverflow/) and [search google efficiently](/social-posts/google-search-tips/)
+need. Being able to search [stackoverflow](/social-posts/searching-stackoverflow/) and [google efficiently](/social-posts/google-search-tips/)
 are truly skills that are essential in such a vast field as web development. Therefore, I 
 maintain that I'm not really a good web developer, but rather just good at Googling
 things.
@@ -53,7 +53,7 @@ web developer means you know how to search exactly for what you're looking for
 and being able to differentiate between different resources that Google claims
 have the answer to your question. Having the baseline knowledge to write an efficient query
 into Stackoverflow takes years of knowledge and training, let alone being able to parse
-what the top Stackoverflow answer is telling you and implement that. So, don't get me wrong here,
+what the top answer is telling you and implement that. So, don't get me wrong here,
 being able to research well is one thing, but you need a base skillset in web development
 to be able to interpret what you've found and put it to action. Part of being a good
 web development is being able to assimilate lots of information, combine it and put it towards
@@ -92,7 +92,7 @@ because I wouldn't be able to accurately tell Google what I'm looking for.
 {:.post-content}
 Ok, that was a fun little exercise -- enough spying on my previous self and his Google searches...
 
-## Conclusion
+## Documentation
 
 {:.post-content}
 A web developer has a wealth of information at her or his fingertips. The trick
@@ -109,6 +109,8 @@ reminders is one of the most valuable things you can do as a web developer. Hell
 of the reasons I started this website - not only to help others, but also myself. A developer
 has to juggle lots of different things on a day to day basis and it's nearly impossible
 to remember everything. 
+
+## Conclusion
 
 {:.post-content}
 The things I have found that have helped me develop most as a web developer over the years
