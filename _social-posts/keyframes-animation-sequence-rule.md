@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Using the @keyframes CSS rule you can specify the steps in a CSS animation sequence by defining styles and how the element should render at a given time during the sequence."
 date: 2019-06-20
 categories: [advanced, css, animations]
-instagram-id: 
+instagram-id: By8PNPvCh7H
 docs: https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
 ---
 {:.center}
