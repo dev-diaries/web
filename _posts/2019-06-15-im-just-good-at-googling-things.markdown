@@ -121,3 +121,5 @@ knowledge, resources and most importantly a process for assimilating information
 I'm less so a good developer, but more so good at googling information and compiling
 that information for future reference.
 
+<a class="insta-link" href="https://news.ycombinator.com/item?id=20254581" target="_blank">Hacker News Discussion</a>
+
