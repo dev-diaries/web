@@ -18,6 +18,8 @@ As javascript matures there have been a proliferation of linting tools that can 
 
 {:.post-content}
 Our favorite linter and fixer respectively are <a href="https://eslint.org" target="_blank">eslint</a> and <a href="https://prettier.io/" target="_blank">prettier</a>.
+We're big fans of typescript and one of our previous favorite linters <a href="https://palantir.github.io/tslint/" target="_blank">tslint</a>
+is being <a href="https://medium.com/palantir/tslint-in-2019-1a144c2317a9" target="_blank">deprecated</a> in favor of eslint.
 
 {:.post-content}
 Eslint allows developers to create their own set of rules to enforce and there
