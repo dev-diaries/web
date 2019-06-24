@@ -8,7 +8,7 @@ excerpt: "As javascript matures there have been a proliferation of linting tools
 date: 2019-06-24
 categories: [advanced, javascript, linting]
 instagram-id: 
-docs: 
+docs: BzFaWh9Cvbu
 ---
 {:.center}
 # {{ page.title }}
