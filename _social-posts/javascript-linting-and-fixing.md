@@ -7,8 +7,8 @@ image: /assets/images/.gif
 excerpt: "As javascript matures there have been a proliferation of linting tools that can help improve the state of your codebase."
 date: 2019-06-24
 categories: [advanced, javascript, linting]
-instagram-id: 
-docs: BzFaWh9Cvbu
+instagram-id: BzFaWh9Cvbu
+docs: 
 ---
 {:.center}
 # {{ page.title }}
