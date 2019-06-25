@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "One really nice feature of Linux is its ability to maintain a history of the commands you typed in."
 date: 2019-06-25
 categories: [intermediate, linux, terminal]
-instagram-id: 
+instagram-id: BzH7TCACKlz
 docs: https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html
 ---
 {:.center}
