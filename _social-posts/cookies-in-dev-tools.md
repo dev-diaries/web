@@ -7,7 +7,7 @@ image: /assets/images/cookies-dev-tools.gif
 excerpt: "Cookies are increasingly in the conversation these days and knowing how to edit, create, and clear them as a web developer from your browser is extremely important. "
 date: 2019-06-26
 categories: [beginner, dev-tools, cookies]
-instagram-id: 
+instagram-id: BzL5eWoCUzf
 docs: https://developers.google.com/web/tools/chrome-devtools/storage/cookies
 ---
 {:.center}
