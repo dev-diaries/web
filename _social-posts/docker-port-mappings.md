@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Docker allows you to map ports to what is available (exposed) to the host and what is available to the container."
 date: 2019-06-29
 categories: [advanced, docker, networking]
-instagram-id: 
+instagram-id: BzS7ONLiYgw
 docs: https://docs.docker.com/compose/compose-file/#ports
 ---
 {:.center}
