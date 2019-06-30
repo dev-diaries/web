@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "JavaScript on your webpage adds a whole world of interactiveness, flexibility, and potential. As a web developer knowing some javascript will make you a stronger developer and allow you to make single page applications, mac or windows applications, and server applications as well."
 date: 2019-06-30
 categories: [beginner, javascript, back-to-the-basics]
-instagram-id: 
+instagram-id: BzWQ-HDiDRh
 docs: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
 ---
 {:.center}
