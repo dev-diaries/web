@@ -17,7 +17,7 @@ docs: https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 A CDN is a content delivery network and refers to a distributed group of 
 servers which work together to provide extremely fast delivery of Internet content. You might have heard
 about CDN's when it comes to Cloudflare and its <a href="https://blog.cloudflare.com/cloudflare-outage/" target="_blank">outage</a> on 
-July 2nd, 2019. Cloudflare serves quite a few functions but one of it's main functions
+July 2nd, 2019. Cloudflare serves quite a few functions but one of its main functions
 is as a gigantic CDN. Another very large CDN is <a href="https://aws.amazon.com/cloudfront/" target="_blank">Cloudfront</a>
 which is offered by Amazon. In fact, this website is served to you via
 Cloudfront. It's assets are stored on <a href="https://aws.amazon.com/s3/" target="_blank">S3</a>
