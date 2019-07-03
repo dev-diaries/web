@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "The idea of CSS in JS was a concept that was first talked about in 2014 and some dismissed it as nonsense..."
 date: 2019-07-02
 categories: [intermediate, react, styled-components, css-in-js, css, javascript]
-instagram-id: 
+instagram-id: BzbKzy7n7u_
 docs: https://www.styled-components.com/
 ---
 {:.center}
