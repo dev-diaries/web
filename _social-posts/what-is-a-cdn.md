@@ -6,8 +6,8 @@ cover-image: /assets/images/cdn-cover.png
 image: /assets/images/.gif
 excerpt: "A CDN is a content delivery network and refers to a distributed group of servers which work together to provide extremely fast internet content."
 date: 2019-07-03
-categories: [intermediate, ]
-instagram-id: 
+categories: [intermediate , html , networking , serving-assets, best-practices]
+instagram-id: Bzdu9_1C7Fl
 docs: https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
 ---
 {:.center}
