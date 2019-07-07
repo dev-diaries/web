@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "If you spend a lot of time in the terminal you’ll find that you write some commands very often. It is a good idea to add some shortcuts to some commands so that you can do less typing and be more efficient in your command line interface (cli)"
 date: 2019-07-07
 categories: [intermediate, terminal, cli, shortcuts, aliases, bash, efficiency]
-instagram-id: 
+instagram-id: Bzn5kXrCZeN
 docs: https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html
 ---
 {:.center}
