@@ -1,23 +1,29 @@
 ---
 layout: default
 title: Home
-pagination: 
+pagination:
   enabled: true
+search: true
+blogDocs: true
+socialDocs: true
 ---
 
 {% include header.html %}
 
 <main class="home">
     <div class="site-navigation col-12 grid">
-        <span class="col-4_sm-2"></span>
+        <span class="col-1_sm-1"></span>
         <a href="/blog" class="blog col-2_sm-4">
             <span class="nav-text">Blog Posts</span>
-            <i class="fas fa-pen-nib"></i>
+            <i class="cat fas fa-pen-nib"></i>
         </a>
         <a href="/social" class="social-posts col-2_md-3_sm-5">
             <span class="nav-text">Social Media Posts</span>
-            <i class="fab fa-slideshare"></i>
+            <i class="cat fab fa-slideshare"></i>
         </a>
+        <div class="col-6_md-4_sm-12 search">
+            <form class="js-search"></form>
+        </div>
     </div>
     {% include blog-posts.html %}
 </main>

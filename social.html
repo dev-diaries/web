@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Social Media
-pagination: 
+pagination:
   enabled: true
   collection: social-posts
+search: true
+socialDocs: true
 ---
 
 <main>
@@ -12,6 +14,9 @@ pagination:
     <h1 class="post-header">Social Media Posts</h1>
 
     <div class="posts">
+        <div class="col-12_md-12_sm-12 search inner-page">
+            <form class="js-search"></form>
+        </div>
         {% include social-media-posts.html %}
     </div>
 

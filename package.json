@@ -11,18 +11,64 @@
     "type": "git",
     "url": "https://github.com/khaliqgant/dev-diaries"
   },
+  "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "scss": "npx node-sass -w scss/app.scss -o assets/css/"
+    "scss": "node-sass -w scss/app.scss -o assets/css/",
+    "ts": "webpack -w --config webpack.config.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/runtime": "^7.1.5",
     "@fortawesome/fontawesome-free": "^5.7.2",
+    "@types/lodash": "^4.14.116",
+    "@types/react": "^16.4.8",
+    "@types/react-burger-menu": "^2.2.1",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-overlays": "^0.8.5",
+    "@types/react-select": "^2.0.6",
+    "@types/superagent": "^3.8.4",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-typescript": "^1.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-typescript": "^0.12.0",
+    "eslint-watch": "^4.0.2",
+    "file-loader": "^2.0.0",
     "mocha": "*",
     "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.3",
+    "prettier": "1.14.2",
+    "prettier-eslint-cli": "^4.7.1",
     "should": "latest",
-    "tar": "^4.4.2"
+    "source-map-loader": "^0.2.3",
+    "tar": "^4.4.2",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typesafe-actions": "^2.0.4",
+    "typescript": "^3.4.2",
+    "typescript-eslint-parser": "^18.0.0",
+    "typescript-plugin-styled-components": "0.0.7",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-shell-plugin": "^0.5.0"
   },
   "dependencies": {
     "gridlex": "^2.7.1",
-    "instafetch.js": "https://github.com/dev-diaries/instafetch.js.git"
+    "instafetch.js": "https://github.com/dev-diaries/instafetch.js.git",
+    "lodash": "^4.17.10",
+    "lunr": "^2.3.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.5",
+    "superagent": "^3.8.3"
   }
 }

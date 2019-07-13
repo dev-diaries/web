@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Blog
-pagination: 
+pagination:
   enabled: true
   sort_reverse: true
+search: true
+blogDocs: true
 ---
 
 <main>
@@ -11,6 +13,9 @@ pagination:
 
     <h1 class="post-header">Blog</h1>
     <div class="posts">
+        <div class="col-12_md-12_sm-12 search inner-page">
+            <form class="js-search"></form>
+        </div>
         {% include blog-posts.html %}
     </div>
 </main>

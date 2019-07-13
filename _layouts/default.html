@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Dev Diaries | {{ page.title}}</title>
+        <title>Dev Diaries | {{ page.title }}</title>
         <meta name="description" content="Dev diaries is a development community providing daily tips and tricks about web development. Learn about how to become a better dev, and get a refreshed perspective on what it means to be a web developer. We share daily web development tips on Instagram, Twitter, Facebook, & Pinterest. {% if page.excerpt %} {{page.excerpt}}{% endif %}{% if site.data.cats[page.autopage.display_name]%}{{ site.data.cats[page.autopage.display_name].description }}{% endif %}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="p:domain_verify" content="d1c9dbf49c6487a2d54deb9f5445d9f6"/>
@@ -27,7 +27,8 @@
         </script>
         <script>
             var instagrams = [
-                {% for post in site.social-posts %}
+                {% assign social-posts = site.social-posts | sort: 'date' | reverse %}
+                {% for post in social-posts limit:10 %}
                 {
                     "id": "{{ post.instagram-id }}",
                     "url": "{% if post.redirect-link %}{{post.redirect-link}}{% else %}{{ post.url }}{% endif %}"
@@ -35,8 +36,41 @@
                 {% unless forloop.last %},{% endunless %}
                 {% endfor %}
             ];
+            var documents = [];
+            {% if page.blogDocs %}
+              {% for post in site.posts %}
+                  var doc = {
+                      excerpt: "{{ post.excerpt }}",
+                      title: "{{ post.title }}",
+                      type: "{{ post.type }}",
+                      categories: [{% for category in post.categories %} "{{ category }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
+                      categoriesString: "{% for category in post.categories %} {{ category }}{% if forloop.last %}{% else %} {% endif %}{% endfor %}",
+                      date: "{{ post.date }}",
+                      link: "{{ post.url }}"
+                  };
+                  documents.push(doc);
+              {% endfor %}
+            {% endif %}
+
+            {% if page.socialDocs %}
+              {% for post in site.social-posts %}
+                  var socialDoc = {
+                      excerpt: "{{ post.excerpt }}",
+                      title: "{{ post.title }}",
+                      type: "{{ post.type }}",
+                      categories: [{% for category in post.categories %} "{{ category }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],
+                      categoriesString: "{% for category in post.categories %} {{ category }}{% if forloop.last %}{% else %} {% endif %}{% endfor %}",
+                      date: "{{ post.date }}",
+                      link: "{{ post.url }}"
+                  };
+                  documents.push(socialDoc);
+              {% endfor %}
+            {% endif %}
         </script>
         <script type="text/javascript" src="/assets/js/instafetch.min.js"></script>
+        {% if page.search %}
+            <script type="text/javascript" src="/assets/js/app.js"></script>
+        {% endif %}
         <script type="text/javascript" src="/assets/js/insta.js"></script>
     </body>
 </html>
