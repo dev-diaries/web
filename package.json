@@ -13,8 +13,8 @@
   },
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "scss": "npx node-sass -w scss/app.scss -o assets/css/",
-    "ts": "npx webpack -w --config webpack.config.js"
+    "scss": "node-sass -w scss/app.scss -o assets/css/",
+    "ts": "webpack -w --config webpack.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
@@ -51,6 +51,7 @@
     "prettier-eslint-cli": "^4.7.1",
     "should": "latest",
     "source-map-loader": "^0.2.3",
+    "tar": "^4.4.2",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typesafe-actions": "^2.0.4",
     "typescript": "^3.4.2",
@@ -58,9 +59,7 @@
     "typescript-plugin-styled-components": "0.0.7",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "webpack-shell-plugin": "^0.5.0",
-    "should": "latest",
-    "tar": "^4.4.2"
+    "webpack-shell-plugin": "^0.5.0"
   },
   "dependencies": {
     "gridlex": "^2.7.1",

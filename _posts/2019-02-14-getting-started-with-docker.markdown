@@ -19,7 +19,7 @@ categories: [getting-started, docker, advanced, containerization]
 
 {:.intro}
 Docker: the containerization you can't seem to escape. Docker can allow you great
-power and flexibility to make your application light weight portable. But wait, 
+power and flexibility to make your application light weight portable. But wait,
 what exactly is docker? And how can you get
 started with Docker? Let's set out to figure those things out.
 
@@ -73,7 +73,7 @@ the Docker website:
 
 {:.post-content}
 Now that you have docker up and running you can download an image and get an
-example application running. We're going to get an application running that 
+example application running. We're going to get an application running that
 outputs "hello world", because programming 😏. Docker can run certain images,
 and for our case we're going to run a `helloworld` image that can be found
 [here](https://hub.docker.com/r/karthequian/helloworld). In our terminal let's run:
@@ -107,7 +107,7 @@ Status: Downloaded newer image for karthequian/helloworld:latest
 {% endhighlight %}
 
 {:.post-content}
-Once it finishes downloading it will just hang in your terminal, which means it 
+Once it finishes downloading it will just hang in your terminal, which means it
 downloaded successfully and is running. Let's break down the command we ran to start:
 
 {% highlight bash %}

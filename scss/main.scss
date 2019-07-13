@@ -63,7 +63,7 @@ main.home {
     .site-navigation {
         text-align: center;
         padding-bottom: 15px;
-        i {
+        i.cat {
             font-size: 2rem;
             display: block;
         }
@@ -80,44 +80,51 @@ main.home {
             }
         }
 
-        .search {
-            margin-top: 20px;
-            width: 30%;
-            form {
-                i {
-                    display: inline-block;
-                    font-size: 1.5em;
-                    top: 7px;
-                    left: 5px;
-                    position: relative;
-                    cursor: pointer;
-                    color: $lt-gray;
-                    &:hover {
-                        color: $dd-blue;
-                    }
-                }
-                input {
-                    transition: width 1s ease-in-out;
-                    outline: none;
-                    border: 2px solid $lt-gray;
-                    width: 25%;
-                    @media (max-width: $mobile) {
-                        width: 50%;
-                    }
-                    padding: 5px;
-                    font-size: 1em;
-                    &:focus {
-                        border: 2px solid $dd-blue;
-                        width: 50%;
-                        @media (max-width: $mobile) {
-                            width: 90%;
-                        }
-                    }
+    }
+}
+
+.search {
+    margin-top: 20px;
+    width: 30%;
+    &.inner-page {
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+    }
+    form {
+        i.icon {
+            display: inline-block;
+            font-size: 1.5em;
+            top: 7px;
+            left: 5px;
+            position: relative;
+            cursor: pointer;
+            color: $lt-gray;
+            &:hover {
+                color: $dd-blue;
+            }
+        }
+        input {
+            transition: width 1s ease-in-out;
+            outline: none;
+            border: 2px solid $lt-gray;
+            width: 25%;
+            @media (max-width: $mobile) {
+                width: 50%;
+            }
+            padding: 5px;
+            font-size: 1em;
+            &:focus {
+                border: 2px solid $dd-blue;
+                width: 50%;
+                @media (max-width: $mobile) {
+                    width: 90%;
                 }
             }
         }
     }
 }
+
 
 .post-header {
     padding: 50px;
