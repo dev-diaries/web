@@ -6,9 +6,9 @@ cover-image: /assets/images/eslint-cover.png
 image: /assets/images/.gif
 excerpt: "As javascript matures there have been a proliferation of linting tools that can help improve the state of your codebase."
 date: 2019-06-24
-categories: [advanced, javascript, linting]
+categories: [advanced, javascript, linting, eslint, tslint, prettier]
 instagram-id: BzFaWh9Cvbu
-docs: 
+docs:
 ---
 {:.center}
 # {{ page.title }}
@@ -23,7 +23,7 @@ is being <a href="https://medium.com/palantir/tslint-in-2019-1a144c2317a9" targe
 
 {:.post-content}
 Eslint allows developers to create their own set of rules to enforce and there
-are a large set of pre-existing rules that you can use out of the box to 
+are a large set of pre-existing rules that you can use out of the box to
 create a set of standards for your codebase. Let's see how you can quickly get
 started with eslint:
 

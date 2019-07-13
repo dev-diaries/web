@@ -6,7 +6,7 @@ cover-image: /assets/images/mysql-poster.png
 image: /assets/images/.gif
 excerpt: "Someone from business development asking you to dump a query as a csv from the database?"
 date: 2019-03-23
-categories: [intermediate, database, mysql, postgresql]
+categories: [intermediate, database, mysql, postgresql, postgres]
 instagram-id: BvWIsobnHya
 docs: https://dev.mysql.com/doc/refman/8.0/en/mysql.html
 ---
@@ -14,14 +14,14 @@ docs: https://dev.mysql.com/doc/refman/8.0/en/mysql.html
 # {{ page.title }}
 
 {:.post-content}
-Someone from business development asking you to dump a query as a csv from the 
+Someone from business development asking you to dump a query as a csv from the
 database? You can run the query and output it as a CSV using the command line.
 If you’re using postgres you can first connect to psql and then run:
 
 {% highlight linux %}
-    COPY 
-    (SELECT * from users WHERE active = 'true') 
-    TO '/files/active_users.csv' 
+    COPY
+    (SELECT * from users WHERE active = 'true')
+    TO '/files/active_users.csv'
     WITH (FORMAT CSV, HEADER);
 {% endhighlight %}
 

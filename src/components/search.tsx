@@ -6,8 +6,6 @@ const lunr = require('lunr');
 const index = 'DEV-DIARIES';
 const { documents } = (window as any);
 const SOCIAL_POSTS = 'SocialPosts';
-const SOCIAL_PAGE = 'social';
-const BLOG_PAGE = 'blog';
 const LIMIT = 10;
 
 interface SearchProps {
@@ -25,30 +23,13 @@ const idx = lunr(function () {
   this.ref('index');
   this.field('excerpt');
   this.field('title');
-  this.field('categories');
+  this.field('categoriesString');
 
   let index = 0;
   documents.forEach(function(doc: any) {
-    if (page === SOCIAL_PAGE) {
-      if (doc.type === SOCIAL_POSTS) {
-        doc.index = index;
-        this.add(doc);
-        index += 1;
-      }
-    }
-    if (page === BLOG_PAGE) {
-      if (doc.type !== SOCIAL_POSTS) {
-        doc.index = index;
-        this.add(doc);
-        index += 1;
-      }
-    }
-
-    if (page === '') {
-      doc.index = index;
-      this.add(doc);
-      index += 1;
-    }
+    doc.index = index;
+    this.add(doc);
+    index += 1;
   }, this)
 });
 
