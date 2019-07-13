@@ -64,7 +64,7 @@
   "dependencies": {
     "gridlex": "^2.7.1",
     "instafetch.js": "https://github.com/dev-diaries/instafetch.js.git",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "lunr": "^2.3.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
