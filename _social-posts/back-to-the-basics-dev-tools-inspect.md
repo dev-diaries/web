@@ -7,7 +7,7 @@ image: /assets/images/inspect-dev-tools.gif
 excerpt: "One of the things a web developer probably consistently uses every day in dev tools is the ability to inspect the contents of a webpage."
 date: 2019-07-13
 categories: [beginner, html, javascript, css, dev-tools, back-to-the-basics]
-instagram-id: 
+instagram-id: Bz2hO20CnSk
 docs: https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom
 ---
 {:.center}
