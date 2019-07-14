@@ -5236,7 +5236,7 @@ main.home .site-navigation {
       width: 50%; }
       @media (max-width: 48em) {
         .search form input:focus {
-          width: 90%; } }
+          width: 80%; } }
 
 .post-header {
   padding: 50px;
