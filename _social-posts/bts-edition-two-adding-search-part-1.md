@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "We recently added the ability to search on our website. Let's learn how in our two part series..."
 date: 2019-07-16
 categories: [advanced, static-sites, jekyll, behind-the-scenes, search, solr]
-instagram-id:
+instagram-id: Bz_RjU0CFXi
 docs:
 ---
 {:.center}
@@ -42,7 +42,9 @@ First, we build out jekyll documents into a JSON array and expose them to the wi
 
 {:.post-content}
 There is some complexity that we handle by passing in flags to which type of collection we want to index on that particular page:
+{:.post-content}
 * If we’re on the /blog page of our site we only want to search blog entries. Makes sense right? If we’re on the /social page to view our social media posts we only want to search social posts.
+{:.post-content}
 * If we’re on the home page we want to search blog and social posts so in that case we pass the flag as true for both the blogDocs and the socialDocs.
 
 {% highlight html %}
