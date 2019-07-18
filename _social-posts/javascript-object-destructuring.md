@@ -5,7 +5,7 @@ title: "Object Destructuring In Javascript"
 cover-image: /assets/images/object-destructuring-cover.png
 image: /assets/images/.gif
 excerpt: "Object destructuring is a convenient way to extract multiple values from objects and arrays."
-date: 2019-05-28
+date: 2019-07-18
 categories: [advanced, objects, arrays, javascript]
 instagram-id: ByBTKFWiKeE
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
@@ -48,7 +48,7 @@ console.log(one, two);
 {% endhighlight %}
 
 {:.post-content}
-When you deconstruct an object it coerces the source to an object before 
+When you deconstruct an object it coerces the source to an object before
 accessing it which means you can access properties of an object
 
 {% highlight js %}
@@ -83,6 +83,29 @@ console.log(x);
 > 'c'
 console.log(y);
 > 'd'
+{% endhighlight %}
+
+{:.post-content}
+Let's cover nested destructuring:
+
+{% highlight js %}
+const student = {
+    name: 'Mike',
+    grades: {
+        science: 'A',
+        math: 'B'
+    },
+    classes: ['science', 'math']
+};
+
+// we refer to the science property in the student object to obtain the classes
+// we grab the first array element and name it subject to obtain the grade
+const { grades: { science }, classes: [subject] } = student;
+
+console.log(science)
+> 'A'
+console.log(subject)
+> 'science'
 {% endhighlight %}
 
 {:.post-content}
