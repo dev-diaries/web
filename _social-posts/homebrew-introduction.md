@@ -62,7 +62,9 @@ brew cleanup
 {% endhighlight %}
 
 {:.post-content}
-Read more about it <a href="{{page.docs}}" target="_blank">here</a>
+You might also want to check out <a href="https://github.com/Homebrew/homebrew-cask" target="_blank">homebrew cask</a>
+which makes it very easy to install and manage applications.
+Read more about <a href="{{page.docs}}" target="_blank">homebrew</a>.
 
 {% if page.instagram-id %}
 {:.center}
