@@ -17,8 +17,6 @@ interface SearchState {
   results: any[];
 }
 
-const page = window.location.href.split('/')[3] || '';
-
 const idx = lunr(function () {
   this.ref('index');
   this.field('excerpt');

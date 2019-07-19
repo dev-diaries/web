@@ -72,6 +72,10 @@ index.html (homepage):
   blogDocs: true
 {% endhighlight %}
 
+{:.post-content}
+Check [part two](/social-posts/bts-edition-two-adding-search-part-2/) of how we
+integrated this search with React to render the results.
+
 {% if page.instagram-id %}
 {:.center}
 <a class="insta-link" href="https://www.instagram.com/p/{{page.instagram-id}}" target="_blank">Instagram Post</a>
