@@ -50,3 +50,7 @@ keyboard-shortcuts:
 html:
     description: Level up your HTML knowledge with our posts about HTML aka Hypertext Markup Language
     pinterest: https://www.pinterest.com/devdiaries/css-html-tips/
+docker:
+    description: Get up to speed with Docker with our posts!
+    pinterest: https://www.pinterest.com/devdiaries/docker-tips/
+
