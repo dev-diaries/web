@@ -7,7 +7,7 @@ image: /assets/images/search-in-action.gif
 excerpt: "We're continuing our behind the scenes to show how we structured our search using React..."
 date: 2019-07-21
 categories: [advanced, behind-the-scenes, static-sites, react, javascript, reactjs, search, solr]
-instagram-id:
+instagram-id: B0LOLfgCiA5
 docs:
 ---
 {:.center}
