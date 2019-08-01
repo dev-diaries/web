@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "The benefits of GraphQL schema and types is that you know exactly what data you have available and exactly the type of that data..."
 date: 2019-07-29
 categories: [intermediate, graphql, data]
-instagram-id:
+instagram-id: B0hAsrVCksL
 docs: https://graphql.org/learn/schema/
 ---
 {:.center}
