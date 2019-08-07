@@ -19,7 +19,7 @@ Jenkins is easy to install and quickly get started with continuous integration. 
 
 {:.post-content}
 Want to test it out locally very quickly using Docker? Run this to try the
-<a href="https://jenkins.io/projects/blueocean/" target="_blank">Blue Ocean Instal</a>
+<a href="https://jenkins.io/projects/blueocean/" target="_blank">Blue Ocean Install</a>
 of Jenkins:
 
 {% highlight bash %}
