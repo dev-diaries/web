@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Docker containers are portable encapsulations of an environment to run applications. To run a container you need a Docker image. So, what is a docker image?"
 date: 2019-07-25
 categories: [intermediate, docker, storage, containers]
-instagram-id:
+instagram-id: B0WcjUDnJmf
 docs: https://docs.docker.com/v17.09/engine/userguide/storagedriver/imagesandcontainers/
 ---
 {:.center}
