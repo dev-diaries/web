@@ -1,9 +1,11 @@
-language: ruby
-rvm:
-  - 2.4.1
-install: 
+language:
+  - ruby
+  - java
+jdk: openjdk8
+rvm: 2.4.1
+install:
   - gem install bundler:2.0.1
-  - bundle install 
+  - bundle install
   - gem install s3_website
 script: jekyll build
 after_success: s3_website push
