@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Want to get up and running with Typescript & React? Let's do it!"
 date: 2019-08-25
 categories: [intermediate, typescript, react, javascript]
-instagram-id:
+instagram-id: B1mR_1hgtlw
 docs: https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
 ---
 {:.center}
