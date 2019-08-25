@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "With jenkins you can create a freestyle project which allows you to define multiple steps in which to build your application."
 date: 2019-08-09
 categories: [intermediate, devops, jenkins, ci, continuous-integration, build-steps]
-instagram-id:
+instagram-id: B1DeqySgYwo
 docs: https://wiki.jenkins.io/display/JENKINS/Building+a+software+project
 ---
 {:.center}

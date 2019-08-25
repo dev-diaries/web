@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Jenkins is an open source automation server which offers a lot of functionality out of the box combined with plugins that can usually accomplish what you need."
 date: 2019-08-07
 categories: [intermediate, devops, jenkins, ci, continuous-integration]
-instagram-id:
+instagram-id: B03yGMoAlp6
 docs: https://jenkins.io/doc/
 ---
 {:.center}

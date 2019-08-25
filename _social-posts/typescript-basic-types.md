@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Since Typescript is statically typed, let’s go through the basic typescript types"
 date: 2019-08-08
 categories: [intermediate, typescript, static-types, javascript]
-instagram-id:
+instagram-id: B072DLvA6-2
 docs: https://www.typescriptlang.org/docs/handbook/basic-types.html
 ---
 {:.center}
