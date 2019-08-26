@@ -22,19 +22,19 @@ excerpt: "As a digital project manager, I get the opportunity to work and intera
 .
 
 {:.author-intro}
-Matt is an outgoing and creative Project Manager at 
-<a href="https://www.happycog.com/" target="_blank">Happy Cog</a> with five 
-years of industry experience, and his passions lie in digital web development, 
-advertising and marketing strategies. He works closely with other project managers, 
-designers, front-end and backend developers, and QA Engineers to achieve project 
-goals by organizing and customizing project plans for stakeholders to report on 
-budgets and schedule status for the duration of a project. Outside of the office, 
+Matt is an outgoing and creative Project Manager at
+<a href="https://www.happycog.com/" target="_blank">Happy Cog</a> with five
+years of industry experience, and his passions lie in digital web development,
+advertising and marketing strategies. He works closely with other project managers,
+designers, front-end and backend developers, and QA Engineers to achieve project
+goals by organizing and customizing project plans for stakeholders to report on
+budgets and schedule status for the duration of a project. Outside of the office,
 Matt has a passion for travel and also enjoys photography, concerts, sports and hiking.
 
 {:.author-intro}
-Matt is currently working on building a content-driven travel and photography 
-website. The purpose is to provide world travelers with detailed 
-itineraries and advice on how to navigate the world’s greatest cities and 
+Matt is currently working on building a content-driven travel and photography
+website. The purpose is to provide world travelers with detailed
+itineraries and advice on how to navigate the world’s greatest cities and
 their most popular attractions.
 
 {:.image .center .top-space}
@@ -55,7 +55,7 @@ Some developers will want to work through an issue for three hours uninterrupted
 ## Working with Remote Developers as a Project Manager
 
 {:.post-content}
-There are many project managers that work with remote development teams and it’s important to understand how to best communicate and manage them from afar. 
+There are many project managers that work with remote development teams and it’s important to understand how to best communicate and manage them from afar.
 
 ### Make It Personal
 
@@ -65,7 +65,7 @@ When you’re not working in an office with your team on a daily basis, it can b
 ### Time Zones
 
 {:.post-content}
-Working with remote developers in different time zones can be very tough, especially when you don’t overlap for a large part of the day. Depending on if the team is ahead of you or behind you geographically, it changes the approach for when to organize your notes so that the team knows what to work on and what is due. For example, if you work in Los Angeles and your remote development team is 3 hours ahead in New York, you will want to make sure that the New York team has what they need when they get into the office. In this case, I would make sure to send an email to the New York team before I leave the office the night before, so they have everything they need and don’t need to wait for me to arrive in the office to get official directions and start their day. Conversely, if you work in Los Angeles and have a team in New York, make sure you spend time in the morning organizing tasks so that you have everything queued up for the team and are available to discuss when they arrive in the morning.
+Working with remote developers in different time zones can be very tough, especially when you don’t overlap for a large part of the day. Depending on if the team is ahead of you or behind you geographically, it changes the approach for when to organize your notes so that the team knows what to work on and what is due. For example, if you work in Los Angeles and your remote development team is 3 hours ahead in New York, you will want to make sure that the New York team has what they need when they get into the office. In this case, I would make sure to send an email to the New York team before I leave the office the night before, so they have everything they need and don’t need to wait for me to arrive in the office to get official directions and start their day. Conversely, if you work in New York and have a team in Los Angeles, make sure you spend time in the morning organizing tasks so that you have everything queued up for the team and are available to discuss when they arrive in the morning.
 
 {:.image .center .top-space}
 ![requirements](/assets/images/requirements.jpg)
@@ -107,7 +107,7 @@ When it comes to acceptance criteria, you should try your best to review the des
 * What should the slide transition look like?
 * Will the slider just support images, or videos too?
 * If videos are needed, do they need to be self-hosted or embedded from YouTube or Vimeo?
-* Which fields need to be available in the CMS to edit this content? 
+* Which fields need to be available in the CMS to edit this content?
 
 {:.post-content}
 While this isn’t an exhaustive list, these are the types of things you need to consider as a project manager and get answered prior to a developer getting started on a task. If not, one of two things will happen 1) developers will ask these questions along the way anyway or 2) the client won’t get a correct deliverable. Doing this will save time, define the scope of the task, reduce headaches and cut back on the type of back and forth developers don’t want to interrupt their workflow.
