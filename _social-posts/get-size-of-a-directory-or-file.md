@@ -5,8 +5,8 @@ title: "Get Size Of A Directory Or File"
 cover-image: /assets/images/du-cover.png
 image: /assets/images/.gif
 excerpt: "Need to get the size of a directory in linux?"
-date: 2019-05-22
-categories: [intermediate, linux, terminal, cli]
+date: 2019-09-05
+categories: [intermediate, linux, terminal, cli, disk-space, server, storage]
 instagram-id: BxwS1y_igOY
 docs: https://linux.die.net/man/1/du
 ---
@@ -22,6 +22,8 @@ Need to get the size of a directory in linux? Use the du command to output the s
 -h, --human-readable    Print sizes in human readable format, e.g. 1K, 324M
 
 -c, --total             Produce a grand total
+
+-a, --all               write counts for all files, not just directories
 {% endhighlight %}
 
 {% highlight html %}
@@ -31,6 +33,14 @@ Need to get the size of a directory in linux? Use the du command to output the s
 
 > du -sh navigation.gif
 116K	navigation.gif
+{% endhighlight %}
+
+{:.post-content}
+If you want to see which directories are taking up the most room on your system you can
+use the `-a` flag and sort by which is taking up the most space:
+
+{% highlight html %}
+du -ahm | sort -nr | head
 {% endhighlight %}
 
 {:.post-content}
