@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Running out of space on your server? Quickly see how much space you have left with this command..."
 date: 2019-09-07
 categories: [intermediate, linux, terminal, cli, disk-space, server, storage]
-instagram-id:
+instagram-id: B2GyJRXC2bk
 docs: http://linuxcommand.org/lc3_man_pages/df1.html
 ---
 {:.center}
