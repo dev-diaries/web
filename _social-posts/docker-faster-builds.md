@@ -117,7 +117,9 @@ COPY --chown:node:node . /src
 {% endhighlight %}
 
 {:.post-content}
-Read more about it <a href="{{page.docs}}" target="_blank">here</a>
+Read more about it <a href="{{page.docs}}" target="_blank">here</a>.
+Check the <a href="https://github.com/moby/moby/issues/31067#issue-207987708" target="_blank">proposal for multi stage builds</a>
+and also the <a href="https://medium.com/@tonistiigi/advanced-multi-stage-build-patterns-6f741b852fae" target="_blank">medium post from the contributor of the pull request for multi stage builds.</a>
 
 {% if page.instagram-id %}
 {:.center}
