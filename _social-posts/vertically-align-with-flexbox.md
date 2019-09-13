@@ -38,7 +38,7 @@ The corresponding CSS:
 
 
 {:.post-content}
-Read more about align-items on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items" target="_blank">Mozila</a>.
+Read more about align-items on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items" target="_blank">Mozilla</a>.
 Read more about using flexbox with vertically align items <a href="{{page.docs}}" target="_blank">here</a>.
 
 {% if page.instagram-id %}
