@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "On our site, near the bottom we have a handy social feed that showcases our Instagram feed and also links to the post on our website that relates to the Instagram post. Wonder how that works? Let's go take a #bts (behind the scenes) look."
 date: 2019-09-15
 categories: [beginner, social-feed, html, javascript]
-instagram-id:
+instagram-id: Bz_RjU0CFXi
 docs:
 ---
 {:.center}
