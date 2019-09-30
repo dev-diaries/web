@@ -26,7 +26,7 @@ with the `PATH` environment variable.
 {:.post-content}
 We can check if we have an application:
 
-{% highlight html %}
+{% highlight bash %}
 > which top
 /usr/bin/top
 
