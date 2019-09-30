@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Sometimes in linux you need to know if you have a program/utility installed and maybe even where it is installed."
 date: 2019-09-30
 categories: [intermediate, linux, terminal]
-instagram-id:
+instagram-id: B3DATn8F-0c
 docs: https://linux.die.net/man/1/which
 ---
 {:.center}
