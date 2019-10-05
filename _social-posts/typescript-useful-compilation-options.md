@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "If you’re using typescript (tsc) to compile your typescript files, there are some handy compilation options that can give you more insight into how compilation happens or why certain files are compiled."
 date: 2019-10-05
 categories: [advanced, typescript, compilation, javascript]
-instagram-id:
+instagram-id: B3O_JYEA7XE
 docs: https://www.typescriptlang.org/docs/handbook/compiler-options.html
 ---
 {:.center}
@@ -23,7 +23,7 @@ of the built javascript is. Sometimes if you're changing that location it can
 be tedious to go back and delete all the files that were built. Use the `--build`
 flag along with the `--clean` flags to delete all the built javascript files.
 
-{% highlight javscript %}
+{% highlight bash %}
 # delete all built javascript files
 tsc --build --clean
 {% endhighlight %}
@@ -33,7 +33,7 @@ Want to see the typescript files that are being built from in your codebase?
 Use the `--listFiles` to build and also output a list of the files that were used
 to build your javascript.
 
-{% highlight javscript %}
+{% highlight bash %}
 # list all the source typescript files being used to build your javascript
 tsc --listFiles
 {% endhighlight %}
@@ -46,7 +46,7 @@ output can be useful if there is a problem with some files being compiled that y
 don't want or if you want to decide which module pattern you want to use in your
 compilerOptions.
 
-{% highlight javscript %}
+{% highlight bash %}
 # see output of the module resolution from typescript
 npx tsc --traceResolution
 {% endhighlight %}
