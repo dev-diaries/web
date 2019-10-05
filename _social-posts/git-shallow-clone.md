@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "If you git clone a repository it brings in the entire repository which contains every revision of every file ever made. Sometimes this is overkill. Try a shallow clone instead!"
 date: 2019-10-03
 categories: [advanced, git, clone, ci, cd, branching]
-instagram-id:
+instagram-id: B3KlSAolWDW
 docs: https://www.perforce.com/blog/vcs/git-beyond-basics-using-shallow-clones
 ---
 {:.center}
