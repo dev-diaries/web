@@ -53,4 +53,6 @@ html:
 docker:
     description: Get up to speed with Docker with our posts!
     pinterest: https://www.pinterest.com/devdiaries/docker-tips/
-
+react:
+    description: React skills++
+    pinterest: https://www.pinterest.com/devdiaries/reactjs/
