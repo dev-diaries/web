@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Sometimes when running a Dockerfile you need to run some conditional logic based upon an ARG variable."
 date: 2019-10-12
 categories: [intermediate, docker, dockerfile, container]
-instagram-id:
+instagram-id: B3g0lPWA0Qx
 docs: https://stackoverflow.com/questions/43654656/dockerfile-if-else-condition-with-external-arguments
 ---
 {:.center}
