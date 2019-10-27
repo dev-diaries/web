@@ -1,13 +1,13 @@
 ---
 layout: social-post
 type: "SocialPosts"
-title: "CSS transitions allow you change a property value over a given duration."
+title: "CSS Transitions"
 cover-image: /assets/images/css-transition-cover.png
 image: /assets/images/.gif
-excerpt: ""
+excerpt: "CSS transitions allow you change a property value over a given duration."
 date: 2019-10-27
 categories: [intermediate, css, transition, animation]
-instagram-id:
+instagram-id: B4IQ1_kFTl-
 docs: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
 ---
 {:.center}
