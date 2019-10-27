@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "CORS or Cross-Origin Resource Sharing is a mechanism to make it possible to make requests from one website to another in the browser. The security policy, Same-Origin Policy (SOP) normally restricts this kind of behavior. If you’re writing an API for example, and want other websites to be able to access your API via browser side requests, you might want to define trusted origins that requests are allowed from or simply trust all origins. Check the link in the bio for more info!"
 date: 2019-10-12
 categories: [intermediate, html, cors]
-instagram-id:
+instagram-id: B332QchADni
 docs: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 ---
 {:.center}
