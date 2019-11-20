@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "In a previous post we gave a brief introduction to JQ, a powerful and lightweight command line JSON processor. It is one of our favorite tools and is extremely powerful."
 date: 2019-11-20
 categories: [advanced, javascript, tools, json, terminal, jq]
-instagram-id:
+instagram-id: B5FHztIC9Fh
 docs: https://stedolan.github.io/jq/manual/
 ---
 {:.center}
