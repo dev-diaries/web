@@ -14,8 +14,8 @@ docs: https://stedolan.github.io/jq/manual/
 # {{ page.title }}
 
 {:.post-content}
-JQ is a powerful and lightweight command line JSON processor. It is a tool no 
-web developer should be without. There are almost endless possibilities with 
+JQ is a powerful and lightweight command line JSON processor. It is a tool no
+web developer should be without. There are almost endless possibilities with
 jq, but here are a few basic examples:
 
 {% highlight javascript %}
@@ -70,7 +70,9 @@ function validate() {
 
 
 {:.post-content}
-Read more about JQ <a href="{{page.docs}}" target="_blank">here</a>
+Read more about JQ <a href="{{page.docs}}" target="_blank">here</a> Check out
+our [part two deep dive into JQ](/social-posts/jq-deep-dive-part-two/).
+
 
 {% if page.instagram-id %}
 {:.center}
