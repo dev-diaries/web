@@ -56,3 +56,6 @@ docker:
 react:
     description: React skills++
     pinterest: https://www.pinterest.com/devdiaries/reactjs/
+devops:
+    description: All things devops.
+    pinterest: https://www.pinterest.com/devdiaries/devops-tips/
