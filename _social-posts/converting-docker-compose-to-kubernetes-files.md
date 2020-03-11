@@ -72,6 +72,7 @@ INSTANCE_NAME:uat
 
 {:.post-content}
 We can use a docker-compose command to fill in the variables:
+
 {% highlight linux %}
 docker-compose -f app.yml config > docker-compose-out.yml
 {% endhighlight %}
