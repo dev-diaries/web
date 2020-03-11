@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "Bash scripts can be very useful but also very tough to debug. Setting the correct error flag and understanding the behavior can help you out."
 date: 2020-03-04
 categories: [intermediate, bash, terminal, linux]
-instagram-id:
+instagram-id: B9UeUkeFDzF
 docs: http://linuxcommand.org/lc3_man_pages/seth.html
 ---
 {:.center}
