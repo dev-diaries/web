@@ -6,7 +6,7 @@ type: "Short Stories"
 image: /assets/images/pr-review-comment.png
 author-image: /assets/images/khaliq-gant.jpg
 categories: [code-reviews, github, pull-request, web-developer, short-stories]
-excerpt: "Being a good web developer comes down to a lot of things, but one of the major skills is being able to Google and find the right answer on Stackoverflow..."
+excerpt: "Pull request reviews are typically an important part of the development process. What follows is a short pull request review short story (PR RSS) that is contrived but not really that contrived."
 ---
 
 {:.center}
@@ -87,12 +87,12 @@ a review.
 {:.post-content}
 You still need two more reviews and approvals for your pull request to be merged
 into master. Even though you have another task to work on it took an entire day
-for those two comments and now it is Tuesday and you itching to get your code in
+for those two comments and now it is Tuesday and you are itching to get your code in
 so it can be reviewed by QA. You ping a couple of team members:
 
 {:.post-content .quote}
 Hey, do you mind reviewing the pull request for PROJ-5777 when you get a chance?
-Just want to get it into the QA environment so it can be tested there? Thanks!
+Just want to get it into the QA environment so it can be tested there. Thanks!
 
 ## Approvals!...but wait...
 
@@ -125,14 +125,14 @@ the end of the day and hopefully can get your ticket done before the end of the 
 {:.post-content}
 QA tests the work you did in PROJ-5777 and signs off on it. Phew! A week goes by and then
 suddenly bugs start pouring into your error monitoring solution all related
-to the feature the JiggyWit pattern is touching but not directly related to it. You dig
-into those bugs and notice that there is some weird caching going on with the JiggyWith pattern...
+to the feature the JiggyWit pattern. Curiously the JiggyWit pattern is touching the feature, but not directly related to it. You dig
+into those bugs and notice that there is some weird caching going on with the JiggyWit pattern...
 
 {:.post-content}
 As you dig deeper you see that the class injector is causing the responses to get
 cached all because you added the optional class injector into the JiggyWit pattern.
 You remember you didn't _actually_ test the optional class injector change you made
-from the nitpick comment from your colleague....
+from the nitpick comment from your colleague...
 
 {:.post-content}
 That one change from the nitpick
@@ -150,24 +150,14 @@ taken up by your investigation into this bug and ultimately the fix.
 {:.post-content}
 Well, no...not quite. There are a few take aways here:
 
-### Calmez Vous
+### Calmez-Vous
 
 {:.post-content}
 You should never be so antsy to get your pull request that you skip the all important
 task of testing any changes you make. Even if the change is tiny and seemingly
-inconsequential there is no excuse to not quickly testing that everything works
-as expected. This anxiousness of getting your code into latest is the sign
-of immature developer who would skip steps to make thing go faster.
-
-### No One Knows Your Code Better Than You
-
-{:.post-content}
-While seemingly obvious it is still worth saying: you know your code better than
-any of your teammates. Any suggestions for small changes or tweaks should be carefully
-weighed by you and gauged within the larger scope of the work you're doing. A "small parameter change"
-can actually be more detrimental than upon first glance and you, as the pull request
-opener must be watchful for those seemingly innocuous changes that actually
-are potentially changing more than they appear.
+inconsequential there is no excuse to not quickly test that everything works
+as expected. This anxiousness of getting your code into master is the sign
+of an immature developer who would skip steps to make things go faster.
 
 ### Provide As Much Information As Possible in Your PR's
 
@@ -185,11 +175,22 @@ upfront.
 ### Allow Adequate Time For Discussions Around Changes/Pull Requests
 
 {:.post-content}
-In this short story the PR opener was stressing because he wanted to get their PR
+In this short story the PR opener was stressing because he wanted to get his/her PR
 into production ASAP. Instead, the pull request review process should have proper time
 allocated to it so the feedback can be fully understood and implemented *and then tested*.
 PR feedback can be extremely valuable, but if not enough importance and time is allocated
 to it, it can become a needless formality.
+
+### No One Knows Your Code Better Than You
+
+{:.post-content}
+While seemingly obvious it is still worth saying: you know your code better than
+any of your teammates. Any suggestions for small changes or tweaks should be carefully
+weighed by you and gauged within the larger scope of the work you're doing. A "small parameter change"
+can actually be more detrimental than upon first glance and you, as the pull request
+opener,must be watchful for those seemingly innocuous changes that actually
+are potentially changing more than they appear.
+
 
 ## Treat The Pull Request Process With The Respect That It Deserves
 
@@ -197,10 +198,10 @@ to it, it can become a needless formality.
 Changes made after you have a working version of a feature should be heavily tested
 and vetted. When you're in the zone and writing code and testing it might be
 difficult to go back through all your test cases when making a small feedback based
-change. _Of course_ your feature has automated test so any breaking changes will be caught
-your tests but even then we all know that tests are always perfect either. It is still
+change. _Of course_ your feature has automated tests so any breaking changes will be caught,
+but even then we all know that tests aren't always perfect either. It is still
 important to review changes made even if they might seem harmless. The pull request
 reviewer is looking at your code with fresh eyes which can be a positive and a negative thing.
-Ultimately it is up to you - the person who opened up the pull request to equip your
-teammates with enough context to review your pull request thoroughly and also up to
+Ultimately it is up to you - the person who opened up the pull request - to equip your
+teammates with enough context to review your pull request thoroughly. It is then up to
 you to implement changes as you see fit without introducing any new bugs.
