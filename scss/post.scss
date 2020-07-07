@@ -146,6 +146,15 @@
     }
 
     .post-content {
+        &.quote {
+            position: relative;
+            padding-left: 50px;
+            color: $gray;
+            &--with-image {
+                top: -70px;
+                margin-bottom: -100px;
+            }
+        }
         padding: 20px 0;
     }
 

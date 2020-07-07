@@ -112,6 +112,13 @@
 
 .post .post-content {
   padding: 20px 0; }
+  .post .post-content.quote {
+    position: relative;
+    padding-left: 50px;
+    color: #707070; }
+    .post .post-content.quote--with-image {
+      top: -70px;
+      margin-bottom: -100px; }
 
 .post .resources-container {
   margin-top: 50px;
