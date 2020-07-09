@@ -5,10 +5,10 @@ title: ""
 cover-image: /assets/images/.png
 image: /assets/images/.gif
 excerpt: ""
-date: 2019--
+date:
 categories: [intermediate, ]
-instagram-id: 
-docs: 
+instagram-id:
+docs:
 ---
 {:.center}
 # {{ page.title }}
