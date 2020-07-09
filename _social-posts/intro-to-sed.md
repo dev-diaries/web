@@ -15,7 +15,7 @@ docs: https://linux.die.net/man/1/sed
 
 {:.post-content}
 Another useful linux tool is sed which stands for stream editor and is used to
-perform text transofmrations on an input stream which can be a file or input from a pipe.
+perform text transformations on an input stream which can be a file or input from a pipe.
 By default sed outputs everything to standard out so you need to direct the output
 to a file if that is what you want. Let's jump into some examples.
 
