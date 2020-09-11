@@ -35,7 +35,7 @@ docker build -t node-image .  --build-arg ENV=production
 {:.post-content}
 Read this Stackoverflow answer about it <a href="{{page.docs}}" target="_blank">here</a>.
 It should be noted that using conditional logic in a Dockerfile forces the Dockerfile
-to be built each time when normally if nothing changed it would be changed. Because this
+to be built each time when normally if nothing changed it would be cached. Because this
 build-arg is dynamic the Docker build step cannot be cached. In short, using conditional
 logic in your Dockerfile will slow down the build.
 
