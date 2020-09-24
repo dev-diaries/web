@@ -67,7 +67,7 @@ REPO=our-private-registry
 BE_TAG=dev
 NODE_PORT=3030
 NODE_ENV=development
-INSTANCE_NAME:uat
+INSTANCE_NAME=uat
 {% endhighlight %}
 
 {:.post-content}
