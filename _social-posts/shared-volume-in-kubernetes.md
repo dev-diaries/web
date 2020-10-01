@@ -100,7 +100,8 @@ spec:
 ![]({{page.image}})
 
 {:.post-content}
-Read more about it <a href="{{page.docs}}" target="_blank">here</a>
+Read more about it <a href="{{page.docs}}" target="_blank">here</a>. Also
+check out post [Getting to know kubernetes](/blog/getting-to-know-kubernetes)
 
 {% if page.instagram-id %}
 {:.center}
