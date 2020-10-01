@@ -5314,7 +5314,8 @@ header.cat-header {
 
 .post .content li {
   left: 3em;
-  position: relative; }
+  position: relative;
+  font-size: 1.2rem; }
   @media (max-width: 48em) {
     .post .content li {
       left: 1em;
