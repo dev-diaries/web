@@ -184,6 +184,8 @@ module.exports = {
 
 {:.post-content}
 That should be it! Read more about it <a href="{{page.docs}}" target="_blank">here</a>
+Another option is to use [create-react-app](/social-posts/using-create-react-app-to-start-a-project/) to use the community supported way
+of starting a React app with Typescript.
 
 {% if page.instagram-id %}
 {:.center}
