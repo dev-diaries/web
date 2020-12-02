@@ -6,6 +6,7 @@ cover-image: /assets/images/tsc-compilation-options.png
 image: /assets/images/.gif
 excerpt: "If you’re using typescript (tsc) to compile your typescript files, there are some handy compilation options that can give you more insight into how compilation happens or why certain files are compiled."
 date: 2019-10-05
+tags: [javascript]
 categories: [advanced, typescript, compilation, javascript]
 instagram-id: B3O_JYEA7XE
 docs: https://www.typescriptlang.org/docs/handbook/compiler-options.html

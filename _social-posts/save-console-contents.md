@@ -6,6 +6,7 @@ cover-image: /assets/images/save-console-cover.png
 image: /assets/images/console-log-save.gif
 excerpt: "Did you know in chrome dev tools you can save the contents of your console log?"
 date: 2019-07-08
+tags: [dev-tools]
 categories: [intermediate, chrome-dev-tools, dev-tools, debugging]
 instagram-id: BzpbJzSCiyP
 docs: https://developers.google.com/web/tools/chrome-devtools/console/#working_with_the_console_history

@@ -6,6 +6,7 @@ cover-image: /assets/images/audio-element-cover.png
 image: /assets/images/audio-element-options-cover.png
 excerpt: "Using HTML5 you can embed audio on your website"
 date: 2019-04-14
+tags: [html]
 categories: [beginner, audio, html, sound, javascript]
 instagram-id: BwPxr5kBg-W
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio

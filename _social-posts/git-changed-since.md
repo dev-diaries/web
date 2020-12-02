@@ -6,6 +6,7 @@ cover-image: /assets/images/git-changes-since-cover.png
 image: /assets/images/.gif
 excerpt: "Been off a project for a while and need to see what has changed in the last week in git while you’ve been away?"
 date: 2019-05-17
+tags: [git]
 categories: [advanced, git]
 instagram-id: BxkkKkvg01p
 docs: https://git-scm.com/docs/git-log#_commit_limiting

@@ -7,6 +7,17 @@ main {
     }
 }
 
+.topics {
+    padding: 50px;
+    list-style-type: none;
+    li {
+        padding: 10px 0;
+    }
+    a {
+        font-size: 20px;
+    }
+}
+
 .post-image {
     max-width: 30vw;
     @media (max-width: $mobile) {

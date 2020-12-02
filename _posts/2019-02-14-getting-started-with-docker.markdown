@@ -4,6 +4,7 @@ title:  "Getting started with docker"
 date:   2019-02-14 11:13:12 +0800
 type: "GettingStarted"
 image: /assets/images/docker.png
+tags: [docker]
 excerpt: "Docker: the containerization you can't seem to escape. Docker can allow you great power and flexibility to make your application light weight portable. But wait, what exactly is docker? And how can you get started with Docker? Let's set out to figure those things out."
 categories: [getting-started, docker, advanced, containerization]
 ---

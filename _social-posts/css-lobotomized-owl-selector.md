@@ -7,6 +7,7 @@ image: /assets/images/.gif
 excerpt: "The lobotomized owl selector (* + *) can come in handy to make your CSS stylesheet 
 a bit less verbose and is a handy relative selector for styling."
 date: 2019-04-18
+tags: [css]
 categories: [advanced, css, styling, html]
 instagram-id: BwaAyMyBuhr
 docs: 

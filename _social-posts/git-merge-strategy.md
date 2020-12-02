@@ -6,6 +6,7 @@ cover-image: /assets/images/git-merge-ours-cover.png
 image: /assets/images/.gif
 excerpt: "Have a messy git merge, but know that one branch is ahead of the other and it should override the other?"
 date: 2019-04-02
+tags: [git]
 categories: [advanced, git, merge]
 instagram-id: BvvxJS8hCFE
 docs: https://git-scm.com/docs/git-merge

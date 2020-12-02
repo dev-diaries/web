@@ -6,6 +6,7 @@ cover-image: /assets/images/dry-run-cover.png
 image: /assets/images/.gif
 excerpt: "Still not 100% confident in your Git foo? You can perform some git operations with a dry-run flag to see what would happen if you were to run the command"
 date: 2019-04-24
+tags: [git]
 categories: [intermediate, git]
 instagram-id: BwpRF75AJj8
 docs: 

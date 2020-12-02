@@ -6,6 +6,7 @@ cover-image: /assets/images/behind-the-scenes-cover-1.png
 image: /assets/images/bts-1-example.gif
 excerpt: "Today we’re switching it up a bit and going #bts for the dev-diaries.com website."
 date: 2019-05-08
+tags: [static-sites]
 categories: [beginner, static-sites, jekyll, behind-the-scenes]
 instagram-id: BxMgW7LhRwk
 docs: 

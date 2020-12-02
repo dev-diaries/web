@@ -6,6 +6,7 @@ cover-image: /assets/images/case-sensitivty-cover.png
 image: /assets/images/case-insensitive.gif
 excerpt: "If you’re on Mac OS X save yourself some time and change your git configuration to be case sensitive on filenames"
 date: 2019-05-09
+tags: [git]
 categories: [advanced, git, mac, file-system]
 instagram-id: BxQE2Ouh0ql
 docs: https://git-scm.com/docs/git-config#Documentation/git-config.txt-coreignoreCase

@@ -6,6 +6,7 @@ cover-image: /assets/images/color-picker-cover.png
 image: /assets/images/color-picker.gif
 excerpt: "Chrome dev tools recently updated the color picker when viewing a color in dev tools."
 date: 2019-05-16
+tags: [dev-tools]
 categories: [intermediate, css, dev-tools]
 instagram-id: BxiGbqCCx04
 docs: https://developers.google.com/web/updates/2018/01/devtools#contrast

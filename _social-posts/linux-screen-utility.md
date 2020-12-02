@@ -6,6 +6,7 @@ image: /assets/images/screen-video.gif
 cover-image: /assets/images/screen-session-cover.png
 excerpt: "If you need to run a long running task on a remote machine and don’t want to worry about the connection dropping, you can use the screen utility. The screen utility allows us to detach from that session and resume whenever we need to."
 date: 2019-03-18
+tags: [linux]
 categories: [advanced, linux, long-processes]
 instagram-id: BvJFhZnnTJ0
 docs: https://linux.die.net/man/1/screen

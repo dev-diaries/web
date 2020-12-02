@@ -1,0 +1,38 @@
+---
+layout: default
+title: Topic List
+search: true
+socialDocs: true
+---
+
+<main>
+    {% include page-header.html %}
+
+    <h1 class="post-header">Topic List</h1>
+
+    <div class="posts">
+        <div class="col-12_md-12_sm-12 search inner-page">
+            <form class="js-search"></form>
+        </div>
+        <ul class="topics col-12_md-12_sm-12">
+          {% for social in site.social-posts %}
+            {% assign tags_array = tags_array | push: social.tags | uniq %}
+          {% endfor %}
+
+          {% for post in site.posts %}
+            {% assign tags_array = tags_array | push: post.tags | uniq %}
+          {% endfor %}
+
+          {% assign all_tags = tags_array | sort %}
+          {% for tag in all_tags %}
+            <li>
+              <a href="/tags/{{ tag | slugize }}/">#{{ tag }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+
+</main>
+
+{% include footer.html %}
+

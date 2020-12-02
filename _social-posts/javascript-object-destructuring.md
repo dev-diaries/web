@@ -6,6 +6,7 @@ cover-image: /assets/images/object-destructuring-cover.png
 image: /assets/images/.gif
 excerpt: "Object destructuring is a convenient way to extract multiple values from objects and arrays."
 date: 2019-07-18
+tags: [javascript]
 categories: [advanced, objects, arrays, javascript]
 instagram-id: ByBTKFWiKeE
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment

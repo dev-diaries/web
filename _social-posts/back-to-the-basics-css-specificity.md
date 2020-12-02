@@ -6,6 +6,7 @@ cover-image: /assets/images/css-specificity-cover.png
 image: /assets/images/.gif
 excerpt: "CSS specificity is a big top in web development but having a good foundational understanding is essential to writing clean and well organized CSS."
 date: 2019-07-27
+tags: [css]
 categories: [beginner, html, javascript, css, back-to-the-basics]
 instagram-id: B0a0CcVCY4R
 docs: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity

@@ -5,7 +5,8 @@ date: 2020-07-07 13:13:12 +0800
 type: "Short Stories"
 image: /assets/images/pr-review-comment.png
 author-image: /assets/images/khaliq-gant.jpg
-categories: [code-reviews, github, pull-request, web-developer, short-stories]
+tags: [web-development]
+categories: [code-reviews, github, pull-request, web-developer, web-development, short-stories]
 excerpt: "Pull request reviews are typically an important part of the development process. What follows is a short pull request review short story (PR RSS) that is contrived but not really that contrived."
 ---
 

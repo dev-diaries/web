@@ -6,6 +6,7 @@ cover-image: /assets/images/git-diff-cover.png
 image: /assets/images/.gif
 excerpt: "Need to tell the difference between two git branches?"
 date: 2019-05-24
+tags: [git]
 categories: [intermediate, git, branching]
 instagram-id: Bx2JVeFAPw2
 docs: https://git-scm.com/docs/git-diff

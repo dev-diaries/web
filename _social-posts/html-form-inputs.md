@@ -6,7 +6,8 @@ cover-image: /assets/images/intput-types-cover.png
 image: /assets/images/.gif
 excerpt: "HTML5 has a number of different input types for specific purposes."
 date: 2019-06-12
-categories: [intermediate, html5, form]
+tags: [html]
+categories: [intermediate, html, form]
 instagram-id: ByntkBPC8KP
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 ---
@@ -14,7 +15,7 @@ docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 # {{ page.title }}
 
 {:.post-content}
-Being familiar with all the input types can make your forms better suited for the end user. 
+Being familiar with all the input types can make your forms better suited for the end user.
 
 {:.post-content}
 * Button: A push button with no default behavior.
@@ -74,8 +75,8 @@ A control that is not displayed but whose value is submitted to the server.
 <input type="hidden">
 
 {:.post-content}
-A graphical submit button. You must use the src attribute to define the source 
-of the image and the alt attribute to define alternative text. 
+A graphical submit button. You must use the src attribute to define the source
+of the image and the alt attribute to define alternative text.
 You can use the height and width attributes to define the size of the image in pixels.
 {% highlight html %}
 <input type="image" src="/assets/images/send-image.png" width="50px">

@@ -6,7 +6,8 @@ cover-image: /assets/images/safari-debug-cover.png
 image: /assets/images/.gif
 excerpt: "Even though dev tools do a great job of mimicking mobile devices sometimes you need the real thing to really debug why your website looks off on iPhone or iPad. "
 date: 2019-07-20
-categories: [intermediate, ]
+tags: [dev-tools]
+categories: [intermediate, dev-tools]
 instagram-id: B0Ihz3RAE9c
 docs: https://support.brightcove.com/debugging-mobile-devices
 ---

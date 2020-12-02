@@ -6,6 +6,7 @@ cover-image: /assets/images/rest-api-cover.png
 image: /assets/images/.gif
 excerpt: "As a web developer at some point you’ll hear the words API (Application Programming Interface) and the word REST..."
 date: 2019-07-14
+tags: [api]
 categories: [intermediate, api, rest, http]
 instagram-id: Bz54h2WiXKj
 docs: https://github.com/marmelab/awesome-rest#readme

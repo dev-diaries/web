@@ -6,6 +6,7 @@ cover-image: /assets/images/stack-trace-cover.png
 image: /assets/images/.gif
 excerpt: "If you’re writing javascript and making a package, designing an API, or working with other developers, you should output helpful error messages if something unexpected happens."
 date: 2019-05-14
+tags: [javascript]
 categories: [advanced, javscript, error-handling, errors]
 instagram-id: Bxc_1ktgWnO
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stack

@@ -6,6 +6,7 @@ cover-image: /assets/images/docker-container-as-root-cover.png
 image: /assets/images/.gif
 excerpt: "On occasion you might need to access your docker container as root. Using docker exec you can do that fairly easily"
 date: 2019-11-03
+tags: [docker]
 categories: [advanced, docker, containerization]
 instagram-id: B4aSY4CF-lE
 docs: https://docs.docker.com/engine/reference/run/

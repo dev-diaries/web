@@ -6,6 +6,7 @@ cover-image: /assets/images/anchor-link-cover.png
 image: /assets/images/.gif
 excerpt: "One usage of anchor links in HTML can allow a user to jump to a specific part of the page. This could be used for a table of contents, or an arrow that a user can click on to scroll them to a certain section of your webpage."
 date: 2019-06-18
+tags: [html]
 categories: [beginner, html, back-to-the-basics]
 instagram-id: By3Hp8uAgsg
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a

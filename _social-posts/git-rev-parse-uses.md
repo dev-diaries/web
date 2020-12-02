@@ -6,6 +6,7 @@ cover-image: /assets/images/rev-parse-cover.png
 image: /assets/images/.gif
 excerpt: "Git has an endless bags of tricks and git rev-parse is no different. It can be used to output some useful information about your Git repo."
 date: 2019-06-17
+tags: [git]
 categories: [advanced, git]
 instagram-id: By0oohpCk5R
 docs: https://git-scm.com/docs/git-rev-parse

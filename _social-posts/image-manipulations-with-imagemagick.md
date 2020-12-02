@@ -6,6 +6,7 @@ cover-image: /assets/images/imagemagick-covers.png
 image: /assets/images/.gif
 excerpt: "ImageMagick is an extremely powerful way to transform images from the command line."
 date: 2019-05-20
+tags: [linux]
 categories: [advanced, cli, terminal, images, linux]
 instagram-id: BxspvJxCUYT
 docs: https://imagemagick.org/script/command-line-options.php

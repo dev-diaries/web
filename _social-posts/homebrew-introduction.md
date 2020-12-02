@@ -6,7 +6,8 @@ cover-image: /assets/images/homebrew-install-cover.png
 image: /assets/images/.gif
 excerpt: "If you’re working on a mac as a developer you might have come across Homebrew."
 date: 2019-07-19
-categories: [intermediate, brew, homebrew, package-manager, mac, osx, packages, utilities]
+tags: [cli]
+categories: [intermediate, brew, homebrew, package-manager, mac, osx, packages, utilities, cli]
 instagram-id: B0FtyUaiiB2
 docs: https://brew.sh/
 ---

@@ -4,7 +4,8 @@ title:  "Why and how to use collections in jekyll"
 date:   2019-03-06 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/jekyll.png
-categories: [jekyll, static-site, how-to]
+tags: [static-sites]
+categories: [jekyll, static-sites, how-to]
 excerpt: "Jekyll makes creating a static site as easy as pie 🥧. But, what is a Jekyll Collection? Why would that be useful and what is the process to add in a collection? Let's dig in!"
 ---
 
@@ -43,9 +44,9 @@ this site is built as a blog. We also have quite a few social media posts
 that we want to provide more content about on our website. This way, we can
 share some content on social media and send readers to our site for more information.
 Since we have long form blog posts already that is our <a href="https://jekyllrb.com/docs/posts/" target="_blank">posts</a>
-type. We wanted another way to provide another type of content but didn't 
+type. We wanted another way to provide another type of content but didn't
 want it to be a full post. Enter what we call <a href="https://github.com/dev-diaries/web/tree/master/_social-posts" target="_blank">_social posts</a>
-These are a `collection` (see what we did there?) of all the social media posts 
+These are a `collection` (see what we did there?) of all the social media posts
 on the site. This way to display them we can avoid any needless filtering of
 the blog post by a certain tag or category. Jekyll collections give us an easy way
 out of the box to create a subtype on our blog 🙌.
@@ -54,7 +55,7 @@ out of the box to create a subtype on our blog 🙌.
 ## How
 
 {:.post-content}
-The first thing we needed to do was update our config to "register" the new 
+The first thing we needed to do was update our config to "register" the new
 collection:
 
 {% highlight yaml %}

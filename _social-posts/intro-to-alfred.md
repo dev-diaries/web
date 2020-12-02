@@ -6,6 +6,7 @@ cover-image: /assets/images/alfred-example-cover.png
 image: /assets/images/.gif
 excerpt: "If you’re using an Apple computer you might want to check out one of our favorite mac utilities, Alfred. It is like Spotlight on steroids.."
 date: 2019-11-12
+tags: [mac]
 categories: [intermediate, efficiency, mac, apple, productivity, alfred]
 instagram-id: B40Pdw6ANop
 docs: https://www.alfredapp.com/

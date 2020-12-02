@@ -6,6 +6,7 @@ cover-image: /assets/images/background-color-cover.png
 image: /assets/images/image-loading.gif
 excerpt: "Using CSS you can protect against slow loading background images especially if you have text on top of the image."
 date: 2019-04-26
+tags: [css]
 categories: [intermediate, css, usability, images]
 instagram-id: BwuDshoh3VI
 docs: https://css-tricks.com/css-basics-using-fallback-colors/

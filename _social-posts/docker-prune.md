@@ -5,6 +5,7 @@ title: "Docker Prune: prevent running out of disk space"
 image: /assets/images/docker-prune.png
 excerpt: "Running out of disk space when running docker? You can clean up all images, containers, networks, and volumes not used on your drive."
 date: 2019-03-07
+tags: [docker]
 categories: [advanced, containerization, jenkins, docker]
 instagram-id: BussEsfAi4X
 ---

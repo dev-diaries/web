@@ -6,7 +6,8 @@ cover-image: /assets/images/pretty-print-cover.png
 image: /assets/images/pretty-print-cover.png
 excerpt: "Output an object as a table while debugging"
 date: 2019-03-25
-categories: [intermediate, debugging, chrome]
+tags: [dev-tools]
+categories: [intermediate, debugging, chrome, dev-tools]
 instagram-id: BvcfdpRBVbf
 docs: https://developer.mozilla.org/en-US/docs/Web/API/Console/table
 ---

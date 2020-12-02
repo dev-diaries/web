@@ -6,6 +6,7 @@ cover-image: /assets/images/nginx-config-check-cover.png
 image: /assets/images/.gif
 excerpt: "Unsure about the nginx configuration you just changed? Pass in a flag to test the configuration and be told of errors before restarting nginx..."
 date: 2020-10-21
+tags: [devops]
 categories: [intermediate, nginx, devops]
 instagram-id:
 docs: http://nginx.org/en/docs/switches.html

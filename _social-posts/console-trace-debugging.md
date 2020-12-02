@@ -6,6 +6,7 @@ cover-image: /assets/images/console-trace-cover.png
 image: /assets/images/console-trace-code.png
 excerpt: "Output the stack trace in #javascript using the console.trace method."
 date: 2019-04-05
+tags: [javascript]
 categories: [intermediate, javascript, debugging]
 instagram-id: Bv3-YWVj9VJ
 docs: https://developer.mozilla.org/en-US/docs/Web/API/console#Stack_traces

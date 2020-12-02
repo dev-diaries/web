@@ -6,6 +6,7 @@ cover-image: /assets/images/nullish-operator-cover.png
 image: /assets/images/.gif
 excerpt: "The nullish coalescing operator returns the left hand side if it is not null or undefined, otherwise it returns the right hand side. This makes it different from the logical OR (||) operator which returns the right hand side if the left side is falsey. Let’s see some examples to see exactly the behavior."
 date: 2020-10-20
+tags: [javascript]
 categories: [intermediate, javascript, es6]
 instagram-id:
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator

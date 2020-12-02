@@ -5,7 +5,8 @@ date: 2019-06-15 13:13:12 +0800
 type: "Reflections"
 image: /assets/images/kermit-typing.gif
 author-image: /assets/images/khaliq-gant.jpg
-categories: [internetting, google, search, web-developer, reflections]
+tags: [web-development]
+categories: [internetting, google, search, web-developer, web-development, reflections]
 excerpt: "Being a good web developer comes down to a lot of things, but one of the major skills is being able to Google and find the right answer on Stackoverflow..."
 ---
 
@@ -32,11 +33,11 @@ Being a web developer means having a good grasp on a wide array of topics: navig
 html, css, javascript, cloud infrastructure, deployment strategies, databases,
 HTTP protocols and that's just the beginning. There have been attempts to document <a href="https://github.com/mtdvio/every-programmer-should-know" target="_blank">
 everything a web developer should know</a>, and the list is quite long. Being able to
-memorize and know everything extremely well is both daunting and nearly impossible. 
+memorize and know everything extremely well is both daunting and nearly impossible.
 Therefore, at a certain point there is an advantage to not even trying to know
-everything but rather just become really efficient at finding the answer to what you 
+everything but rather just become really efficient at finding the answer to what you
 need. Being able to search [stackoverflow](/social-posts/searching-stackoverflow/) and [google efficiently](/social-posts/google-search-tips/)
-are truly skills that are essential in such a vast field as web development. Therefore, I 
+are truly skills that are essential in such a vast field as web development. Therefore, I
 maintain that I'm not really a good web developer, but rather just good at Googling
 things.
 
@@ -72,9 +73,9 @@ article. Let's focus on just my most recent web development queries:
 
 {:.post-content}
 These are very specific queries about <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">git flow</a>
-where I was in a discussion with someone and trying to explain why I'm not 
+where I was in a discussion with someone and trying to explain why I'm not
 always a fan of Git Flow. It took me to quite a few articles that helped me formulate
-my argument that I was previously having trouble putting into words. What can we take 
+my argument that I was previously having trouble putting into words. What can we take
 away from this query? It's very specific and uses a very specific term "GitFlow"
 that will help focus my search results instead of showing general results about git itself.
 
@@ -84,7 +85,7 @@ that will help focus my search results instead of showing general results about 
 {:.post-content}
 I was doing this google search for this [dev diaries post about viewport heights](/social-posts/viewport-units/)
 and compiling information. Again, this query is very specific and I'm filtering through
-some noise by including "css" in the query and using very specific language to 
+some noise by including "css" in the query and using very specific language to
 find what I'm looking for. If I didn't firstly have that vocabulary to even know
 what I'm looking for, my search results would be much more varied and noise filled,
 because I wouldn't be able to accurately tell Google what I'm looking for.
@@ -102,13 +103,13 @@ and how to find something instead of stuffing your head is one of the best short
 you can take to make your life as a web developer easier. The other is documenting
 what you find and taking good notes once you do find that answer that you were looking for.
 One of the best and most valuable things I do is basically write doing everything. I use
-<a href="https://boostnote.io/" target="_blank">Boostnote</a> and know of many other developers who use <a href="https://evernote.com/" target="_blank">Evernote</a>. 
-The medium isn't as important as the simple fact that notes are taken systematically and 
-regularly. Having a place where you can write little snippets, notes, todos, and 
+<a href="https://boostnote.io/" target="_blank">Boostnote</a> and know of many other developers who use <a href="https://evernote.com/" target="_blank">Evernote</a>.
+The medium isn't as important as the simple fact that notes are taken systematically and
+regularly. Having a place where you can write little snippets, notes, todos, and
 reminders is one of the most valuable things you can do as a web developer. Hell, that's one
 of the reasons I started this website - not only to help others, but also myself. A developer
 has to juggle lots of different things on a day to day basis and it's nearly impossible
-to remember everything. 
+to remember everything.
 
 ## Conclusion
 

@@ -6,6 +6,7 @@ cover-image: /assets/images/content-editable-cover.png
 image: /assets/images/.gif
 excerpt: "Using HTML5 contentEditable you can make HTML markup editable by the user."
 date: 2019-04-27
+tags: [html]
 categories: [intermediate, html, content]
 instagram-id: Bww5P0zBpVu
 docs: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Editable_content

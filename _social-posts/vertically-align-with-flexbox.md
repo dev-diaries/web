@@ -6,6 +6,7 @@ cover-image: /assets/images/vertically-align-cover.png
 image: /assets/images/.gif
 excerpt: "Using flexbox allows you to make flexible responsive layouts without floats or positioning..."
 date: 2019-09-13
+tags: [css]
 categories: [intermediate, css, flexbox, alignment]
 instagram-id: B2YoJHBAQI9
 docs: https://webdevblog.com/css-vertical-align/

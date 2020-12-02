@@ -6,6 +6,7 @@ cover-image: /assets/images/spread-syntax-cover.png
 image: /assets/images/.gif
 excerpt: "The spread syntax in javascript allows an iterable (array, strings, or object literals) to expand in places where zero or more arguments are expected. Why is this useful? Let's find out!"
 date: 2019-10-10
+tags: [javascript]
 categories: [intermediate, javascript, arguments, objects, arrays]
 instagram-id: B3cpULxg6I4
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax

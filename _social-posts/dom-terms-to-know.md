@@ -6,6 +6,7 @@ cover-image: /assets/images/repaint-cover.png
 image: /assets/images/.gif
 excerpt: "If you’re working with CSS or JavaScript there are some terms that are important to know. With either you’re going to be affecting the DOM (Document Object Model) which is an API to a webpage, allowing users of that API to read and manipulate the page’s content, structure, and styles.."
 date: 2019-07-15
+tags: [html]
 categories: [intermediate, dom, css, javascript, reflow, repaint]
 instagram-id: Bz8YoeuCjdP
 docs:

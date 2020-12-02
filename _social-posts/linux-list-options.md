@@ -6,6 +6,7 @@ cover-image: /assets/images/list-output-cover.png
 image: /assets/images/list-options-cover.png
 excerpt: "The list (ls) command in linux to list directory contents has quite a few flags that you can pass to it to make the output much more useful to you."
 date: 2019-04-22
+tags: [linux]
 categories: [beginner, linux, cli, terminal]
 instagram-id: BwkcNc8BCWV
 docs: http://man7.org/linux/man-pages/man1/ls.1.html

@@ -6,6 +6,7 @@ cover-image: /assets/images/browser-css-queries-cover.png
 image: /assets/images/.gif
 excerpt: "Firefox or IE behaving oddly? You can target specific browsers via explicit media queries for different broswers."
 date: 2019-05-03
+tags: [css]
 categories: [advanced, css, media-queries, firefox, internet-explorer]
 instagram-id: BxAuwotnJ6D
 docs: http://browserhacks.com/

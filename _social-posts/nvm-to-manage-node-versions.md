@@ -6,8 +6,9 @@ cover-image: /assets/images/installing-nvm-cover.png
 image: /assets/images/.gif
 excerpt: "Node version manager or nvm is an excellent way to manage multiple node.js versions."
 date: 2019-06-15
-categories: [advanced, nodejs, linux]
-instagram-id: ByusVirCYi5 
+tags: [javascript]
+categories: [advanced, nodejs, linux, javascript]
+instagram-id: ByusVirCYi5
 docs: https://github.com/nvm-sh/nvm
 ---
 {:.center}
@@ -70,7 +71,7 @@ echo "10.10.0" > .nvmrc
 {% endhighlight %}
 
 {:.post-content}
-* So then if you run `nvm use`, nvm will find that nvmrc file and switch to the 
+* So then if you run `nvm use`, nvm will find that nvmrc file and switch to the
 node version specified.
 
 {:.post-content}

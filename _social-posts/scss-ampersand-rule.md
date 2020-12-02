@@ -6,6 +6,7 @@ image: /assets/images/ampersand-code.png
 cover-image: /assets/images/ampersand-cover.png
 excerpt: "Using the & after a declaration you can set a css rule to apply given that the selector that has the & after actually applies when it is the parent of the element it is nested under 🤔..."
 date: 2019-03-17
+tags: [css]
 categories: [intermediate, scss, css, frontend]
 instagram-id: BvGkv6DgDr4
 docs: https://sass-lang.com/documentation/file.SASS_REFERENCE.html#parent-script

@@ -6,6 +6,7 @@ cover-image: /assets/images/git-init-cover.png
 image: /assets/images/.gif
 excerpt: "Git is one of the best tools out there to manage a codebase. Knowing how to initialize a new repo and being able to work under different branches is essential to working in git."
 date: 2019-05-31
+tags: [git]
 categories: [beginner, back-to-the-basics, git]
 instagram-id: ByI3czFiqxm
 docs: 

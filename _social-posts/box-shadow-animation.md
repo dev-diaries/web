@@ -5,6 +5,7 @@ title: "Box Shadows & Animation"
 image: /assets/images/box-shadow-animation.gif
 excerpt: "Get a smooth animation with a 3D card effect using box shadow using just CSS animations and a pseudo element."
 date: 2019-05-11
+tags: [css]
 categories: [advanced, tutorials, css, animations]
 instagram-id: BxUl0XpgOzM
 docs: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow

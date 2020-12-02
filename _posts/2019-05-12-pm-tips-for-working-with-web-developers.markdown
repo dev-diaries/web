@@ -5,7 +5,8 @@ date:   2019-05-12 13:13:12 +0800
 type: "GuestPost"
 image: /assets/images/guest-post.png
 author-image: /assets/images/guests/mb.png
-categories: [guest-post, web-developer, project-managers, management]
+tags: [web-development]
+categories: [guest-post, web-developer, web-development, project-managers, management]
 excerpt: "As a digital project manager, I get the opportunity to work and interact with all different types of people in different roles on a daily basis. Over the years, I have been lucky to have worked with many talented web developers and, during that time, I have picked up a few tips on how to better manage projects and the developers behind them."
 ---
 
@@ -22,20 +23,19 @@ excerpt: "As a digital project manager, I get the opportunity to work and intera
 .
 
 {:.author-intro}
-Matt is an outgoing and creative Project Manager at
-<a href="https://www.happycog.com/" target="_blank">Happy Cog</a> with five
-years of industry experience, and his passions lie in digital web development,
-advertising and marketing strategies. He works closely with other project managers,
-designers, front-end and backend developers, and QA Engineers to achieve project
-goals by organizing and customizing project plans for stakeholders to report on
-budgets and schedule status for the duration of a project. Outside of the office,
-Matt has a passion for travel and also enjoys photography, concerts, sports and hiking.
+Matt is an outgoing and creative Project Manager at <a href="https://vertic.com/" target="_blank">Vertic</a> with six years of
+industry experience, and his passions lie in digital web development,
+advertising and marketing strategies. He works closely with other project
+managers, designers, front-end and backend developers, and QA Engineers to
+achieve project goals by organizing and customizing project plans for
+stakeholders to report on budgets and schedule status for the duration of a project.
 
 {:.author-intro}
-Matt is currently working on building a content-driven travel and photography
-website. The purpose is to provide world travelers with detailed
-itineraries and advice on how to navigate the world’s greatest cities and
-their most popular attractions.
+Outside of the office, Matt has a passion for travel and also enjoys
+photography, concerts, sports and hiking. Matt recently launched a
+content-driven travel and photography website <a href="https://globecityguide.com/" target="_blank">GlobeCityGuide.com</a> The purpose
+is to provide world travelers with detailed itineraries and advice on how to
+navigate the world’s greatest cities and their most popular attractions.
 
 {:.image .center .top-space}
 ![header](/assets/images/pm-featured-image.jpg)

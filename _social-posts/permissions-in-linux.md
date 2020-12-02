@@ -6,6 +6,7 @@ cover-image: /assets/images/permission-sections-cover.png
 image: /assets/images/.gif
 excerpt: "777, 755, 750...Wonder what these numbers are?"
 date: 2019-04-13
+tags: [linux]
 categories: [intermediate, linux, permissions]
 instagram-id: BwMR_ZZhCn1
 docs: https://help.ubuntu.com/community/FilePermissions

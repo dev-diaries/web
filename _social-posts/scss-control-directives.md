@@ -6,6 +6,7 @@ image: /assets/images/directive.png
 cover-image: /assets/images/directive-post.png
 excerpt: "Using #scss you can take advantage of control directives"
 date: 2019-03-11
+tags: [css]
 categories: [intermediate, scss, css, frontend]
 instagram-id: Bu3h8E5nfoP
 docs: https://sass-lang.com/documentation/file.SASS_REFERENCE.html#control_directives__expressions

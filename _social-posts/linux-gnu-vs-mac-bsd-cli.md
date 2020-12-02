@@ -6,6 +6,7 @@ cover-image: /assets/images/gnu-vs-bsd.png
 image: /assets/images/.gif
 excerpt: "If you switch between Mac and Linux often you notice that certain command line utilities are sometimes slightly different..."
 date: 2020-08-20
+tags: [linux]
 categories: [intermediate, cli, terminal, mac, linux, terminal, date, xargs, bsd, gnu]
 instagram-id:
 docs:

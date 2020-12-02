@@ -6,6 +6,7 @@ cover-image: /assets/images/css-transition-cover.png
 image: /assets/images/.gif
 excerpt: "CSS transitions allow you change a property value over a given duration."
 date: 2019-10-27
+tags: [css]
 categories: [intermediate, css, transition, animation]
 instagram-id: B4IQ1_kFTl-
 docs: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
