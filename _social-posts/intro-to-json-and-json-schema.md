@@ -6,6 +6,7 @@ cover-image: /assets/images/json-cover.png
 image: /assets/images/.gif
 excerpt: "As a web developer, it’ll be hard to not come across JSON or JavaScript Object Notation, so understanding it is important as a webdev. "
 date: 2019-07-01
+tags: [javascript]
 categories: [beginner, json, javascript, json-schema]
 instagram-id: BzYx_cNie_x
 docs: https://www.json.org/

@@ -6,6 +6,7 @@ image: /assets/images/html-autofocus.gif
 cover-image: /assets/images/autofocus-cover.png
 excerpt: "You can add in an autofocus HTML5 attribute which tells the browser to give that element focus when the page loads."
 date: 2019-03-14
+tags: [html]
 categories: [basic, html, forms, ui-ux]
 instagram-id: Bu-5dzvHsbl
 docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input

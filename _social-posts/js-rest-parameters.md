@@ -7,6 +7,7 @@ image: /assets/images/.gif
 excerpt: "ES6 introduced the rest parameter syntax which you should use instead of the arguments object 
 for a javascript function"
 date: 2019-04-21
+tags: [javascript]
 categories: [intermediate, javascript, es6, arrays]
 instagram-id: Bwe3eZbAyz3
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters

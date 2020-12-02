@@ -6,6 +6,7 @@ cover-image: /assets/images/object-keys-cover.png
 image: /assets/images/.gif
 excerpt: "The Javascript Object has some methods available on it that make it easier to iterate over it’s properties or it’s values."
 date: 2019-03-29
+tags: [javascript]
 categories: [intermediate, javascript]
 instagram-id: BvmDy8kBrCU
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values

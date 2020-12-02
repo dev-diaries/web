@@ -6,6 +6,7 @@ cover-image: /assets/images/docker-kubernetes-convert.png
 image: /assets/images/.gif
 excerpt: "Kubernetes is a container orchestration system for automating deployment scaling and management. At some point you might outgrow using Docker and want to use Kubernetes to manage your containers. There are some great tools to make that transition easier."
 date: 2020-03-10
+tags: [docker]
 categories: [advanced, containerization, docker, kubernetes, devops]
 instagram-id:
 docs: https://kompose.io/

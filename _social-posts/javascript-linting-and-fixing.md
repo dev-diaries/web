@@ -6,6 +6,7 @@ cover-image: /assets/images/eslint-cover.png
 image: /assets/images/.gif
 excerpt: "As javascript matures there have been a proliferation of linting tools that can help improve the state of your codebase."
 date: 2019-06-24
+tags: [javascript]
 categories: [advanced, javascript, linting, eslint, tslint, prettier]
 instagram-id: BzFaWh9Cvbu
 docs:

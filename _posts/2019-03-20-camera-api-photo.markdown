@@ -5,6 +5,7 @@ date:   2019-03-20 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/snapshot.jpg
 demo: /assets/images/scss-in-three.gif
+tags: [html]
 categories: [html, javascript, how-to, facial-recognition]
 script: /assets/js/camera-api.js
 excerpt: "Using the User Media HTML5 (Camera) API you can take a picture using the user’s camera and use that on your webpage"
@@ -20,7 +21,7 @@ excerpt: "Using the User Media HTML5 (Camera) API you can take a picture using t
 .
 
 {:.intro}
-Using the #HTML5 getUserMedia method from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices" target="_blank">MediaDevices API</a> 
+Using the #HTML5 getUserMedia method from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices" target="_blank">MediaDevices API</a>
 you can take a picture using the user’s camera and use that on your webpage.
 Let's see some code!
 
@@ -38,8 +39,8 @@ Let's see some code!
 ![sass logo]({{page.image}})
 
 {:.post-content}
-By leveraging the navigator.mediaDevices.getUserMedia method you can prompt the 
-user for access to their camera, listen for a click event to grab a photo and 
+By leveraging the navigator.mediaDevices.getUserMedia method you can prompt the
+user for access to their camera, listen for a click event to grab a photo and
 take a snapshot of the user!
 
 {:.post-content}
@@ -53,9 +54,9 @@ First, we set our html:
 
 {:.post-content}
 In the above we're making a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="_blank">video element</a>,
-a button to show that user can click that to take a picture. Finally, we have a 
+a button to show that user can click that to take a picture. Finally, we have a
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas" target="_blank">canvas element</a>
-which allows us to draw graphics and animations. In this case, we use this 
+which allows us to draw graphics and animations. In this case, we use this
 to render the snapshot we're going to take.
 
 {:.post-content}
@@ -99,7 +100,7 @@ element that now has an srcObject from what we set above. This is what allows th
 drawImage to draw the snapshot we just took.
 
 {:.post-content}
-You could then convert that snapshot to a PNG data URI and even pass that along 
+You could then convert that snapshot to a PNG data URI and even pass that along
 to the server for some facial recognition if you wish! Intrigued? Read on for more!
 
 {:.post-content}
@@ -153,7 +154,7 @@ button.addEventListener('click', function(e) {
 <div id="js-denied" class="camera-api--denied-parent center">
     <span class="camera-api--error">
     Uh oh, looks like you denied us camera access. If you go to the address bar and click
-    on the camera icon and change the settings to allow this site to access your 
+    on the camera icon and change the settings to allow this site to access your
     camera, you can view the demo after you refresh the page!
     </span>
 </div>

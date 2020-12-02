@@ -6,6 +6,7 @@ cover-image: /assets/images/design-mode-cover.png
 image: /assets/images/.gif
 excerpt: "Sometimes as a designer it is useful to just put your hands all over a website to tinker with it as you wish. With the HTML spec there is a property called designMode that when active, allows you to make the entire webpage editable."
 date: 2019-09-09
+tags: [html]
 categories: [intermediate, html, design]
 instagram-id: B2Ls3FKijqM
 docs: https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode

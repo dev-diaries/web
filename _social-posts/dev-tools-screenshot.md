@@ -6,6 +6,7 @@ cover-image: /assets/images/dev-tools-screenshots-cover.png
 image: /assets/images/.gif
 excerpt: "Using dev tools you can take a screenshot of the current webpage or portion of the webpage."
 date: 2019-06-06
+tags: [dev-tools]
 categories: [advanced, screenshots, dev-tools, chrome-dev-tools, firefox-dev-tools]
 instagram-id: ByXDVMNCiEO
 docs: 

@@ -6,6 +6,7 @@ cover-image: /assets/images/docker-builds-cover.png
 image: /assets/images/.gif
 excerpt: "When running docker and building your images they can get quite large and take a lot of space on your server/registry. "
 date: 2019-09-02
+tags: [docker]
 categories: [advanced, docker, containers, virtualization, docker-layers]
 instagram-id: B15yhfvg52L
 docs: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/

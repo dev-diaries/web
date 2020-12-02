@@ -6,7 +6,8 @@ cover-image: /assets/images/tab-completion-cover.png
 image: /assets/images/tab-completion.gif
 excerpt: "Use tab completion in your linux shell to move faster around your terminal."
 date: 2019-04-06
-categories: [beginner, terminal, efficiency, shortcuts]
+tags: [linux]
+categories: [beginner, terminal, efficiency, shortcuts, linux]
 instagram-id: Bv6H-04B0YC
 docs: http://www.linux-magazine.com/Online/Features/Bash-Tips-Autocompletion
 ---
@@ -14,17 +15,17 @@ docs: http://www.linux-magazine.com/Online/Features/Bash-Tips-Autocompletion
 # {{ page.title }}
 
 {:.post-content}
-Use tab completion in your linux shell to move faster around your terminal. 
-If you’re changing directory (cd) into a folder but don’t want finish typing it all 
-out you can press tab and if it is a single match, the shell will auto complete 
-it for you. If there are multiple matches to what you typed, it’ll show the 
-different possibilities. 
+Use tab completion in your linux shell to move faster around your terminal.
+If you’re changing directory (cd) into a folder but don’t want finish typing it all
+out you can press tab and if it is a single match, the shell will auto complete
+it for you. If there are multiple matches to what you typed, it’ll show the
+different possibilities.
 
 {:.image .center}
 ![]({{page.image}})
 
 {:.post-content}
-Note, I'm using <a href="https://ohmyz.sh/" target="_blank">oh-my-zsh</a> for some of the 
+Note, I'm using <a href="https://ohmyz.sh/" target="_blank">oh-my-zsh</a> for some of the
 nicer tab completion options.
 
 {:.post-content}

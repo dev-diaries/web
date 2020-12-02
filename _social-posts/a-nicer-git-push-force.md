@@ -6,6 +6,7 @@ cover-image: /assets/images/force-with-lease-cover.png
 image: /assets/images/.gif
 excerpt: "Most of us have had to git push --force before to overwrite the remote history of your repository. There is a flag that is a bit safer..."
 date: 2019-07-09
+tags: [git]
 categories: [advanced, git, remote]
 instagram-id: BztVIbqCkAJ
 docs: https://blog.developer.atlassian.com/force-with-lease/

@@ -6,6 +6,7 @@ cover-image: /assets/images/du-cover.png
 image: /assets/images/.gif
 excerpt: "Need to get the size of a directory in linux?"
 date: 2019-09-05
+tags: [cli]
 categories: [intermediate, linux, terminal, cli, disk-space, server, storage]
 instagram-id: BxwS1y_igOY
 docs: https://linux.die.net/man/1/du

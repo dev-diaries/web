@@ -6,6 +6,7 @@ cover-image: /assets/images/iterable-cover.png
 image: /assets/images/.gif
 excerpt: "Iterators are a way to loop over any collection in JavaScript."
 date: 2019-07-06
+tags: [javascript]
 categories: [advanced, javascript, arrays, iteration]
 instagram-id: BzlNZluiVr8
 docs: https://github.com/getify/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch4.md#iterables

@@ -6,6 +6,7 @@ cover-image: /assets/images/npm-alias-cover.png
 image: /assets/images/.gif
 excerpt: "As more and more NPM packages are being released the available names of packages are dwindling. You might want to name your module something but a package you installed might be causing a naming collision. Thanks to NPM aliasing feature you can install packages under an aliased name..."
 date: 2020-06-07
+tags: [javascript]
 categories: [intermediate, npm, javascript]
 instagram-id: CBI8GXzlO2T
 docs: https://npm.community/t/release-npm-6-9-0/5911

@@ -6,6 +6,7 @@ cover-image: /assets/images/tail-command-cover.png
 image: /assets/images/.gif
 excerpt: "Tail is a useful linux command to view the contents of a file."
 date: 2019-06-05
+tags: [linux]
 categories: [intermediate, linux, files]
 instagram-id: ByVgb4QCfyz
 docs: http://man7.org/linux/man-pages/man1/tail.1.html

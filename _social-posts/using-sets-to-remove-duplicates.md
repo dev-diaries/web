@@ -6,6 +6,7 @@ cover-image: /assets/images/set-removal-cover.png
 image: /assets/images/set-duplication-removal-code.png
 excerpt: "Javascript sets were introduced with ES6 and can be leveraged to quickly remove duplicates from an array."
 date: 2019-04-12
+tags: [javascript]
 categories: [intermediate, javascript, arrays, shortcuts]
 instagram-id: BwJ_8YSAcii
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set

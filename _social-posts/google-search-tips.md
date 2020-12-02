@@ -5,6 +5,7 @@ title: "Google Search tips"
 image: /assets/images/search-tips.png
 excerpt: "Googling things often? Supercharge your Google searches with these tips to make your searches more effective and efficient."
 date: 2019-04-03
+tags: [internetting]
 categories: [google, search, biz-dev, internetting]
 instagram-id: BvzMYplDpwI
 docs: https://support.google.com/websearch/answer/2466433

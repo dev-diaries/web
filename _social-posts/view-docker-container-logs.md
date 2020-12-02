@@ -6,6 +6,7 @@ cover-image: /assets/images/docker-logs-cover.png
 image: /assets/images/.gif
 excerpt: "You can access the logs of your docker container by using the name or the  id of the container and using the logs command."
 date: 2019-04-19
+tags: [docker]
 categories: [advanced, docker, logs, containerization]
 instagram-id: BwcBg0uAaMN
 docs: https://docs.docker.com/engine/reference/commandline/logs/

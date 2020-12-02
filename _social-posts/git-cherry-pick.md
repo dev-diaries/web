@@ -6,6 +6,7 @@ cover-image: /assets/images/git-cherry-pick-cover.png
 image: /assets/images/.gif
 excerpt: "Another feature with git that comes in handy sometimes is the ability to cherry pick certain commits..."
 date: 2019-07-23
+tags: [git]
 categories: [advanced, git, cherry-pick, hotfix]
 instagram-id: B0QDt7lgXZk
 docs: https://git-scm.com/docs/git-cherry-pick

@@ -6,6 +6,7 @@ cover-image: /assets/images/navigating-the-terminal-cover.png
 image: /assets/images/.gif
 excerpt: "As a web developer, navigating the terminal should be second nature."
 date: 2019-06-09
+tags: [cli]
 categories: [beginner, terminal, cli, back-to-the-basics]
 instagram-id: ByfDyf1Anwt
 docs: 

@@ -5,6 +5,7 @@ date:   2020-10-01 11:13:12 +0800
 type: "GettingStarted"
 image: /assets/images/kubernetes.png
 excerpt: "You've probably heard of Kubernetes aka k8s if you've chatted about devops or containerization. Is it just the shiny new(ish) thing? Let's take a look into what it is and what we can do with it."
+tags: [kubernetes]
 categories: [intermediate, getting-started, intro, kubernetes, containerization, devops]
 ---
 

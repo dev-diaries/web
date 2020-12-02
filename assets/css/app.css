@@ -5148,6 +5148,14 @@ main {
     main {
       padding: 25px; } }
 
+.topics {
+  padding: 50px;
+  list-style-type: none; }
+  .topics li {
+    padding: 10px 0; }
+  .topics a {
+    font-size: 20px; }
+
 .post-image {
   max-width: 30vw; }
   @media (max-width: 48em) {

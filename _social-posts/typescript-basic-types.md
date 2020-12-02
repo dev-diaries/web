@@ -6,6 +6,7 @@ cover-image: /assets/images/typescript-boolean-cover.png
 image: /assets/images/.gif
 excerpt: "Since Typescript is statically typed, let’s go through the basic typescript types"
 date: 2019-08-08
+tags: [javascript]
 categories: [intermediate, typescript, static-types, javascript]
 instagram-id: B072DLvA6-2
 docs: https://www.typescriptlang.org/docs/handbook/basic-types.html

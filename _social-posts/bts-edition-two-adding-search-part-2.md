@@ -6,6 +6,7 @@ cover-image: /assets/images/bts-part2-cover-react.png
 image: /assets/images/search-in-action.gif
 excerpt: "We're continuing our behind the scenes to show how we structured our search using React..."
 date: 2019-07-21
+tags: [react]
 categories: [advanced, behind-the-scenes, static-sites, react, javascript, reactjs, search, solr]
 instagram-id: B0LOLfgCiA5
 docs:

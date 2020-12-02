@@ -6,6 +6,7 @@ cover-image: /assets/images/gmail-shortcuts-cover.png
 image: /assets/images/gmail-shortcuts-cover-2.png
 excerpt: "In Gmail there are some handy shortcuts that can speed up your path to Inbox Zero"
 date: 2019-04-17
+tags: [internetting]
 categories: [beginner, shortcuts, efficiency, gmail, internetting, keyboard-shortcuts, email]
 instagram-id: BwXPs_XBBz4
 docs: https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en

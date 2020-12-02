@@ -6,6 +6,7 @@ image: /assets/images/time-node_modules-video.gif
 cover-image: /assets/images/linux-time-command.png
 excerpt: "You can time the execution of a shell command using the time unix utility."
 date: 2019-03-13
+tags: [linux]
 categories: [terminal, linux]
 instagram-id: Bu8LUSjnX-6
 docs: http://man7.org/linux/man-pages/man1/time.1.html

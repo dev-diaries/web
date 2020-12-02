@@ -5,7 +5,8 @@ title: "Terminal: Reverse Terminal Search"
 image: /assets/images/reverse-terminal-search.gif
 excerpt: "Reverse terminal search: reverse-i-search: Press the ctrl key and the r key simultaneously. A prompt will appear that will allow you to search from your history."
 date: 2019-03-04
-categories: [advanced, terminal, efficiency, shortcuts]
+tags: [cli]
+categories: [advanced, terminal, efficiency, shortcuts, cli]
 instagram-id: BumEjZ_Hvy3
 ---
 {:.center}

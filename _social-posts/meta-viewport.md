@@ -5,6 +5,7 @@ title: "Meta Viewport: Mobile viewing"
 image: /assets/images/viewport.gif
 excerpt: "Are your dimensions off on mobile for your site?"
 date: 2019-03-06
+tags: [html]
 categories: [beginner, html, meta-tags, mobile]
 instagram-id: BuqWRf1nx6w
 ---

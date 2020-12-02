@@ -6,6 +6,7 @@ cover-image: /assets/images/scss-map-get.png
 image: /assets/images/.gif
 excerpt: "Using SCSS you can specify a a set of values in a map for easier access. Declare your map as a variable and reference it with the map-get SCSS function."
 date: 2020-10-19
+tags: [css]
 categories: [beginner, scss, frontend]
 instagram-id:
 docs: https://sass-lang.com/documentation/modules/map

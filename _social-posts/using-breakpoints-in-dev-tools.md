@@ -6,6 +6,7 @@ cover-image: /assets/images/breakpoints-cover.png
 image: /assets/images/.gif
 excerpt: "Using breakpoints in the Google Chrome or Firefox devtools is one of the best ways to debug applications in javascript."
 date: 2019-05-07
+tags: [dev-tools]
 categories: [advanced, javascript, dev-tools, chrome-dev-tools, firefox-dev-tools, debugging]
 instagram-id: BxK_ZffhYif
 docs: 

@@ -4,6 +4,7 @@ title:  "Terminal History Auto Suggestions As You Type With Oh My Zsh"
 date:   2019-04-14 13:13:12 +0800
 type: "HowToGuides"
 image: /assets/images/autocomplete-as-you-type-cover.png
+tags: [cli]
 categories: [terminal, cli, shortcuts, efficiency, how-to, advanced, oh-my-zsh, zsh, homebrew, sqlite]
 excerpt: "Oh-My-Zsh is a framework for Zsh, the Z shell. It is an efficiency boom for anyone that works in the terminal. There are a few auto suggest libraries that when combined can give you a fantastic suggestion to what you want to type to save you time and increase your efficiency 10-fold."
 ---
@@ -18,10 +19,10 @@ excerpt: "Oh-My-Zsh is a framework for Zsh, the Z shell. It is an efficiency boo
 .
 
 {:.intro}
-<a href="https://ohmyz.sh/" target="_blank">Oh-My-Zsh</a> is a framework for <a href="http://www.zsh.org/" target="_blank">Zsh</a>, the 
-<a href="https://en.wikipedia.org/wiki/Z_shell" target="_blank">Z</a> shell. 
-It is an efficiency boom for anyone that works in the terminal. 
-There are a few auto suggest libraries that when combined can give you a 
+<a href="https://ohmyz.sh/" target="_blank">Oh-My-Zsh</a> is a framework for <a href="http://www.zsh.org/" target="_blank">Zsh</a>, the
+<a href="https://en.wikipedia.org/wiki/Z_shell" target="_blank">Z</a> shell.
+It is an efficiency boom for anyone that works in the terminal.
+There are a few auto suggest libraries that when combined can give you a
 fantastic suggestion to what you want to type to save you time and increase your efficiency tenfold.
 In our <a href="https://www.instagram.com/p/BwCyLslBKBM/" target="_blank">instagram post</a>
 we had some questions about how to get autocomplete like we show in the screencast:
@@ -159,7 +160,7 @@ nano ~/.zshrc
 {% endhighlight %}
 
 {:.post-content}
-Let's add it as a plugin by adding or editing this line. If you have more than one plugin 
+Let's add it as a plugin by adding or editing this line. If you have more than one plugin
 they need to be separated by a space. Be sure to check your `.zshrc` file as there
 might already be a plugins line there. If so, just add `zsh-autosuggestions` to the plugins
 with a space separating any other ones there already.
@@ -246,7 +247,7 @@ sends back suggestions. <a href="https://github.com/larkery/zsh-histdb#installat
 has some queries you can use.
 
 {:.post-content}
-This will find the most frequently issued command issued exactly in this directory, or if there are no matches it will find the most frequently issued command in any directory. 
+This will find the most frequently issued command issued exactly in this directory, or if there are no matches it will find the most frequently issued command in any directory.
 
 {% highlight bash %}
 _zsh_autosuggest_strategy_histdb_top() {
@@ -264,7 +265,7 @@ ZSH_AUTOSUGGEST_STRATEGY=histdb_top
 
 {:.post-content}
 This query is fine, however, the issue I have is that it doesn't order the results
-by the most recently used. So I have added another to use query so that it orders by what 
+by the most recently used. So I have added another to use query so that it orders by what
 was also most recently used in that directory:
 
 {% highlight bash %}
@@ -276,13 +277,13 @@ _zsh_autosuggest_strategy_histdb_top_fallback() {
     select commands.argv from
     history left join commands on history.command_id = commands.rowid
     left join places on history.place_id = places.rowid
-    where places.dir LIKE 
-        case when exists(select commands.argv from history 
-        left join commands on history.command_id = commands.rowid 
-        left join places on history.place_id = places.rowid 
-        where places.dir LIKE '$(sql_escape $PWD)%' 
-        AND commands.argv LIKE '$(sql_escape $1)%') 
-            then '$(sql_escape $PWD)%' 
+    where places.dir LIKE
+        case when exists(select commands.argv from history
+        left join commands on history.command_id = commands.rowid
+        left join places on history.place_id = places.rowid
+        where places.dir LIKE '$(sql_escape $PWD)%'
+        AND commands.argv LIKE '$(sql_escape $1)%')
+            then '$(sql_escape $PWD)%'
             else '%'
             end
     and commands.argv LIKE '$(sql_escape $1)%'
@@ -310,7 +311,7 @@ our .zshrc:
 show_local_history() {
     limit="${1:-10}"
     local query="
-        select history.start_time, commands.argv 
+        select history.start_time, commands.argv
         from history left join commands on history.command_id = commands.rowid
         left join places on history.place_id = places.rowid
         where places.dir LIKE '$(sql_escape $PWD)%'
@@ -328,7 +329,7 @@ to get a desired number of results:
 
 {% highlight bash %}
 # will show 10 results
-show_local_history 
+show_local_history
 
 # will show 50 results
 show_local_history 50
@@ -352,5 +353,5 @@ search_local_history() {
 {% endhighlight %}
 
 {:.post-content}
-Phew! That should be it! Feel free to <a href="https://twitter.com/the_dev_diaries" target="_blank">tweet</a> 
+Phew! That should be it! Feel free to <a href="https://twitter.com/the_dev_diaries" target="_blank">tweet</a>
 at us or <a href="https://instagram.com/thedevdiaries" target="_blank">DM us on instagram</a> with questions!

@@ -4,7 +4,8 @@ title:  "Why become a web developer?"
 date:   2019-02-18 11:13:12 +0800
 type: "GettingStarted"
 image: /assets/images/web-dev.jpg
-categories: [web-developer, motivation, getting-started]
+tags: [web-development]
+categories: [web-development, web-developer, motivation, getting-started]
 excerpt: "Being a web developer takes a number of varying skills, knowledge, and a lot of resourcefulness. Once entering the world of development it opens up a  huge rabbit hole and wealth of information that you can bite off at your own pace."
 ---
 
@@ -19,7 +20,7 @@ excerpt: "Being a web developer takes a number of varying skills, knowledge, and
 
 {:.intro}
 Being a web developer takes a number of varying skills, knowledge, and a lot
-of resourcefulness. Once entering the world of development it opens up a 
+of resourcefulness. Once entering the world of development it opens up a
 huge rabbit hole and wealth of information that you can bite off at your own
 pace.
 
@@ -39,7 +40,7 @@ pace.
 
 {:.post-content}
 The world of web development moves at an insanely fast pace. So much so that much has
-been written about developer fatigue: 
+been written about developer fatigue:
 
 {:.links}
 * [Is Software developer fatigue a thing](https://dev.to/rhymes/is-software-developer-fatigue-a-thing-2a09)
@@ -64,7 +65,7 @@ to take things slowly, but always be curious and open to explore.
 
 {:.post-content}
 Being a web developer opens up a world of freedom from remote work to freelancing
-to working as a contractor. There are plenty of sites dedicated to finding 
+to working as a contractor. There are plenty of sites dedicated to finding
 remote work and also finding freelance gigs:
 
 {:.links}
@@ -73,7 +74,7 @@ remote work and also finding freelance gigs:
 * [Remote OK](https://remoteok.io/)
 
 {:.post-content}
-A [number of companies](https://github.com/yanirs/established-remote) are remote only 
+A [number of companies](https://github.com/yanirs/established-remote) are remote only
 and many more are offering up the opportunity to work from home on with regularity.
 As a web developer all you really need sometimes is a computer and a reliable
 internet connection.
@@ -86,7 +87,7 @@ If you enjoy being creative and coming up with solutions to hard problems, then
 web development will be very fulfilling to you. With the pace of web development
 there are often dozen of packages and utilities you can drop into your project
 to help speed up development which opens you up to be more free in figuring out
-the harder problems of what you want to build. 
+the harder problems of what you want to build.
 
 {:.post-content}
 The amount of resources on the

@@ -6,6 +6,7 @@ cover-image: /assets/images/bts-instagram-feed-cover.png
 image: /assets/images/.gif
 excerpt: "On our site, near the bottom we have a handy social feed that showcases our Instagram feed and also links to the post on our website that relates to the Instagram post. Wonder how that works? Let's go take a #bts (behind the scenes) look."
 date: 2019-09-15
+tags: [javascript]
 categories: [beginner, social-feed, html, javascript]
 instagram-id: B2cUoPei46p
 docs:

@@ -6,6 +6,7 @@ cover-image: /assets/images/sed-cover.png
 image: /assets/images/.png
 excerpt: "Sed is a very useful tool in linux and can be very powerful when chained with other linux commands."
 date: 2020-07-09
+tags: [linux]
 categories: [beginner, linux, terminal, cli]
 instagram-id:
 docs: https://linux.die.net/man/1/sed

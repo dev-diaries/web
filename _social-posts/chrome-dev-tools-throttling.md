@@ -6,6 +6,7 @@ cover-image: /assets/images/throttle-network-connection-cover.png
 image: /assets/images/.gif
 excerpt: "If you need to test how users who have slow connections experience your website, you can throttle your network connection."
 date: 2019-04-30
+tags: [dev-tools]
 categories: [advanced, testing, network, dev-tools, chrome-dev-tools, firefox-dev-tools]
 instagram-id: Bw42-N7hEvZ
 docs: https://developers.google.com/web/tools/chrome-devtools/network/reference#throttling

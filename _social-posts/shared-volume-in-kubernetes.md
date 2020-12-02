@@ -6,6 +6,7 @@ cover-image: /assets/images/shared-volumes-k8s.png
 image: /assets/images/.gif
 excerpt: "Since data by nature in a container doesn't persist it is useful to be able to use a volume to allow data to persist across deployments. We wrote about this in our Docker post and it is a bit different in Kubernetes."
 date: 2020-09-23
+tags: [kubernetes]
 categories: [intermediate, kubernetes, docker, virtualization, storage, volumes]
 instagram-id:
 docs: https://kubernetes.io/docs/concepts/storage/volumes/#hostpath

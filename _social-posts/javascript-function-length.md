@@ -6,6 +6,7 @@ image: /assets/images/wtf-video.gif
 cover-image: /assets/images/say-word.png
 excerpt: "The length of a #javascript function will tell you how many arguments it accepts"
 date: 2019-03-10
+tags: [javascript]
 categories: [intermediate, javascript]
 instagram-id: Bu0lC-dnaO4
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length

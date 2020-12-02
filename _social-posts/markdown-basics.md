@@ -6,6 +6,7 @@ cover-image: /assets/images/markdown-syntax-cover.png
 image: /assets/images/.gif
 excerpt: "Markdown is one of the most popular markup languages and is ubiquitous with web development."
 date: 2019-06-10
+tags: [markdown]
 categories: [beginner, markdown, web-dev-tools]
 instagram-id: ByinQVEHIVH
 docs: https://www.markdownguide.org/

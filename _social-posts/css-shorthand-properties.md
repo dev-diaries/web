@@ -6,6 +6,7 @@ cover-image: /assets/images/background-cover.png
 image: /assets/images/.gif
 excerpt: "CSS Shorthand Properties: you can use shorthand properties to make writing CSS a bit quicker, more organized and save space in your stylesheets."
 date: 2019-04-04
+tags: [css]
 categories: [intermediate, css, shortcuts, frontend]
 instagram-id: Bv19XWpBh2O
 docs: https://drafts.csswg.org/css2/about.html#x1

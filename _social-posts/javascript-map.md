@@ -6,6 +6,7 @@ cover-image: /assets/images/js-map-data-object.png
 image: /assets/images/.gif
 excerpt: "Knowing and understanding javascript data structures in programming is essential. One of those very useful data structures in javascript is a Map. A map holds key-value pairs and remembers the insertion order of those keys..."
 date: 2020-03-12
+tags: [javascript]
 categories: [intermediate, data-structures, javascript, objects]
 instagram-id: B9pQINZFeyQ
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map

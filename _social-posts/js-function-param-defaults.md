@@ -6,6 +6,7 @@ cover-image: /assets/images/js-default-params-cover.png
 image: /assets/images/.gif
 excerpt: "In Javascript with es6 you can pass in default parameters in functions."
 date: 2019-05-05
+tags: [javascript]
 categories: [intermediate, javascript]
 instagram-id: BxFAKKNBsFZ
 docs: https://css-tricks.com/using-default-parameters-es6/

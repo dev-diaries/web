@@ -63,18 +63,18 @@ autopages:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
- exclude:
-   - Gemfile
-   - Gemfile.lock
-   - node_modules
-   - Makefile
-   - package.json
-   - PLANNING.md
-   - README.md
-   - s3_website.yml
-   - tsconfig.json
-   - webpack.config.js
-   - yarn.lock
-   - scss
-   - src
-   - bin
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - Makefile
+  - package.json
+  - PLANNING.md
+  - README.md
+  - s3_website.yml
+  - tsconfig.json
+  - webpack.config.js
+  - yarn.lock
+  - scss
+  - src
+  - bin

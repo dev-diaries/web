@@ -6,6 +6,7 @@ cover-image: /assets/images/linux-sequences-cover-1.png
 image: /assets/images/.gif
 excerpt: "Linux has some powerful sequence controls that you can use to run processes in different orders, sequentially, in parallel or conditionally."
 date: 2019-03-28
+tags: [linux]
 categories: [advanced, linux, commands]
 instagram-id: BvkDduHhrdT
 docs: https://linux.die.net/man/1/bash

@@ -6,6 +6,7 @@ cover-image: /assets/images/bts-2-cover.png
 image: /assets/images/.gif
 excerpt: "We recently added the ability to search on our website. Let's learn how in our two part series..."
 date: 2019-07-16
+tags: [static-sites]
 categories: [advanced, static-sites, jekyll, behind-the-scenes, search, solr]
 instagram-id: Bz_RjU0CFXi
 docs:

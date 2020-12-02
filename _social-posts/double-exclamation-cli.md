@@ -6,6 +6,7 @@ cover-image: /assets/images/terminal-history-call-me-cover.png
 image: /assets/images/terminal-history-call-me.gif
 excerpt: "Need to run the previous command you just ran with sudo?"
 date: 2019-03-08
+tags: [cli]
 categories: [advanced, terminal, efficiency, shortcuts, terminal-history]
 instagram-id: BuvfDLVnjZe 
 ---

@@ -6,6 +6,7 @@ image: /assets/images/js-array-check.png
 cover-image: /assets/images/javascript-array-check.png
 excerpt: "Looking for a quick way to see if an item is an array? Use the..."
 date: 2019-03-16
+tags: [javascript]
 categories: [intermediate, javascript, arrays]
 instagram-id: BvEBEhRg3Ou
 docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes

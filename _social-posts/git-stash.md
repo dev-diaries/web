@@ -6,6 +6,7 @@ cover-image: /assets/images/git-stash-cover.png
 image: /assets/images/.gif
 excerpt: "Git stash is a great way to maintain your current work and switch to another branch quickly. "
 date: 2019-06-27
+tags: [git]
 categories: [intermediate, git]
 instagram-id: BzNDiLgiyvi
 docs: https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning

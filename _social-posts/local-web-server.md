@@ -6,7 +6,8 @@ cover-image: /assets/images/local-web-server.png
 image: /assets/images/.gif
 excerpt: "Need a quick and easy server on your local computer? Look no further than Python’s SimpleHTTPServer."
 date: 2019-06-19
-categories: [intermediate, python, web-server]
+tags: [linux]
+categories: [intermediate, python, web-server, linux]
 instagram-id: By51Miei9Vp
 docs: https://docs.python.org/2/library/simplehttpserver.html
 ---
@@ -37,7 +38,7 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/)
 
 {:.post-content}
 If you then open up your browser at that address you'll be able to see the output
-of your local server. So let's say you have a file called index.html in a folder that has some content, "Hello World" for example. 
+of your local server. So let's say you have a file called index.html in a folder that has some content, "Hello World" for example.
 You then navigate to your terminal and from the directory that index.html is in you run `python -m SimpleHTTPServer`
 
 {:.post-content}
