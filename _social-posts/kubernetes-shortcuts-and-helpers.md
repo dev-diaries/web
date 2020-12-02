@@ -6,7 +6,7 @@ cover-image: /assets/images/cli-shortcuts.png
 image: /assets/images/.gif
 excerpt: "If you work in CLI often enough you know how helpful it is to have shortcuts to both save time and key strokes. Check out these for kubernetes"
 date: 2020-07-28
-tags: [devops]
+tags: [kubernetes]
 categories: [intermediate, kubernetes, devops, efficiency, oh-my-zsh, zsh, homebrew, terminal, cli]
 instagram-id:
 docs:
