@@ -22,7 +22,7 @@ Pass in a flag to test the configuration and be told of errors before restarting
 nginx -t
 
 # would output for example:
-nginx: [emerg] unknown directive "erver_name" in /etc/nginx/sites-enabled/default:3
+nginx: [emerg] unknown directive "server_name" in /etc/nginx/sites-enabled/default:3
 nginx: configuration file /etc/nginx/nginx.conf test failed
 {% endhighlight %}
 
