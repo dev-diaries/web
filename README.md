@@ -1,4 +1,4 @@
-![Build Status](![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg))
+![Build Status](https://github.com/dev-diaries/web/actions/workflows/deploy.yml/badge.svg)
 
 Dev Diaries
 ==================
