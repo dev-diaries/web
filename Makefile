@@ -2,7 +2,7 @@ TTAB := $(shell which ttab)
 
 .PHONY: app
 app:
-	jekyll serve
+	bundle exec jekyll serve
 
 .PHONY: fe
 fe:
@@ -14,5 +14,5 @@ dev:
 
 .PHONY: build
 build:
-	jekyll build
+	bundle exec jekyll build
 	cp ads.txt _site/ads.txt

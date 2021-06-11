@@ -6,6 +6,7 @@ cover-image: /assets/images/.png
 image: /assets/images/.gif
 excerpt: ""
 date:
+tags: [changeMe]
 categories: [intermediate, ]
 instagram-id:
 docs:

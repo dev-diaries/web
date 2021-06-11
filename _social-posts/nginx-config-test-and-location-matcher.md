@@ -31,7 +31,7 @@ Additionally, a very helpful website to test your nginx location blocks is
 <a href="https://nginx.viraptor.info/" target="_blank">https://nginx.viraptor.info/</a>
 
 {:.post-content}
-Read more about nginx flags<a href="{{page.docs}}" target="_blank">here</a>
+Read more about nginx flags <a href="{{page.docs}}" target="_blank">here</a>
 
 {% if page.instagram-id %}
 {:.center}
