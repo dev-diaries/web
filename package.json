@@ -51,7 +51,7 @@
     "prettier-eslint-cli": "^4.7.1",
     "should": "latest",
     "source-map-loader": "^0.2.3",
-    "tar": "^4.4.15",
+    "tar": "^4.4.18",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typesafe-actions": "^2.0.4",
     "typescript": "^3.4.2",
