@@ -41,6 +41,8 @@ The corresponding CSS:
 {:.post-content}
 Read more about align-items on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items" target="_blank">Mozilla</a>.
 Read more about using flexbox with vertically align items <a href="{{page.docs}}" target="_blank">here</a>.
+This is a <a href="https://flexbox.malven.co/" target="_blank">nice visualizer</a> of flexbox and how different properties affect the
+layout.
 
 {% if page.instagram-id %}
 {:.center}
