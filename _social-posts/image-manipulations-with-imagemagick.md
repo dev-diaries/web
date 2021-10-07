@@ -15,7 +15,7 @@ docs: https://imagemagick.org/script/command-line-options.php
 # {{ page.title }}
 
 {:.post-content}
-We’ve mentioned it before when we talked about [progressive jpegs](/social-posts/progressive-jpeg-images/). Knowing some 
+We’ve mentioned it before when we talked about [progressive jpegs](/social-posts/progressive-jpeg-images/). Knowing some
 basic commands can save you time and allow you to stay in the terminal.
 
 {:.post-content}
@@ -31,9 +31,9 @@ brew update && brew install imagemagick
 {% endhighlight %}
 
 {:.post-content}
-There are two commands that come out of the box when you install ImageMagick, 
+There are two commands that come out of the box when you install ImageMagick,
 <a href="https://www.imagemagick.org/script/convert.php" target="_blank">convert</a> <a href="https://www.imagemagick.org/script/convert.php" target="_blank">mogrify</a>
-and they both generally take the same arguments. Convert transforms the image 
+and they both generally take the same arguments. Convert transforms the image
 and creates a new one and mogrify replaces the image in place. With these examples
 we'll show them being used with both commands, but you can use them interchangeably.
 
@@ -44,8 +44,11 @@ To resize an image
 convert image.jpg -resize 1080x1080 updated-file.jpg
 {% endhighlight %}
 
+{:.post-content}
+It might be useful to add in the `-gravity center` flag as well with the above command.
+
 {% highlight bash %}
-mogrify -resize 50% *.jpg 
+mogrify -resize 50% *.jpg
 {% endhighlight %}
 
 {:.post-content}
