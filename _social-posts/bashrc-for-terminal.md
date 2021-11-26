@@ -7,7 +7,7 @@ image: /assets/images/.gif
 excerpt: "If you spend a lot of time in the terminal you’ll find that you write some commands very often. It is a good idea to add some shortcuts to some commands so that you can do less typing and be more efficient in your command line interface (cli)"
 date: 2019-07-07
 tags: [bash]
-categories: [intermediate, terminal, cli, shortcuts, aliases, bash, efficiency]
+categories: [intermediate, terminal, cli, shortcuts, alias, aliases, bash, efficiency]
 instagram-id: Bzn5kXrCZeN
 docs: https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html
 ---
@@ -15,13 +15,13 @@ docs: https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html
 # {{ page.title }}
 
 {:.post-content}
-If you spend a lot of time in the terminal you’ll find that you write some 
-commands very often. It is a good idea to add some shortcuts to some commands 
-so that you can do less typing and be more efficient in your command line interface 
+If you spend a lot of time in the terminal you’ll find that you write some
+commands very often. It is a good idea to add some shortcuts to some commands
+so that you can do less typing and be more efficient in your command line interface
 (cli). Using a .bashrc you can set some aliases for commands to save yourself some time.
 
 {:.post-content}
-`.bashrc` is a <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">shell script</a> 
+`.bashrc` is a <a href="https://en.wikipedia.org/wiki/Shell_script" target="_blank">shell script</a>
 that Bash runs whenver it is started interactively. If you have some aliases
 in your bashrc file they'll be available to you to use in your cli.
 The first thing you'll want to do is to make sure your .bashrc file is getting loaded.
@@ -30,13 +30,13 @@ file, but have a .bash_profile file which gets loaded and is a login shell. Your
 bash_profile should have a line like this:
 
 {% highlight bash %}
-if [ -f ~/.bashrc ]; then 
-    . ~/.bashrc; 
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc;
 fi
 {% endhighlight %}
 
 {:.post-content}
-If you don't have that line be sure to add it. That way you can consolidate all 
+If you don't have that line be sure to add it. That way you can consolidate all
 your commands into your .bashrc file. Now you can add some handy aliases to
 your .bashrc file:
 
