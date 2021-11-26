@@ -38,7 +38,7 @@ find . -type f -name "*.ts" -print0 | xargs -0 sed -i '' -e "s/all\/shared\/dist
 
 {:.post-content}
 For convenience you can make this into a bash alias which we've talked about in
-(bashrc for terminal)[/social-posts/bashrc-for-terminal/]
+[bashrc for terminal](/social-posts/bashrc-for-terminal/)
 
 {% highlight bash %}
 replaceInFiles () {
