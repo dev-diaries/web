@@ -1,0 +1,51 @@
+{
+  "name": "@dev-diaries/mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Dev Diaries knowledge base - Access all Dev Diaries content through Cursor's AI",
+  "main": "dist/index.js",
+  "bin": {
+    "dev-diaries-mcp": "dist/index.js",
+    "dev-diaries-index": "dist/scripts/index-content.js"
+  },
+  "type": "module",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "index-content": "tsx src/scripts/index-content.ts",
+    "download-content": "tsx src/scripts/download-content.ts",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linting configured\" && exit 0",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "cursor", "dev-diaries", "knowledge-base", "ai", "assistant", "developer-tools"],
+  "author": "Dev Diaries",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaliqgant/dev-diaries-mcp.git"
+  },
+  "homepage": "https://www.dev-diaries.com",
+  "bugs": {
+    "url": "https://github.com/khaliqgant/dev-diaries-mcp/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "gray-matter": "^4.0.3",
+    "openai": "^4.20.1",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  }
+}
